@@ -1,0 +1,19 @@
+---
+layout: equipo
+title: Equipo
+category: equipo
+permalink: /equipo/curro-crespo/
+nombre: Curro Crespo
+cargo: Co-fundador
+enlaces-externos:
+ - twitter: currocrespog
+   url: www.currocrespo.es
+---
+
+Soy arquitecto. Me titulé en la Escuela de Arquitectura de Sevilla en 2007, comenzando a colaborar desde entonces con diferentes estudios de arquitectura de Córdoba y Sevilla en la redacción de proyectos de arquitectura y urbanismo.
+
+Entre enero de 2009 y mayo de 2010 formé parte, gracias al programa de becas de formación del Colegio de Arquitectos de Córdoba, de la Fundación Arquitectura Contemporánea, fundación privada dedicada al fomento y la difusión de la arquitectura contemporánea. Como Coordinador de Actividades de la Fundación estuve implicado en la organización de las actividades de aquel año, desde ciclos de conferencias hasta la preparación de publicaciones, pasando por la secretaría técnica del concurso de ideas de la sede de la propia Fundación.
+
+En paralelo me integré en el equipo de redacción final del Plan de Equipamientos e Infraestructuras Culturales de Córdoba, elaborado por la Fundación por encargo de la Delegación de Cultura del Ayuntamiento de Córdoba. El Plan ha sido merecedor recientemente del Primer premio internacional PAYSMED de buenas prácticas de paisaje mediterráneo.
+
+Mi interés por la difusión de la arquitectura me ha llevado a desempeñar todo tipo de labores relacionadas, desde la elaboración de contenidos, trabajando durante un año como redactor de noticias para Scalae, web especializada en actualidad arquitectónica que edita y dirige el arquitecto Félix Arranz, hasta la elaboración de publicaciones, como la monografía del arquitecto cordobés Gerardo Olivares James, editada el Colegio de Arquitectos de Córdoba, colaborando con el Taller de Arquitectura Rico+Roa.

@@ -1,4 +1,4 @@
 ---
-template: default
+layout: default
 title: Colaborativa | Estrategias y herramientas para transformar ciudades
 ---

@@ -1,0 +1,8 @@
+---
+layout: colaboradores
+title: Colaboradores
+category: colaboradores
+nombre: Zum Creativos
+ulr: http://www.zum.es
+proyectos: {espacio creativo}
+---

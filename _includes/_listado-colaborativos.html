@@ -1,0 +1,16 @@
+<section class="listadoColaborativos">
+	<hgroup>
+		<h2>Colaborativos</h2>
+		<h3>¿Quiénes somos?</h3>
+	</hgroup>
+	<section>
+		<ul>
+			{% for colaborativo in site.categories.equipo reversed %}
+			<li>
+				<a href="{{ colaborativo.url }}">{{ colaborativo.nombre }}</a>
+			</li>
+			{% endfor %}
+		</ul>
+		<div class="contenedorPie"></div>
+	</section>
+</section>

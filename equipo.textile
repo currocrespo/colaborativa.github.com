@@ -1,0 +1,19 @@
+---
+layout: sobre-colaborativa
+title: Equipo
+permalink: /equipo/sobre-colaborativa/
+titulo: Sobre Colaborativa
+subtitulo: Estrategias y herramientas para transformar ciudades
+---
+
+Cuando pensamos nuestro nombre queríamos que expresara la actitud que promovemos y aplicamos en nuestro trabajo: colaborativa, una forma de trabajar desjerarquizada y en red. La colaboración hace posible que nos comuniquemos con los que nos rodean, que intercambiemos conocimientos y sumemos capacidades para conseguir hacer realidad objetivos compartidos. Colaborando las ideas surgen de manera colectiva, la mejor forma de fomentar una auténtica creatividad social. Colaborativa es la manera en la que queremos que se hagan las ciudades.
+
+h2. ¿Qué hacemos?
+
+Colaborativa desarrolla estrategias y herramientas para transformar ciudades. Trabajamos para hacer las ciudades más abiertas, inclusivas y sostenibles. Elaboramos planeamiento estratégico y de gestión urbana, que permita identificar oportunidades y aprovecharlas de manera sostenible; desarrollamos aplicaciones de geoposicionamiento de datos para web y dispositivos móviles; realizamos visualizaciones de información; y organizamos acciones culturales en torno a la ciudad, para generar un debate público en torno al modelo urbano que queremos y el papel que juega en él la ciudadanía
+
+h2. ¿Quiénes la formamos?
+
+Colaborativa la fundamos a principios de 2010 para investigar y aplicar un línea de trabajo innovadora que integrara urbanismo, arquitectura, gestión, tecnología e información en la renovación urbana. Contamos con una serie de colaboradores, empresas, profesionales y particulares que han prestado su apoyo para el desarrollo de nuestros proyectos. Con ellos vamos tejiendo la red de colaboración por la que nos gustaría que se identificara Colaborativa.
+
+También formamos parte de diferentes redes, como la red local CREARE Córdoba, que impulsa la creatividad como motor del desarrollo económico, la red PLI, Red Andaluza de Living Labs y Espacios Sociales de Innovación, y de CLUDIA, Clúster del Diseño y la Innovación de Andalucía.

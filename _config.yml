@@ -1,3 +1,16 @@
 auto: true
 permalink: /:year/:month/:categories/:title/
 url: http://www.colaborativa.eu
+
+titulo: Colaborativa
+navegacion: { es: Navegación principal, en: Main navigation}
+navegacion-blog: { es: Blog, en: Blog}
+navegacion-proyectos: { es: Proyectos, en: Projects}
+navegacion-equipo: { es: Equipo, en: Team}
+navegacion-herramientas: { es: Herramientas, en: Tools}
+navegacion-codigo: { es: Código, en: Code}
+enlaces-sociales-facebook: { url: http://www.facebook.com/pages/Colaborativa/129415973823832, es: Estamos en Facebook, en: Estamos en Facebook}
+enlaces-sociales-twitter: { url: http://twitter.com/colaborativaeu, es: Síguenos en Twitter, en: Síguenos en Twitter}
+enlaces-sociales-flickr: { url: http://www.flickr.com/photos/50381188@N06/, es: Nuestras fotos en Flickr, en: Nuestras fotos en Flickr}
+enlaces-sociales-youtube: { url: http://www.youtube.com/user/colaborativaeu, es: Nuestros videos en YouTube, en: Nuestros videos en YouTube}
+        

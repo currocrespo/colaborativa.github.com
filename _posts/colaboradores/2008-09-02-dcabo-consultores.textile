@@ -1,0 +1,8 @@
+---
+layout: colaboradores
+title: Colaboradores
+category: colaboradores
+nombre: dCabo Consultores
+ulr: http://www.dcaboconsultores.com
+proyectos: {espacio creativo}
+---

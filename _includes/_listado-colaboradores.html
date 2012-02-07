@@ -1,0 +1,16 @@
+<section class="listadoColaborativos">
+	<hgroup>
+		<h2>Colaboradores</h2>
+		<h3>¿Con quién colaboramos?</h3>
+	</hgroup>
+	<section>
+		<ul>
+			{% for colaboradores in site.categories.colaboradores reversed %}
+			<li>
+				<a href="{{ colaboradores.url }}">{{ colaboradores.nombre }}</a>
+			</li>
+			{% endfor %}
+		</ul>
+		<div class="contenedorPie"></div>
+	</section>
+</section>

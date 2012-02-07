@@ -1,0 +1,5 @@
+---
+layout: default
+title: Colaborativa | Proyectos
+permalink: /proyectos/
+---
