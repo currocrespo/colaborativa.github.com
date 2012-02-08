@@ -3,6 +3,7 @@ permalink: /:year/:month/:categories/:title/
 url: http://www.colaborativa.eu
 
 titulo: Colaborativa
+subtitulo: { es: Estrategias y herramientas para transformar ciudades, en: Estrategias y herramientas para transformar ciudades}
 navegacion: { es: Navegación principal, en: Main navigation}
 navegacion-blog: { es: Blog, en: Blog}
 navegacion-proyectos: { es: Proyectos, en: Projects}
@@ -13,4 +14,17 @@ enlaces-sociales-facebook: { url: http://www.facebook.com/pages/Colaborativa/129
 enlaces-sociales-twitter: { url: http://twitter.com/colaborativaeu, es: Síguenos en Twitter, en: Síguenos en Twitter}
 enlaces-sociales-flickr: { url: http://www.flickr.com/photos/50381188@N06/, es: Nuestras fotos en Flickr, en: Nuestras fotos en Flickr}
 enlaces-sociales-youtube: { url: http://www.youtube.com/user/colaborativaeu, es: Nuestros videos en YouTube, en: Nuestros videos en YouTube}
-        
+listado-colaborativos-titulo: { es: Colaborativos, en: Colaborativos}
+listado-colaborativos-subtitulo: { es: ¿Quiénes somos?, en: ¿Quiénes somos?}
+listado-colaboradores-titulo: { es: Colaboradores, en: Colaboradores}
+listado-colaboradores-subtitulo: { es: ¿Con quién colaboramos?, en: ¿Con quién colaboramos?}
+listado-articulos-autor-titulo: { es: Artículos del mismo autor, en: Artículos del mismo autor}
+listado-articulos-autor-subtitulo: { es: En nuestro blog, en: En nuestro blog}
+listado-articulos-categorias-titulo: { es: Categorías, en: Categorías}
+listado-articulos-categorias-subtitulo: { es: del artículo, en: del artículo}
+listado-articulos-relacionados-titulo: { es: Artículos relacionados, en: Artículos relacionados}
+listado-articulos-relacionados-subtitulo: { es: Filtra por temas, en: Filtra por temas}
+listado-blog-etiquetas-titulo: { es: Etiquetas, en: Etiquetas}
+listado-blog-etiquetas-subtitulo: { es: Filtra Artículos, en: Filtra Artículos}
+
+articulos-por: { es: por, en: by}

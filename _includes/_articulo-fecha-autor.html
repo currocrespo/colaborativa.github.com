@@ -1,0 +1,23 @@
+{% if page.layout == "articulo" %}
+<p>
+{{ page.date | date: "%d %B %Y" }} por
+{% for equipo in site.categories.equipo %}
+	{% for autor in page.autor %}
+		{% if autor == equipo.nombre %}
+		<a href="{{ equipo.url }}">{{ equipo.nombre }}</a>
+		{% endif %}
+	{% endfor %}
+{% endfor %}
+</p>
+{% else %}
+<p>
+{{ articulo.date | date: "%d %B %Y" }} por
+{% for equipo in site.categories.equipo %}
+	{% for autor in articulo.autor %}
+		{% if autor == equipo.nombre %}
+		<a href="{{ equipo.url }}">{{ equipo.nombre }}</a>
+		{% endif %}
+	{% endfor %}
+{% endfor %}
+</p>
+{% endif %}

@@ -1,5 +1,5 @@
 ---
-layout: default
-title: Colaborativa | Blog
+layout: blog
+title: Blog
 permalink: /blog/
 ---
