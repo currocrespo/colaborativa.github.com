@@ -1,0 +1,1340 @@
+/* line 17, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 20, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1;
+}
+
+/* line 22, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 24, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 26, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 28, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 101, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 30, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 114, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+@font-face {
+  font-family: 'colaborativaBook';
+  src: url("fonts/colaborativabook-webfont.eot");
+  src: url("fonts/colaborativabook-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/colaborativabook-webfont.woff") format("woff"), url("fonts/colaborativabook-webfont.ttf") format("truetype"), url("fonts/colaborativabook-webfont.svgz#colaborativaBook") format("svg"), url("fonts/colaborativabook-webfont.svg#colaborativaBook") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'colaborativaMedium';
+  src: url("fonts/colaborativamedium-webfont.eot");
+  src: url("fonts/colaborativamedium-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/colaborativamedium-webfont.woff") format("woff"), url("fonts/colaborativamedium-webfont.ttf") format("truetype"), url("fonts/colaborativamedium-webfont.svgz#colaborativaMedium") format("svg"), url("fonts/colaborativamedium-webfont.svg#colaborativaMedium") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'colaborativaMediumItalic';
+  src: url("fonts/colaborativamediumitalic-webfont.eot");
+  src: url("fonts/colaborativamediumitalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/colaborativamediumitalic-webfont.woff") format("woff"), url("fonts/colaborativamediumitalic-webfont.ttf") format("truetype"), url("fonts/colaborativamediumitalic-webfont.svgz#colaborativaMediumItalic") format("svg"), url("fonts/colaborativamediumitalic-webfont.svg#colaborativaMediumItalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 4, ../sass/screen.scss */
+html {
+  background-color: #eeeeee;
+  height: 100%;
+}
+
+/* line 8, ../sass/screen.scss */
+body {
+  background-color: #fafafa;
+}
+
+/* line 11, ../sass/screen.scss */
+.contenedor {
+  width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* line 16, ../sass/screen.scss */
+.contenedorPie {
+  clear: both;
+}
+
+/* line 19, ../sass/screen.scss */
+.cabeceraPagina, footer {
+  width: 100%;
+  min-width: 960px;
+}
+
+/* estilos linea cruzando el titulo de la seccion*/
+/* line 24, ../sass/screen.scss */
+footer .contenedor, .cuerpoPagina .contenedor {
+  position: relative;
+  top: -25px;
+}
+
+/* line 28, ../sass/screen.scss */
+.cierreNodo .contenedor {
+  position: relative;
+  top: -15px;
+}
+
+/* line 32, ../sass/screen.scss */
+.contenedor.Inicio {
+  position: relative;
+  top: 0px;
+}
+
+/* line 36, ../sass/screen.scss */
+.cuerpoPagina, .cierreNodo {
+  border-top: 1px solid #f2f2f2;
+  margin-top: 50px;
+}
+
+/* line 40, ../sass/screen.scss */
+.cuerpoPagina.Inicio {
+  border-top: none;
+  margin-top: 5px;
+}
+
+/* line 44, ../sass/screen.scss */
+footer {
+  border-top: 1px solid #f2f2f2;
+  margin-top: 80px;
+}
+
+/* line 48, ../sass/screen.scss */
+.cierreNodo {
+  clear: right;
+}
+
+/* line 51, ../sass/screen.scss */
+#columnaNavegacion, #columnaAuxiliar, #dosColumnasContenido, #tresColumnasContenido {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+/* line 56, ../sass/screen.scss */
+#columnaNavegacion {
+  width: 240px;
+  padding-right: 10px;
+  float: left;
+}
+
+/* line 61, ../sass/screen.scss */
+#columnaAuxiliar {
+  width: 240px;
+  padding-left: 10px;
+  float: right;
+}
+
+/* line 66, ../sass/screen.scss */
+#dosColumnasContenido {
+  width: 720px;
+  padding-left: 25px;
+  float: right;
+}
+
+/* line 71, ../sass/screen.scss */
+#tresColumnasContenido {
+  width: 480px;
+  padding-left: 25px;
+  float: left;
+  padding-right: 25px;
+}
+
+/* line 77, ../sass/screen.scss */
+#dosColumnasContenido .nodo .cuerpoNodo p {
+  width: 600px;
+}
+
+/* @group EstilosTextos */
+/* Titulo de página */
+/* line 83, ../sass/screen.scss */
+.cabeceraPagina .tituloMenuBusqueda h1 {
+  color: #343434;
+  text-shadow: 0 1px #ffffff;
+  font: 37px/50px "colaborativaBook";
+}
+
+/* Menu cabecera */
+/* line 89, ../sass/screen.scss */
+nav li {
+  font: 18px "colaborativaMedium";
+  color: #343434;
+  text-shadow: 0 1px #ffffff;
+}
+
+/* Titulo Pagina, Titulo Footer, Titulo cuerpoPagina*/
+/* line 96, ../sass/screen.scss */
+footer h2, .cuerpoPagina h2 {
+  font: 30px "colaborativaBook";
+  color: #343434;
+}
+
+/* line 101, ../sass/screen.scss */
+a.nombreUsuario:link, a.nombreUsuario:visited {
+  color: #4a4a4a;
+  font-family: "colaborativaMedium";
+}
+
+/* line 105, ../sass/screen.scss */
+a.nombreUsuario:hover {
+  color: black;
+}
+
+/* Titulo nodo, titulo cierreNodo*/
+/* line 109, ../sass/screen.scss */
+.nodo h2, .nodoLista h2, .cierreNodo h2, h2.resultadosFiltrado, h2.resultadosBusqueda, h2.tituloListadoArticulos, .imagenInicioTitulo h2, p.tweetContenido {
+  font: 25px/25px "colaborativaBook";
+  color: #343434;
+}
+
+/* line 113, ../sass/screen.scss */
+p.tweetContenido {
+  color: #575757;
+}
+
+/* line 116, ../sass/screen.scss */
+h2.terminoBusqueda, h2.resultadosFiltrado span.terminosFiltrado, h2.resultadosBusqueda span.terminosBusqueda {
+  font: 25px/25px "colaborativaBook";
+  color: #2671bc;
+}
+
+/* subtitulo nodo*/
+/* line 121, ../sass/screen.scss */
+.nodo h3, .nodoLista h3, .imagenInicioTitulo h3, p.tweetFecha {
+  font: 18px/19px "colaborativaMediumItalic";
+  color: #929292;
+}
+
+/* Subtitulo Footer, Titulo Bloque, Titulo listadoEtiquetas, titulo listadoArticulo, titulo listadoColaborativos, titulillo nodo*/
+/* line 127, ../sass/screen.scss */
+footer h3, .listadoEtiquetas h2, .listadoArticulos h2, .listadoColaborativos h2, .nodo .cuerpoNodo h1, .nodo .cuerpoNodo h2, .nodo .cuerpoNodo h3, .cuerpoNodo h4, .nodo .cuerpoNodo h5, .nodo .cuerpoNodo h6, .enlacesNodo h2 {
+  font: 18px "colaborativaBook";
+  color: #343434;
+}
+
+/*Subtitulo listadoEtiquetas, Subtitulo listadoArticulos, subtitulo articulo listadoArticulos, subtitulo listadoColaborativos, subtitulo cierrenodo, cabecera nodo parrafo, subtitulo nodo equipo*/
+/* line 132, ../sass/screen.scss */
+.listadoEtiquetas h3, .listadoArticulos h3, .listadoArticulos li h3, .listadoColaborativos h3, .cierreNodo h3, .nodo .cabeceraNodo p, .nodo .cabeceraNodo h4, .listadoNodos .nodoLista .infoNodoCuerpo, p.tweetInfo {
+  font: 13px/16px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  color: #929292;
+}
+
+/* nodo cuerpo de texto */
+/* line 137, ../sass/screen.scss */
+.nodo p, .nodoLista p {
+  font: 13px/20px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  color: #343434;
+}
+
+/* parrafos listadoEtiquetas, titulo articulo listadoArticulos, nodo lista palabras clave*/
+/* line 142, ../sass/screen.scss */
+.listadoEtiquetas a:link, .listadoArticulos li h2 a:link, .listadoArticulos li h2, .nodo .cabeceraNodo li a:link, .nodoLista .cabeceraNodo li a:link, .nodoLista .cabeceraNodo ul, listadoEtiquetas li, .listadoArticulos li a:link, .listadoEtiquetas {
+  font: 13px/16px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  color: #2671bc;
+  text-decoration: none;
+  border-bottom-style: none;
+}
+
+/* line 148, ../sass/screen.scss */
+.listadoEtiquetas a:hover, .listadoArticulos li h2 a:hover, .listadoArticulos li a:hover {
+  color: #5195da;
+}
+
+/* cuerpo Footer, enlaces sociales pagina, enlaces sociales nodo*/
+/* line 152, ../sass/screen.scss */
+footer p, .enlacesSociales, .enlacesNodo, .listadoComentariosArticulo {
+  font: 13px/16px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  color: #343434;
+}
+
+/* enlaces sociales pagina, enlaces sociales nodo*/
+/* line 157, ../sass/screen.scss */
+.enlacesSociales a:link, .enlacesSociales a:active, .enlacesSociales a:visited, .enlacesNodo a:link, .enlacesNodo a:active, .enlacesNodo a:visited {
+  color: #929292;
+  text-decoration: none;
+  border-bottom-style: none;
+}
+
+/* line 162, ../sass/screen.scss */
+.enlacesSociales a:hover, .enlacesNodo a:hover {
+  color: #bfbfbf;
+}
+
+/* line 165, ../sass/screen.scss */
+a:link, a:visited, a:active {
+  color: #2671bc;
+  text-decoration: none;
+  border-bottom: 1px dotted #dfdfdf;
+}
+
+/* line 170, ../sass/screen.scss */
+a:hover {
+  color: #5195da;
+}
+
+/* line 173, ../sass/screen.scss */
+.cabeceraPagina a:link, .cabeceraPagina a:active, .cabeceraPagina a:visited {
+  color: #343434;
+  text-decoration: none;
+  border-bottom-style: none;
+}
+
+/* line 178, ../sass/screen.scss */
+.paginacion, .paginacion a:link, .paginacion a:visited {
+  font: 13px/16px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  color: #929292;
+}
+
+/* line 182, ../sass/screen.scss */
+.nodoLista h2 a:link, .nodoLista h2 a:active, .nodoLista h2 a:visited {
+  border-bottom-style: none;
+  color: #343434;
+}
+
+/* line 186, ../sass/screen.scss */
+.nodoLista h2 a:hover {
+  border-bottom: 1px dotted #dfdfdf;
+  color: #343434;
+}
+
+/* @group etiquetas semánticas */
+/* line 192, ../sass/screen.scss */
+i {
+  font-style: italic;
+}
+
+/* line 195, ../sass/screen.scss */
+strong {
+  font-weight: bold;
+}
+
+/* line 198, ../sass/screen.scss */
+blockquote p {
+  font-style: italic;
+  text-indent: 4px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+/* @end */
+/* @end */
+/* @group Navegacion cabecera Pagina */
+/* line 208, ../sass/screen.scss */
+.cabeceraPagina {
+  height: 85px;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #eeeeee), color-stop(1, #fafafa));
+  background-image: -moz-linear-gradient(center top, #eeeeee 0%, #fafafa 100%);
+  padding-top: 25px;
+}
+
+/* line 224, ../sass/screen.scss */
+.cabeceraPagina h2 {
+  display: none;
+}
+
+/* @group Navegacion cabecera Layout */
+/* line 228, ../sass/screen.scss */
+.cabeceraPagina .menu ul, .cabeceraPagina h2, .cabeceraPagina h1 {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+/* line 235, ../sass/screen.scss */
+.cabeceraPagina .tituloMenuBusqueda {
+  display: table;
+  width: 960px;
+}
+
+/* line 239, ../sass/screen.scss */
+.cabeceraPagina .tituloMenuBusqueda h1 {
+  display: table-cell;
+  vertical-align: middle;
+  width: 20%;
+  height: 15px;
+  resize: none;
+}
+
+/* line 246, ../sass/screen.scss */
+.cabeceraPagina nav {
+  height: 50px;
+  display: table-cell;
+  vertical-align: middle;
+  width: 60%;
+  /* esto sirve para alinear perfectamente el titulo */
+  padding-top: 8px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* line 256, ../sass/screen.scss */
+.cabeceraPagina .menu li {
+  display: inline-block;
+  width: 24%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 263, ../sass/screen.scss */
+.cabeceraPagina #search-block-form {
+  height: 50px;
+  display: table-cell;
+  vertical-align: middle;
+  width: 20%;
+  /* esto sirve para alinear perfectamente el titulo */
+  padding-top: 8px;
+}
+
+/* line 271, ../sass/screen.scss */
+.cabeceraPagina #search-block-form > div {
+  position: relative;
+  height: 50px;
+  display: table-cell;
+  vertical-align: middle;
+  width: 420px;
+}
+
+/* line 278, ../sass/screen.scss */
+.cabeceraPagina #search-block-form > div > div {
+  margin: 0;
+}
+
+/* line 281, ../sass/screen.scss */
+#search-block-form input[type='text'], #search-block-form input[type='submit'] {
+  display: table-cell;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+/* line 288, ../sass/screen.scss */
+.listadoNodos #search-form {
+  display: none;
+}
+
+/* line 291, ../sass/screen.scss */
+.cabeceraPagina #botonesSociales {
+  display: block;
+}
+
+/* line 294, ../sass/screen.scss */
+.cabeceraPagina #botonesSociales .addthis_toolbox {
+  display: table;
+  float: right;
+}
+
+/* @end */
+/* line 300, ../sass/screen.scss */
+.cabeceraPagina .menu li a:link {
+  padding: 3px 10px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+}
+
+/* line 306, ../sass/screen.scss */
+.cabeceraPagina .menu li a:hover {
+  background-color: #e6e6e6;
+}
+
+/* line 309, ../sass/screen.scss */
+.cabeceraPagina .menu li a:active {
+  background-color: #dfdfdf;
+}
+
+/* line 312, ../sass/screen.scss */
+.cabeceraPagina .menu li a:before {
+  padding-right: 7px;
+  position: relative;
+  top: 2px;
+}
+
+/* line 317, ../sass/screen.scss */
+.menuBlog:before {
+  content: url(/imagenes/menuBlog.png);
+}
+
+/* line 320, ../sass/screen.scss */
+.menuProyectos:before {
+  content: url(/imagenes/menuProyectos.png);
+}
+
+/* line 323, ../sass/screen.scss */
+.menuEquipo:before {
+  content: url(/imagenes/menuEquipo.png);
+}
+
+/* line 326, ../sass/screen.scss */
+.menuCodigo:before {
+  content: url(/imagenes/menuCodigo.png);
+}
+
+/* line 329, ../sass/screen.scss */
+#search-block-form input[type='text'] {
+  -webkit-border-top-left-radius: 15px;
+  -webkit-border-bottom-left-radius: 15px;
+  -moz-border-top-left-radius: 15px;
+  -moz-border-bottom-left-radius: 15px;
+  -ms-border-radius-topleft: 15px;
+  -ms-border-radius-bottomleft: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border: 1px solid silver;
+  color: #343434;
+  background-color: white;
+  height: 30px;
+  border-right-style: none;
+  margin: 0;
+  padding: 0 15px;
+  float: left;
+  width: 70%;
+}
+
+/* line 348, ../sass/screen.scss */
+#search-block-form input[type='submit'] {
+  -webkit-border-top-right-radius: 15px;
+  -webkit-border-bottom-right-radius: 15px;
+  -moz-border-top-right-radius: 15px;
+  -moz-border-bottom-right-radius: 15px;
+  -ms-border-radius-toprigth: 15px;
+  -ms-border-radius-bottomrigth: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border: 1px solid silver;
+  color: #343434;
+  background-color: #ededed;
+  height: 30px;
+  border-left-style: solid;
+  margin: 0;
+  padding: 0 5px;
+  width: 30%;
+  float: left;
+  text-shadow: 0 1px #ffffff;
+}
+
+/* line 368, ../sass/screen.scss */
+#search-block-form input[type='submit']:hover {
+  background-color: #e6e6e6;
+  cursor: pointer;
+}
+
+/* @end */
+/* @group piePagina */
+/* line 375, ../sass/screen.scss */
+.enlacesSociales {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+/* line 383, ../sass/screen.scss */
+footer {
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #eeeeee), color-stop(0.6, #fafafa));
+  height: 200px;
+  display: block;
+}
+
+/* line 395, ../sass/screen.scss */
+.datosContacto {
+  width: 720px;
+  float: left;
+}
+
+/* line 399, ../sass/screen.scss */
+.datosContacto .email > span, .datosContacto .tel > span {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  position: relative;
+  top: 6px;
+  margin-right: 5px;
+}
+
+/* line 407, ../sass/screen.scss */
+.datosContacto .email > span {
+  background: url(/imagenes/iconosContacto.png) 0 0px no-repeat;
+}
+
+/* line 410, ../sass/screen.scss */
+.datosContacto .tel > span {
+  background: url(/imagenes/iconosContacto.png) 0 -20px no-repeat;
+  margin-left: 15px;
+}
+
+/* line 414, ../sass/screen.scss */
+footer h3 {
+  margin-top: 8px;
+  margin-bottom: 30px;
+}
+
+/* line 418, ../sass/screen.scss */
+.enlacesSociales {
+  width: 240px;
+  display: block;
+  float: right;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding-left: 15px;
+  border-left: 1px solid #f2f2f2;
+  margin-top: 35px;
+}
+
+/* line 429, ../sass/screen.scss */
+.enlacesSociales li, .enlacesNodo li {
+  padding: 2px 0;
+}
+
+/* line 432, ../sass/screen.scss */
+a.enlaceExterno > span {
+  background: url(/imagenes/enlacesExternos.png) 0 -120px no-repeat;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  position: relative;
+  top: 5px;
+  margin-right: 7px;
+}
+
+/* line 441, ../sass/screen.scss */
+a.enlaceExterno:hover > span {
+  background: url(/imagenes/enlacesExternos.png) -20 -120px no-repeat;
+}
+
+/* line 444, ../sass/screen.scss */
+a.enlaceExterno[href*='facebook.com'] > span {
+  background: url(/imagenes/enlacesExternos.png) 0 -40px no-repeat;
+}
+
+/* line 447, ../sass/screen.scss */
+a.enlaceExterno[href*='facebook.com']:hover > span {
+  background: url(/imagenes/enlacesExternos.png) -20 -40px no-repeat;
+}
+
+/* line 450, ../sass/screen.scss */
+a.enlaceExterno[href*='twitter.com'] > span {
+  background: url(/imagenes/enlacesExternos.png) 0 0px no-repeat;
+}
+
+/* line 453, ../sass/screen.scss */
+a.enlaceExterno[href*='twitter.com']:hover > span {
+  background: url(/imagenes/enlacesExternos.png) -20 0px no-repeat;
+}
+
+/* line 456, ../sass/screen.scss */
+a.enlaceExterno[href*='flickr.com'] > span {
+  background: url(/imagenes/enlacesExternos.png) 0 -20px no-repeat;
+}
+
+/* line 459, ../sass/screen.scss */
+a.enlaceExterno[href*='flickr.com']:hover > span {
+  background: url(/imagenes/enlacesExternos.png) -20 -20px no-repeat;
+}
+
+/* line 462, ../sass/screen.scss */
+a.enlaceExterno[href*='linkedin.com'] > span {
+  background: url(/imagenes/enlacesExternos.png) 0 -60px no-repeat;
+}
+
+/* line 465, ../sass/screen.scss */
+a.enlaceExterno[href*='linkedin.com']:hover > span {
+  background: url(/imagenes/enlacesExternos.png) -20 -60px no-repeat;
+}
+
+/* line 468, ../sass/screen.scss */
+a.enlaceExterno[href*='youtube.com'] > span {
+  background: url(/imagenes/enlacesExternos.png) 0 -80px no-repeat;
+}
+
+/* line 471, ../sass/screen.scss */
+a.enlaceExterno[href*='youtube.com']:hover > span {
+  background: url(/imagenes/enlacesExternos.png) -20 -80px no-repeat;
+}
+
+/* @end */
+/* @group cuerpoPagina */
+/* line 477, ../sass/screen.scss */
+.cuerpoPagina {
+  min-height: 400px;
+  background-color: #fafafa;
+}
+
+/* @end */
+/* @group listado Etiquetas, listado Articulos, listadoColaborativos*/
+/* line 485, ../sass/screen.scss */
+.listadoEtiquetas, .listadoArticulos, .listadoColaborativos {
+  margin-bottom: 30px;
+}
+
+/* line 488, ../sass/screen.scss */
+.listadoEtiquetas hgroup, .listadoArticulos > hgroup, .listadoColaborativos > hgroup, .listadoColaboradoresProyecto > hgroup {
+  margin-bottom: 10px;
+}
+
+/* line 491, ../sass/screen.scss */
+.listadoEtiquetas hgroup, .listadoArticulos > hgroup, .listadoColaborativos > hgroup {
+  margin-top: 20px;
+}
+
+/* line 494, ../sass/screen.scss */
+.listadoEtiquetas li:first-child, .listadoArticulos li:first-child {
+  border-top: 1px solid #f2f2f2;
+}
+
+/* line 497, ../sass/screen.scss */
+.listadoEtiquetas li, .listadoEtiquetas li:first-child {
+  border-bottom: 1px solid #f2f2f2;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+/* line 502, ../sass/screen.scss */
+.listadoArticulos li, .listadoArticulos li:first-child {
+  border-bottom: 1px solid #f2f2f2;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+/* line 507, ../sass/screen.scss */
+.listadoArticulos.Proyectos ul {
+  margin-top: 10px;
+}
+
+/* line 510, ../sass/screen.scss */
+.listadoArticulos.Proyectos li:first-child {
+  border-top-style: none;
+}
+
+/* line 513, ../sass/screen.scss */
+.listadoEtiquetas li span.count {
+  width: 35px;
+  display: inline-block;
+  text-align: center;
+}
+
+/* line 518, ../sass/screen.scss */
+.listadoArticulos li h2 {
+  margin-top: 3px;
+}
+
+/* line 524, ../sass/screen.scss */
+.listadoColaborativos li, .listadoColaborativos li a,
+.listadoColaboradoresProyecto li, .listadoColaboradoresProyecto li a,
+.colaboradorIcono, .colaboradorIcono span {
+  display: block;
+  width: 50px;
+  height: 50px;
+  float: left;
+  background-size: cover;
+}
+
+/* line 531, ../sass/screen.scss */
+.listadoColaborativos li h2, .listadoColaboradoresProyecto li h2 {
+  display: none;
+}
+
+/* line 534, ../sass/screen.scss */
+.listadoColaborativos li, .listadoColaboradoresProyecto li {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+/* line 539, ../sass/screen.scss */
+.listadoColaborativos li:first-child, .listadoColaborativos li:nth-child(5n),
+.listadoColaboradoresProyecto li:first-child {
+  margin-left: 0px;
+}
+
+/* line 543, ../sass/screen.scss */
+.listadoColaborativos li a:link {
+  text-decoration: none;
+  border-bottom-style: none;
+}
+
+/* @end */
+/* @group nodoProyecto nodoArticulo*/
+/* line 550, ../sass/screen.scss */
+.nodo, .listadoNodos {
+  top: -30px;
+  position: relative;
+}
+
+/* line 554, ../sass/screen.scss */
+.nodo .cabeceraNodo {
+  margin-bottom: 25px;
+}
+
+/*	Los márgenes del segundo subtitulo tanto en la vista de proyectos como en la vista de articulos*/
+/* line 558, ../sass/screen.scss */
+.nodo .cabeceraNodo p, .nodo .cabeceraNodo ul {
+  margin-top: 10px;
+}
+
+/* line 561, ../sass/screen.scss */
+.nodo .cabeceraNodo h3 {
+  margin-top: 8px;
+  margin-bottom: 0px;
+}
+
+/* line 565, ../sass/screen.scss */
+.nodo .cabeceraNodo h4 {
+  margin-left: 110px;
+}
+
+/* line 568, ../sass/screen.scss */
+.nodo .miniaturaNodo {
+  display: block;
+  float: left;
+  margin-right: 15px;
+  height: 60px;
+  width: 90px;
+  background-size: cover;
+}
+
+/* line 576, ../sass/screen.scss */
+.palabrasClave li {
+  display: inline-block;
+}
+
+/* line 579, ../sass/screen.scss */
+.palabrasClave li:after {
+  content: ", ";
+  color: #2671bc;
+}
+
+/* line 583, ../sass/screen.scss */
+.palabrasClave li:last-child:after {
+  content: "";
+  color: #2671bc;
+}
+
+/* line 587, ../sass/screen.scss */
+.nodo .imagenNodo img {
+  width: 600px;
+}
+
+/* line 590, ../sass/screen.scss */
+.nodo .imagenNodo, .nodoProyecto .contenedorMultimediaNodo {
+  margin-bottom: 25px;
+}
+
+/* line 593, ../sass/screen.scss */
+.nodoProyecto .contenedorMultimediaNodo {
+  margin-top: 25px;
+}
+
+/* line 596, ../sass/screen.scss */
+.nodo .cuerpoNodo h1, .nodo .cuerpoNodo h2, .nodo .cuerpoNodo h3, .cuerpoNodo h4, .nodo .cuerpoNodo h5, .nodo .cuerpoNodo h6 {
+  margin-bottom: 10px;
+}
+
+/* line 599, ../sass/screen.scss */
+.nodo .cuerpoNodo p {
+  margin-bottom: 20px;
+}
+
+/* line 602, ../sass/screen.scss */
+.nodo .contenedorMultimediaNodo {
+  margin-top: 35px;
+  margin-bottom: 25px;
+}
+
+/* line 606, ../sass/screen.scss */
+.nodo .contenedorMultimediaNodo object {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+/* line 611, ../sass/screen.scss */
+.nodo .enlacesNodo {
+  margin-top: 35px;
+  margin-bottom: 25px;
+}
+
+/* line 615, ../sass/screen.scss */
+.nodo .enlacesNodo h2 {
+  margin-bottom: 5px;
+}
+
+/* @end */
+/* line 623, ../sass/screen.scss */
+.nodoLista {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+/* line 628, ../sass/screen.scss */
+.nodoLista .imagenNodoLista {
+  float: left;
+  margin-right: 15px;
+}
+
+/* line 632, ../sass/screen.scss */
+.nodoLista .imagenNodoLista a {
+  display: block;
+  width: 230px;
+  height: 200px;
+  overflow: hidden;
+  background-size: cover;
+}
+
+/* line 639, ../sass/screen.scss */
+.nodoLista .infoNodoLista {
+  float: left;
+  width: 450px;
+}
+
+/* line 643, ../sass/screen.scss */
+.nodoLista hgroup {
+  margin-top: 8px;
+}
+
+/* line 646, ../sass/screen.scss */
+.nodoLista h3 {
+  padding-top: 8px;
+  padding-bottom: 14px;
+}
+
+/* line 650, ../sass/screen.scss */
+.nodoLista .cuerpoNodo p {
+  display: inline-block;
+}
+
+/* line 653, ../sass/screen.scss */
+span.terminosFiltrado {
+  padding-left: 10px;
+}
+
+/* line 656, ../sass/screen.scss */
+h2.resultadosFiltrado, h2.resultadosBusqueda, h2.tituloListadoArticulos {
+  margin-bottom: 15px;
+}
+
+/* line 660, ../sass/screen.scss */
+.proyectosColaboradores {
+  margin-top: 30px;
+}
+
+/* @group Pagina Inicio */
+/* line 666, ../sass/screen.scss */
+.imagenInicio {
+  width: 960px;
+  height: 300px;
+  margin-bottom: 30px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* line 673, ../sass/screen.scss */
+hgroup.imagenInicioTitulo {
+  position: absolute;
+  background-color: white;
+  padding: 25px;
+}
+
+/* line 678, ../sass/screen.scss */
+hgroup.imagenInicioTitulo h3 {
+  width: 480px;
+  margin-top: 7px;
+}
+
+/* line 682, ../sass/screen.scss */
+.posicionDerechaAlta, .posicionDerechaBaja {
+  -webkit-border-top-left-radius: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  -moz-border-top-left-radius: 10px;
+  -moz-border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+/* line 690, ../sass/screen.scss */
+.posicionIzquierdaAlta, .posicionIzquierdaBaja {
+  -webkit-border-top-right-radius: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  -moz-border-top-right-radius: 10px;
+  -moz-border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/* line 698, ../sass/screen.scss */
+.posicionDerechaAlta {
+  top: 50px;
+  right: 0;
+}
+
+/* line 702, ../sass/screen.scss */
+.posicionDerechaBaja {
+  bottom: 50px;
+  right: 0;
+}
+
+/* line 706, ../sass/screen.scss */
+.posicionIzquierdaAlta {
+  top: 50px;
+  left: 0;
+}
+
+/* line 710, ../sass/screen.scss */
+.posicionIzquierdaBaja {
+  bottom: 50px;
+  left: 0;
+  opacity: 0.85;
+}
+
+/* line 715, ../sass/screen.scss */
+.listadoNodosInicio {
+  width: 720px;
+}
+
+/* line 718, ../sass/screen.scss */
+.listadoNodosInicio .nodoLista {
+  width: 304px;
+  height: 440px;
+  float: left;
+  padding-top: 0;
+  padding-bottom: 0;
+  border-bottom-style: none;
+}
+
+/* line 726, ../sass/screen.scss */
+.listadoNodosInicio .nodoLista:first-child {
+  padding-right: 15px;
+  border-right: 1px solid #f2f2f2;
+  padding-left: 0;
+}
+
+/* line 731, ../sass/screen.scss */
+.listadoNodosInicio .nodoLista:last-child {
+  border-right: 1px solid #f2f2f2;
+  padding: 0 15px;
+}
+
+/* line 735, ../sass/screen.scss */
+.listadoNodosInicio .infoNodoLista {
+  width: 304px;
+}
+
+/* line 738, ../sass/screen.scss */
+.listadoNodosInicio .nodoLista .imagenNodoLista {
+  margin: 0;
+  padding: 0;
+  height: 170px;
+  width: 305px;
+}
+
+/* line 744, ../sass/screen.scss */
+.nodoLista .imagenNodoLista a:link, .nodoLista .imagenNodoLista a:visited {
+  border-bottom-style: none;
+}
+
+/* line 747, ../sass/screen.scss */
+.listadoNodosInicio .infoNodoLista .cabeceraNodo p {
+  margin-top: 10px;
+}
+
+/* line 750, ../sass/screen.scss */
+#columnaTres {
+  height: 440px;
+  width: 304px;
+  float: right;
+  border-bottom: none;
+}
+
+/* line 757, ../sass/screen.scss */
+p.tweetContenido {
+  margin-top: 40px;
+  padding-left: 20px;
+}
+
+/* line 761, ../sass/screen.scss */
+p.tweetFecha {
+  text-align: right;
+  margin-top: 15px;
+}
+
+/* line 765, ../sass/screen.scss */
+p.tweetInfo {
+  text-align: right;
+  margin-top: 5px;
+}
+
+/* line 769, ../sass/screen.scss */
+a.nombreUsuario:link, a.nombreUsuario:visited {
+  border-bottom-style: none;
+}
+
+/* @end */
+/* @group Pager */
+/* line 775, ../sass/screen.scss */
+ul.pager {
+  margin: 15px 0 0;
+  padding: 0;
+}
+
+/* line 779, ../sass/screen.scss */
+li.paginacion {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+/* line 784, ../sass/screen.scss */
+li.paginacion.current {
+  background-color: #dfdfdf;
+  padding: 4px 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  color: white;
+}
+
+/* line 792, ../sass/screen.scss */
+li.paginacion a:link, li.paginacion a:visited {
+  border-bottom-style: none;
+  padding: 4px 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+}
+
+/* line 799, ../sass/screen.scss */
+li.paginacion a:hover {
+  background-color: #ededed;
+}
+
+/* line 802, ../sass/screen.scss */
+li.paginacion a:active {
+  background-color: #dfdfdf;
+}
+
+/* @end */
+/* @group ExtraInfoColaboradores */
+/* line 809, ../sass/screen.scss */
+.colaboradorIcono {
+  cursor: pointer;
+}
+
+/* line 812, ../sass/screen.scss */
+li div.subcategoryPopUp {
+  position: absolute;
+  z-index: 5;
+  font: 13px 'lucinda grande', Helvetica, Arial;
+  display: none;
+  width: 260px;
+  margin-top: 65px;
+  border: 1px solid rgba(66, 66, 66, 0.8);
+  background-color: rgba(50, 50, 50, 0.8);
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  margin-left: 0;
+}
+
+/* line 826, ../sass/screen.scss */
+.subcategoryPopUp .triangulo {
+  background-image: url(/imagenes/triangulo.png);
+  display: block;
+  width: 23px;
+  height: 13px;
+  position: absolute;
+  top: -12px;
+  left: 14px;
+  border-style: none;
+  border-width: 0;
+}
+
+/* line 837, ../sass/screen.scss */
+.subcategoryPopUp h3 {
+  margin-right: 20px;
+  margin-left: 10px;
+  margin-top: 8px;
+  position: relative;
+}
+
+/* line 843, ../sass/screen.scss */
+.subcategoryPopUp a, .subcategoryPopUp a:link, .subcategoryPopUp a:active {
+  color: white;
+  display: block;
+  margin: 3px 20px 15px 10px;
+  border-bottom-style: none;
+  position: relative;
+}
+
+/* line 850, ../sass/screen.scss */
+.subcategoryPopUp a:hover {
+  color: #bdbdbd;
+}
+
+/* line 853, ../sass/screen.scss */
+.cuerpoPagina .addthis_toolbox {
+  float: left;
+  padding-right: 8px;
+  padding-top: 10px;
+  width: 80px;
+}
+
+/* line 859, ../sass/screen.scss */
+.addthis_button_google_plusone at300b {
+  margin-left: 5px;
+}
+
+/* @end */
+/* @group bloque actividades */
+/* line 865, ../sass/screen.scss */
+.bloqueActividades {
+  height: 170px;
+  width: 290px;
+  margin-left: 15px;
+}
+
+/* line 870, ../sass/screen.scss */
+.bloqueActividades h2 {
+  font: 25px/25px "colaborativaBook";
+  color: white;
+  background-color: #c7c7c7;
+  padding-left: 10px;
+  height: 30px;
+}
+
+/* line 877, ../sass/screen.scss */
+.bloqueActividades {
+  font: 13px/16px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  color: #343434;
+}
+
+/* line 883, ../sass/screen.scss */
+.bloqueActividades li {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border-bottom: 1px dotted silver;
+  height: 35px;
+  display: table;
+  width: 290px;
+}
+
+/* line 892, ../sass/screen.scss */
+.bloqueActividades li a:link {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  height: 20px;
+  display: table-cell;
+  vertical-align: middle;
+  text-decoration: none;
+  color: #323232;
+  margin: 0;
+  text-align: left;
+  padding: 0;
+  border-bottom-style: none;
+}
+
+/* line 906, ../sass/screen.scss */
+.bloqueActividades li a:visited {
+  text-decoration: none;
+  color: #323232;
+}
+
+/* line 910, ../sass/screen.scss */
+.bloqueActividades li:hover {
+  background-color: #efefef;
+}
+
+/* line 913, ../sass/screen.scss */
+.bloqueActividades li:active {
+  background-color: #d7d7d7;
+}
+
+/* line 916, ../sass/screen.scss */
+.bloqueActividades li span {
+  width: 33px;
+  display: table-cell;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 33px;
+}
+
+/* line 924, ../sass/screen.scss */
+.bloqueActividades li.estrategico span {
+  background: url(/imagenes/iconoEstrategias.png) 0 0px no-repeat;
+}
+
+/* line 927, ../sass/screen.scss */
+.bloqueActividades li.acciones span {
+  background: url(/imagenes/iconoAcciones.png) 0 0px no-repeat;
+}
+
+/* line 930, ../sass/screen.scss */
+.bloqueActividades li.geoposicionamiento span {
+  background: url(/imagenes/iconoGeoposicionamiento.png) 0 0px no-repeat;
+}
+
+/* line 933, ../sass/screen.scss */
+.bloqueActividades li.visualizacion span {
+  background: url(/imagenes/iconoVisualizacion.png) 0 0px no-repeat;
+}
+
+/* @end */

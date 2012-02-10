@@ -5,8 +5,12 @@
 	</hgroup>
 	<section>
 		<ul>
-			{% for categoria in page.categorias %}
-			<li><a href="">{{categoria}}</a> falta por implementar</li>
+			{% for proyectos in site.categories.proyectos %}
+				{% for proyecto in page.proyectos %}
+				{% if proyecto == proyectos.title %}
+				<li><a href="{{proyectos.url}}">{{ proyectos.title }}</a></li>
+				{% endif %}
+				{% endfor %}
 			{% endfor %}
 		</ul>
 		<div class="contenedorPie"></div>

@@ -20,11 +20,12 @@ listado-colaboradores-titulo: { es: Colaboradores, en: Colaboradores}
 listado-colaboradores-subtitulo: { es: ¿Con quién colaboramos?, en: ¿Con quién colaboramos?}
 listado-articulos-autor-titulo: { es: Artículos del mismo autor, en: Artículos del mismo autor}
 listado-articulos-autor-subtitulo: { es: En nuestro blog, en: En nuestro blog}
-listado-articulos-categorias-titulo: { es: Categorías, en: Categorías}
-listado-articulos-categorias-subtitulo: { es: del artículo, en: del artículo}
-listado-articulos-relacionados-titulo: { es: Artículos relacionados, en: Artículos relacionados}
-listado-articulos-relacionados-subtitulo: { es: Filtra por temas, en: Filtra por temas}
+listado-articulos-categorias-titulo: { es: Proyectos, en: Proyectos}
+listado-articulos-categorias-subtitulo: { es: Relacionados, en: Relacionados}
+listado-articulos-relacionados-titulo: { es: Otros artículos, en: Otros artículos}
+listado-articulos-relacionados-subtitulo: { es: Relacionados, en: Relacionados}
 listado-blog-etiquetas-titulo: { es: Etiquetas, en: Etiquetas}
 listado-blog-etiquetas-subtitulo: { es: Filtra Artículos, en: Filtra Artículos}
-
+articulos: { es: artículo, en: article}
 articulos-por: { es: por, en: by}
+articulos-y: { es: y, en: &}

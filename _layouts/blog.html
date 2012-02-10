@@ -3,22 +3,23 @@
 	<head>
 		<title>{{ site.titulo }} | {{ page.title }}</title>
 		<meta charset='UTF-8'/>
+		{% include _scripts.html %}
 	</head>
 	<body>
 		{% include _header.html %}
 		<section class="cuerpoPagina">
 			<div class="contenedor">
-				<h2>{{ page.title }}</h2>
+				<h2>{{ site.navegacion-blog.es }}</h2>
 				<div id="columnaNavegacion">
 					{% include _blog-etiquetas.html %}
 				</div>
 				<div id="dosColumnasContenido">
 					<section class="listadoNodos">
-						<h2 class="tituloListadoArticulos">13 artículos. Hay que implementar en numero de articulos y la paginacion</h2>
+						<h2 class="tituloListadoArticulos">{% include _inline-contador-articulos.html %}</h2>
 						{% for articulo in site.categories.blog %}
 						<article class="nodoLista">
 							<div class="imagenNodoLista">
-								<a href="{{ articulo.url }}"><img  src="" alt="" title=""></a>
+								<a href="{{ articulo.url }}" style="background: url(http://{{ articulo.imagen }}.jpg) center center no-repeat"></a>
 							</div>
 							<div class="infoNodoLista">
 								<div class="cabeceraNodo">
@@ -29,12 +30,12 @@
 										</ul>
 									</p>
 									<hgroup>
-										<h2><a href="{{ articulo.url }}">{{ articulo.titulo }}</a></h2>
+										<h2><a href="{{ articulo.url }}">{{ articulo.title }}</a></h2>
 										<h3>{{ articulo.subtitulo }}</h3>
 									</hgroup>
 								</div>
 								<div class="cuerpoNodo">
-									{% include _articulo-fecha-autor.html %} {{ articulo.content | truncate: 200 }}
+									{% include _inline-articulo-fecha-autor.html %} {{ articulo.content | truncate: 200 }}
 								</div>
 							</div>
 							<div class="contenedorPie"></div>

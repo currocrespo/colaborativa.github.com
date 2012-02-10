@@ -6,8 +6,12 @@
 	<section>
 		<div class="featured-content-block featured-content-block-1 featured-content-block-filter">
 			<ul class="featured-content-block-content">
-				{% for post in site.related_posts %}
-				<li><a href="">{{ post.title }}</a> Aún tengo que implementarlo</li>
+				{% for articulos in site.categories.blog %}
+					{% for relacionados in page.articulos-relacionados %}
+						{% if relacionados == articulos.title %}
+						<li><a href="{{ articulos.url }}">{{ articulos.title }}</a></li>
+						{% endif %}
+					{% endfor %}
 				{% endfor %}
 			</ul>
 		</div>

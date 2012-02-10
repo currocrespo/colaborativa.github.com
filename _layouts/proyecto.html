@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>{{ site.titulo }} | {{ page.title }}</title>
+		<meta charset='UTF-8'/>
+		{% include _scripts.html %}
+	</head>
+	<body>
+		{% include _header.html %}
+		<section class="cuerpoPagina">
+			<div class="contenedor">
+				<h2>{{ site.navegacion-proyectos.es }}</h2>
+				<div id="columnaNavegacion">
+					{% include _listado-proyectos.html %}
+				</div>
+				<div id="dosColumnasContenido">
+					<article class="nodo">
+						<div class="cabeceraNodo">
+							<hgroup>
+								<h2>{{ page.title }}</h2>
+								<h3>{{ page.subtitulo }}</h3>
+							</hgroup>
+							{% include _proyecto-categorias.html %}
+						</div>
+						<div class="imagenNodo">
+							<img src="http://{{ page.imagen }}_z.jpg" alt="">
+						</div>
+						<div class="cuerpoNodo">
+							{{ content }}
+						</div>
+						<div class="enlacesNodo">
+							{% include _enlaces-autor.html %}
+						</div>
+					</article>
+				</div>
+			</div>
+			{% include _proyecto-colaboradores.html %}
+		</section>
+		<div class="contenedorPie"></div>
+		{% include _footer.html %}
+	</body>
+</html>

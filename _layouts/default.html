@@ -3,8 +3,12 @@
 	<head>
 		<title>{{ site.titulo }}</title>
 		<meta charset='UTF-8'/>
+		{% include _scripts.html %}
 	</head>
 	<body>
 		{% include _header.html %}
+		{% for post in site.tags.planeamiento %}
+			{{ post.titulo }}
+		{% endfor %}
 	</body>
 </html>

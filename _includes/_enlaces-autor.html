@@ -1,6 +1,5 @@
 <ul>
-	{% for enlaces in page.enlaces-externos  %}
-	<li><a class="enlaceExterno" target="_blank" href=""><span></span>{{ enlaces.twitter }}</a></li>
-	<li><a class="enlaceExterno" target="_blank" href=""><span></span>{{ enlaces.url }}</a></li>
+	{% for enlace in page.enlaces-externos  %}
+	<li><a class="enlaceExterno" target="_blank" href="{{ enlace.url }}"><span class="{{ enlace.url }}"></span>{{ enlace.title }}</a></li>
 	{% endfor  %}
 </ul>

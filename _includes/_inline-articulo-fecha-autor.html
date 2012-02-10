@@ -1,0 +1,89 @@
+{% if page.layout == "articulo" %}
+<p>
+	
+{{ page.date | date:"%d %B de %Y" | replace:"January","Enero" | replace:"February","Febrero" | replace:"March","Marzo" | replace:"Mayo","May" | replace:"June","Junio" | replace:"July","Julio" | replace:"August","Agosto" | replace:"September","Septiembre" | replace:"November","Noviembre" | replace:"December","Diciembre" }}  {{ site.articulos-por.es }}
+
+{% for equipo in site.categories.equipo reversed %}
+	{% for autor in page.autores %}
+		{% case forloop.length %} 
+			{% when 1 %}
+				{% if autor == equipo.title %}
+				<a href="{{ equipo.url }}">{{ equipo.title }}</a>
+				{% endif %}
+			{% when 2 %}
+				{% if forloop.first %}
+					{% if autor == equipo.title %}
+					 <a href="{{ equipo.url }}">{{ equipo.title }}</a>
+					{% endif %}
+				{% else %}
+					{% if autor == equipo.title %}
+					{{ site.articulos-y.es }} <a href="{{ equipo.url }}">{{ equipo.title }}</a>
+					{% endif %}
+				{% endif %}
+			{% else %}
+				{% if forloop.first %}
+					{% if autor == equipo.title %}
+					 <a href="{{ equipo.url }}">{{ equipo.title }}</a>,
+					{% endif %}
+				{% else %}
+					{% if forloop.last %}
+						{% if autor == equipo.title %}
+						{{ site.articulos-y.es }} <a href="{{ equipo.url }}">{{ equipo.title }}</a>
+						{% endif %}
+					{% else %}
+						{% if autor == equipo.title %}
+						<a href="{{ equipo.url }}">{{ equipo.title }}</a>
+						{% endif %}
+					{% endif %}
+				{% endif %}
+		{% endcase %}
+	{% endfor %}
+{% endfor %}
+</p>
+
+{% else %}
+
+<p>
+	
+{{ articulo.date | date:"%d %B de %Y" | replace:"January","Enero" | replace:"February","Febrero" | replace:"March","Marzo" | replace:"Mayo","May" | replace:"June","Junio" | replace:"July","Julio" | replace:"August","Agosto" | replace:"September","Septiembre" | replace:"November","Noviembre" | replace:"December","Diciembre" }}  {{ site.articulos-por.es }}
+
+
+{% for equipo in site.categories.equipo reversed %}
+	{% for autor in articulo.autores %}
+		{% case forloop.length %} 
+			{% when 1 %}
+				{% if autor == equipo.title %}
+				<a href="{{ equipo.url }}">{{ equipo.title }}</a>
+				{% endif %}
+			{% when 2 %}
+				{% if forloop.first %}
+					{% if autor == equipo.title %}
+					 <a href="{{ equipo.url }}">{{ equipo.title }}</a>
+					{% endif %}
+				{% else %}
+					{% if autor == equipo.title %}
+					{{ site.articulos-y.es }} <a href="{{ equipo.url }}">{{ equipo.title }}</a>
+					{% endif %}
+				{% endif %}
+			{% else %}
+				{% if forloop.first %}
+					{% if autor == equipo.title %}
+					 <a href="{{ equipo.url }}">{{ equipo.title }}</a>,
+					{% endif %}
+				{% else %}
+					{% if forloop.last %}
+						{% if autor == equipo.title %}
+						{{ site.articulos-y.es }} <a href="{{ equipo.url }}">{{ equipo.title }}</a>
+						{% endif %}
+					{% else %}
+						{% if autor == equipo.title %}
+						<a href="{{ equipo.url }}">{{ equipo.title }}</a>
+						{% endif %}
+					{% endif %}
+				{% endif %}
+		{% endcase %}
+	{% endfor %}
+{% endfor %}
+</p>
+
+{% endif %}

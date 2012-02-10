@@ -7,7 +7,7 @@
 		<ul>
 			{% for colaborativo in site.categories.equipo reversed %}
 			<li>
-				<a href="{{ colaborativo.url }}">{{ colaborativo.nombre }}</a>
+				<a href="{{ colaborativo.url }}" style="background: url(http://{{ colaborativo.imagen }}_s.jpg) center center no-repeat"></a>
 			</li>
 			{% endfor %}
 		</ul>

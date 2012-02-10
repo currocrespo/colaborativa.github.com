@@ -6,10 +6,10 @@
 	<section>
 		<ul>
 			{% for articulo in site.categories.blog %}
-				{% for autor in articulo.autor %}
-					{% if autor == page.nombre %}
+				{% for autor in articulo.autores %}
+					{% if autor == page.title %}
 					<li>
-						<h2><a href="{{ articulo.url }}">{{ articulo.titulo }}</a></h2>
+						<h2><a href="{{ articulo.url }}">{{ articulo.title }}</a></h2>
 						<h3>{{ articulo.subtitulo }}</h3>
 					</li>
 					{% else %}

@@ -1,17 +1,20 @@
 ---
 layout: articulo
 category: blog
-title: Blog
-titulo: Cambio de prioridades
+title: Cambio de prioridades
 subtitulo: El Espacio Creativo Independiente busca asociarse con la iniciativa privada
-autor: Magda Sánchez
+imagen: farm7.staticflickr.com/6083/6079835568_1067d215a6
 permalink: /blog/cambio-de-prioridades/
+autores: 
+ - Magda Sánchez
+ - Javi Burón
 enlaces-externos:
- - url: Blog del Espacio Creativo Independiente
-   facebook: Nota de prensa publicada en el facebook del Espacio Creativo
-categorias:
+- { title: Blog del Espacio Creativo Independiente, url: http://wwww.espaciocreativo.colaborativa.eu }
+- { title: Nota de prensa publicada en el facebook del Espacio Creativo, url: http://www.facebook.com/espaciocreativo }
+proyectos:
  - Espacio Creativo Independiente
- - Córdoba
+articulos-relacionados:
+ - Otro artículo
 ---
 
 Han pasado más de 8 meses desde la última noticia que tuvimos sobre el concurso de la Pérgola. Podéis leerlo en este blog. Fue el 27 de junio cuando la mesa de contratación decidió que nuestra propuesta pasara a la siguiente fase del concurso por ser la única que reunía las condiciones de solvencia técnica y profesional requeridas. Desde entonces no hemos vuelto a tener ninguna noticia del proceso.

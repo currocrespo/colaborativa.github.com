@@ -3,12 +3,13 @@
 	<head>
 		<title>{{ site.titulo }} | {{ page.title }}</title>
 		<meta charset='UTF-8'/>
+		{% include _scripts.html %}
 	</head>
 	<body>
 		{% include _header.html %}
 		<section class="cuerpoPagina">
 			<div class="contenedor">
-				<h2>{{ page.title }}</h2>
+				<h2>{{ site.navegacion-equipo.es }}</h2>
 				<div id="columnaNavegacion">
 					{% include _listado-colaborativos.html %}
 					{% include _listado-colaboradores.html %}
@@ -16,11 +17,10 @@
 				<div id="tresColumnasContenido">
 					<article class="nodo equipo">
 						<div class="cabeceraNodo">
-							<div class="miniaturaNodo">
-								<img  src="" alt="">
+							<div class="miniaturaNodo" style="background: url(http://{{ page.imagen }}_t.jpg) center center no-repeat">
 							</div>
 							<hgroup>
-								<h2>{{ page.nombre }}</h2>
+								<h2>{{ page.title }}</h2>
 								<h3>{{ page.cargo }}</h3>
 							</hgroup>
 						</div>

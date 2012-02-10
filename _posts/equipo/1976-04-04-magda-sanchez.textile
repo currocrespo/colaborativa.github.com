@@ -1,13 +1,13 @@
 ---
 layout: equipo
-title: Equipo
 category: equipo
-permalink: /equipo/magda-sanchez/
-nombre: Magda Sánchez
+title: Magda Sánchez
 cargo: Co-fundadora
+permalink: /equipo/magda-sanchez/
+imagen: farm8.staticflickr.com/7029/6537173667_fb67e1c206
 enlaces-externos:
- - twitter: msanchezmora
-   url: www.magdasanchez.es
+ - { title: Mi perfil en twitter msanchezmora, url: http://wwww.twitter.com/msachezmora }
+ - { title: Mi página personal, url: http://www.magdasanchez.es }
 ---
 
 Me gradué en la universidad de Córdoba en Ingeniería Técnica en Informática de Sistemas en 1999 y en Ingeniería Superior en Automática y Electrónica Industrial en 2002. Además en 2007 realicé un M.Eng.Sc. (Master de investigación en Ingeniería) en la National University of Ireland, Maynooth (NUIM).
