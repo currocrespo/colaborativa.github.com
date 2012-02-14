@@ -7,8 +7,55 @@
 	</head>
 	<body>
 		{% include _header.html %}
-		{% for post in site.tags.planeamiento %}
-			{{ post.titulo }}
-		{% endfor %}
+		<section class="cuerpoPagina Inicio">
+			<div class="contenedor Inicio">
+				<div class="imagenInicio">
+					{% for banner in site.categories.proyectos %}
+					{% if banner.en-cabecera %}
+					<div>
+						<a href="{{ banner.url }}">
+							<img src="{{ banner.imagen-cabecera }}" alt="{{ banner.title }}" title="{{ banner.title }}">
+						</a>
+					</div>
+					{% endif %}
+					{% endfor %}
+				</div>
+				<div class="listadoNodosInicio">
+					{% for articulo in site.categories.blog %}
+					<article class="nodoLista">
+						<div class="imagenNodoLista">
+							<a href="{{ articulo.url }}" style="background: url(http://{{ articulo.imagen }}.jpg) center center no-repeat"></a>
+						</div>
+						<div class="infoNodoLista">
+							<div class="cabeceraNodo">
+								{% include _inline-articulo-fecha-autor.html %}
+								<hgroup>
+									<h2><a href="{{ articulo.url }}">{{ articulo.title }}</a></h2>
+									<h3>{{ articulo.subtitulo }}</h3>
+								</hgroup>
+							</div>
+							<div class="cuerpoNodo">
+								{{ articulo.content | truncate: 200 }}
+							</div>
+						</div>
+						<div class="contenedorPie"></div>
+					</article>
+					{% endfor %}
+				</div>
+				<div id="columnaTres">
+					<div class="bloqueActividades">
+						<h2>¿Qué hacemos?</h2>
+						<ul>
+							<li class="estrategico"><span></span><a href="/proyectos/actividad/planeamientoestrategicoygestionurbana.html">Planeamiento estratégico y gestión urbana</a></li>
+						</ul>
+					</div>
+					<div id="ultimoTweetInicio">
+						<div>
+						</div>
+					</div>
+				</div>
+				<div class="contenedorPie"></div>
+			</div>
+		</section>
 	</body>
 </html>

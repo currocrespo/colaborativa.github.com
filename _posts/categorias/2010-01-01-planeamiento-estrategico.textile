@@ -1,5 +1,0 @@
----
-layout: categorias
-title: Planeamiento
-permalink: /proyectos/planeamiento-estrategico/
----

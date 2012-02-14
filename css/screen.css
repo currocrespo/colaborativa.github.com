@@ -1077,24 +1077,26 @@ hgroup.imagenInicioTitulo h3 {
 }
 
 /* line 738, ../sass/screen.scss */
-.listadoNodosInicio .nodoLista .imagenNodoLista {
+.listadoNodosInicio .nodoLista .imagenNodoLista, .listadoNodosInicio .nodoLista .imagenNodoLista a {
+  display: block;
   margin: 0;
   padding: 0;
   height: 170px;
   width: 305px;
+  background-size: cover;
 }
 
-/* line 744, ../sass/screen.scss */
+/* line 746, ../sass/screen.scss */
 .nodoLista .imagenNodoLista a:link, .nodoLista .imagenNodoLista a:visited {
   border-bottom-style: none;
 }
 
-/* line 747, ../sass/screen.scss */
+/* line 749, ../sass/screen.scss */
 .listadoNodosInicio .infoNodoLista .cabeceraNodo p {
   margin-top: 10px;
 }
 
-/* line 750, ../sass/screen.scss */
+/* line 752, ../sass/screen.scss */
 #columnaTres {
   height: 440px;
   width: 304px;
@@ -1102,45 +1104,45 @@ hgroup.imagenInicioTitulo h3 {
   border-bottom: none;
 }
 
-/* line 757, ../sass/screen.scss */
+/* line 759, ../sass/screen.scss */
 p.tweetContenido {
   margin-top: 40px;
   padding-left: 20px;
 }
 
-/* line 761, ../sass/screen.scss */
+/* line 763, ../sass/screen.scss */
 p.tweetFecha {
   text-align: right;
   margin-top: 15px;
 }
 
-/* line 765, ../sass/screen.scss */
+/* line 767, ../sass/screen.scss */
 p.tweetInfo {
   text-align: right;
   margin-top: 5px;
 }
 
-/* line 769, ../sass/screen.scss */
+/* line 771, ../sass/screen.scss */
 a.nombreUsuario:link, a.nombreUsuario:visited {
   border-bottom-style: none;
 }
 
 /* @end */
 /* @group Pager */
-/* line 775, ../sass/screen.scss */
+/* line 777, ../sass/screen.scss */
 ul.pager {
   margin: 15px 0 0;
   padding: 0;
 }
 
-/* line 779, ../sass/screen.scss */
+/* line 781, ../sass/screen.scss */
 li.paginacion {
   margin: 0;
   padding: 0;
   display: block;
 }
 
-/* line 784, ../sass/screen.scss */
+/* line 786, ../sass/screen.scss */
 li.paginacion.current {
   background-color: #dfdfdf;
   padding: 4px 10px;
@@ -1150,7 +1152,7 @@ li.paginacion.current {
   color: white;
 }
 
-/* line 792, ../sass/screen.scss */
+/* line 794, ../sass/screen.scss */
 li.paginacion a:link, li.paginacion a:visited {
   border-bottom-style: none;
   padding: 4px 10px;
@@ -1159,24 +1161,24 @@ li.paginacion a:link, li.paginacion a:visited {
   -moz-border-radius: 10px;
 }
 
-/* line 799, ../sass/screen.scss */
+/* line 801, ../sass/screen.scss */
 li.paginacion a:hover {
   background-color: #ededed;
 }
 
-/* line 802, ../sass/screen.scss */
+/* line 804, ../sass/screen.scss */
 li.paginacion a:active {
   background-color: #dfdfdf;
 }
 
 /* @end */
 /* @group ExtraInfoColaboradores */
-/* line 809, ../sass/screen.scss */
+/* line 811, ../sass/screen.scss */
 .colaboradorIcono {
   cursor: pointer;
 }
 
-/* line 812, ../sass/screen.scss */
+/* line 814, ../sass/screen.scss */
 li div.subcategoryPopUp {
   position: absolute;
   z-index: 5;
@@ -1192,7 +1194,7 @@ li div.subcategoryPopUp {
   margin-left: 0;
 }
 
-/* line 826, ../sass/screen.scss */
+/* line 828, ../sass/screen.scss */
 .subcategoryPopUp .triangulo {
   background-image: url(/imagenes/triangulo.png);
   display: block;
@@ -1205,7 +1207,7 @@ li div.subcategoryPopUp {
   border-width: 0;
 }
 
-/* line 837, ../sass/screen.scss */
+/* line 839, ../sass/screen.scss */
 .subcategoryPopUp h3 {
   margin-right: 20px;
   margin-left: 10px;
@@ -1213,7 +1215,7 @@ li div.subcategoryPopUp {
   position: relative;
 }
 
-/* line 843, ../sass/screen.scss */
+/* line 845, ../sass/screen.scss */
 .subcategoryPopUp a, .subcategoryPopUp a:link, .subcategoryPopUp a:active {
   color: white;
   display: block;
@@ -1222,12 +1224,12 @@ li div.subcategoryPopUp {
   position: relative;
 }
 
-/* line 850, ../sass/screen.scss */
+/* line 852, ../sass/screen.scss */
 .subcategoryPopUp a:hover {
   color: #bdbdbd;
 }
 
-/* line 853, ../sass/screen.scss */
+/* line 855, ../sass/screen.scss */
 .cuerpoPagina .addthis_toolbox {
   float: left;
   padding-right: 8px;
@@ -1235,21 +1237,21 @@ li div.subcategoryPopUp {
   width: 80px;
 }
 
-/* line 859, ../sass/screen.scss */
+/* line 861, ../sass/screen.scss */
 .addthis_button_google_plusone at300b {
   margin-left: 5px;
 }
 
 /* @end */
 /* @group bloque actividades */
-/* line 865, ../sass/screen.scss */
+/* line 867, ../sass/screen.scss */
 .bloqueActividades {
   height: 170px;
   width: 290px;
   margin-left: 15px;
 }
 
-/* line 870, ../sass/screen.scss */
+/* line 872, ../sass/screen.scss */
 .bloqueActividades h2 {
   font: 25px/25px "colaborativaBook";
   color: white;
@@ -1258,13 +1260,13 @@ li div.subcategoryPopUp {
   height: 30px;
 }
 
-/* line 877, ../sass/screen.scss */
+/* line 879, ../sass/screen.scss */
 .bloqueActividades {
   font: 13px/16px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
   color: #343434;
 }
 
-/* line 883, ../sass/screen.scss */
+/* line 885, ../sass/screen.scss */
 .bloqueActividades li {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1275,7 +1277,7 @@ li div.subcategoryPopUp {
   width: 290px;
 }
 
-/* line 892, ../sass/screen.scss */
+/* line 894, ../sass/screen.scss */
 .bloqueActividades li a:link {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1291,23 +1293,23 @@ li div.subcategoryPopUp {
   border-bottom-style: none;
 }
 
-/* line 906, ../sass/screen.scss */
+/* line 908, ../sass/screen.scss */
 .bloqueActividades li a:visited {
   text-decoration: none;
   color: #323232;
 }
 
-/* line 910, ../sass/screen.scss */
+/* line 912, ../sass/screen.scss */
 .bloqueActividades li:hover {
   background-color: #efefef;
 }
 
-/* line 913, ../sass/screen.scss */
+/* line 915, ../sass/screen.scss */
 .bloqueActividades li:active {
   background-color: #d7d7d7;
 }
 
-/* line 916, ../sass/screen.scss */
+/* line 918, ../sass/screen.scss */
 .bloqueActividades li span {
   width: 33px;
   display: table-cell;
@@ -1317,22 +1319,22 @@ li div.subcategoryPopUp {
   height: 33px;
 }
 
-/* line 924, ../sass/screen.scss */
+/* line 926, ../sass/screen.scss */
 .bloqueActividades li.estrategico span {
   background: url(/imagenes/iconoEstrategias.png) 0 0px no-repeat;
 }
 
-/* line 927, ../sass/screen.scss */
+/* line 929, ../sass/screen.scss */
 .bloqueActividades li.acciones span {
   background: url(/imagenes/iconoAcciones.png) 0 0px no-repeat;
 }
 
-/* line 930, ../sass/screen.scss */
+/* line 932, ../sass/screen.scss */
 .bloqueActividades li.geoposicionamiento span {
   background: url(/imagenes/iconoGeoposicionamiento.png) 0 0px no-repeat;
 }
 
-/* line 933, ../sass/screen.scss */
+/* line 935, ../sass/screen.scss */
 .bloqueActividades li.visualizacion span {
   background: url(/imagenes/iconoVisualizacion.png) 0 0px no-repeat;
 }

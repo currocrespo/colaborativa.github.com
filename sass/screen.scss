@@ -735,11 +735,13 @@ a:hover{
  	.listadoNodosInicio .infoNodoLista{
  		width: 304px;
 	 }
- 	.listadoNodosInicio .nodoLista .imagenNodoLista{
+ 	.listadoNodosInicio .nodoLista .imagenNodoLista, .listadoNodosInicio .nodoLista .imagenNodoLista a{
+		display: block;
  		margin: 0;
  		padding: 0;
  		height: 170px;
  		width: 305px;
+		background-size: cover;
  	}
  	.nodoLista .imagenNodoLista a:link, .nodoLista .imagenNodoLista a:visited{
 	 	border-bottom-style: none;
