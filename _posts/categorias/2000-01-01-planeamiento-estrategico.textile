@@ -1,0 +1,7 @@
+---
+layout: categorias
+category: categorias
+title: Planeamiento estratégico y gestión urbana
+slug: estrategico
+permalink: /categorias/planeamiento-estrategico/
+---

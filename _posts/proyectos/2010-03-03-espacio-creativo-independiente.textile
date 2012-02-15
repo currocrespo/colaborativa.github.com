@@ -12,6 +12,8 @@ enlaces-externos:
 colaboradores:
  - Zum Creativos
 en-cabecera: yes
+tags:
+ - Planeamiento estratégico y gestión urbana
 ---
 
 El Espacio Creativo Independiente es el nombre del lugar que estamos promoviendo en Córdoba que ofrezca espacios de trabajo para emprendedores de las industrias creativas y culturales, además de espacios comunes para la convivencia y una programación cultural asociada.

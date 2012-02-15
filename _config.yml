@@ -29,3 +29,4 @@ listado-blog-etiquetas-subtitulo: { es: Filtra Artículos, en: Filtra Artículos
 articulos: { es: artículo, en: article}
 articulos-por: { es: por, en: by}
 articulos-y: { es: y, en: &}
+proyectos: { es: proyecto, en: projects}

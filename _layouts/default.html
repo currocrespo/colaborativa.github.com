@@ -21,7 +21,7 @@
 					{% endfor %}
 				</div>
 				<div class="listadoNodosInicio">
-					{% for articulo in site.categories.blog %}
+					{% for articulo in site.categories.blog limit:2 %}
 					<article class="nodoLista">
 						<div class="imagenNodoLista">
 							<a href="{{ articulo.url }}" style="background: url(http://{{ articulo.imagen }}.jpg) center center no-repeat"></a>
@@ -46,7 +46,9 @@
 					<div class="bloqueActividades">
 						<h2>¿Qué hacemos?</h2>
 						<ul>
-							<li class="estrategico"><span></span><a href="/proyectos/actividad/planeamientoestrategicoygestionurbana.html">Planeamiento estratégico y gestión urbana</a></li>
+							{% for categorias in site.categories.categorias %}
+							<li class="{{ categorias.slug }}"><span></span><a href="{{ categorias.url }}">{{ categorias.title }}</a></li>
+							{% endfor %}
 						</ul>
 					</div>
 					<div id="ultimoTweetInicio">
@@ -57,5 +59,6 @@
 				<div class="contenedorPie"></div>
 			</div>
 		</section>
+		{% include _footer.html %}
 	</body>
 </html>

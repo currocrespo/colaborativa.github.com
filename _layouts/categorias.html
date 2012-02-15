@@ -6,6 +6,43 @@
 		{% include _scripts.html %}
 	</head>
 	<body>
-	 	{{ site.tag.planeamiento }}
+		{% include _header.html %}
+		<section class="cuerpoPagina">
+			<div class="contenedor">
+				<h2>{{ site.navegacion-proyectos.es }}</h2>
+				<div id="columnaNavegacion">
+				</div>
+				<div id="dosColumnasContenido">
+					<section class="listadoNodos">
+						<h2 class="tituloListadoArticulos">{% include _inline-contador-proyectos.html %}</h2>
+						{% for proyecto in site.categories.proyectos %}
+							{% for tag in proyecto.tags %}
+								{% if tag == page.title %}
+								<article class="nodoLista">
+									<div class="imagenNodoLista">
+										<a href="{{ proyecto.url }}" style="background: url(http://{{ proyecto.imagen }}.jpg) center center no-repeat"></a>
+									</div>
+									<div class="infoNodoLista">
+										<div class="cabeceraNodo">
+											<hgroup>
+												<h2><a href="{{ proyecto.url }}">{{ proyecto.title }}</a></h2>
+												<h3>{{ proyecto.subtitulo }}</h3>
+											</hgroup>
+										</div>
+										<div class="cuerpoNodo">
+											<p>{{ proyecto.content | truncate: 400 }}</p>
+										</div>
+									</div>
+									<div class="contenedorPie"></div>
+								</article>
+								{% endif %}
+							{% endfor %}
+						{% endfor %}
+					</section>
+				</div>
+			</div>
+		</section>
+		<div class="contenedorPie"></div>
+		{% include _footer.html %}
 	</body>
 </html>

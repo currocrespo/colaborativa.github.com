@@ -13,6 +13,7 @@ enlaces-externos:
 - { title: Nota de prensa publicada en el facebook del Espacio Creativo, url: http://www.facebook.com/espaciocreativo }
 proyectos:
  - Espacio Creativo Independiente
+ - Localwiz
 articulos-relacionados:
  - Otro artículo
 ---

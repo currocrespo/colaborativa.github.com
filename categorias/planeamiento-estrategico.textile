@@ -1,6 +1,0 @@
----
-layout: sobre-colaborativa
-title: Sobre Colaborativa
-permalink: /categorias/planeamiento-estrategico/
-subtitulo: Estrategias y herramientas para transformar ciudades
----
