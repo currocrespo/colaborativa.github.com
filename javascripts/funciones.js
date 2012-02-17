@@ -1,5 +1,20 @@
 (function ($) {
 jQuery(document).ready(function () {
+	
+/*-----------------------------------------------------------------------------------*/
+/*  Slides Navigation Effect
+/*-----------------------------------------------------------------------------------*/
+
+    if (jQuery().slides) {
+        jQuery("#slides").hover( function() {
+            jQuery('.prev').fadeIn(200);
+			jQuery('.next').fadeIn(200);
+        }, function () {
+            jQuery('.prev').fadeOut(200);
+			jQuery('.next').fadeOut(200);
+        });
+    }
+	
 	$('.colaboradorIcono').live('click', function() {
 		if($(this).parent().children('.subcategoryPopUp').css('display') == 'none'){
 			$('.subcategoryPopUp').fadeOut('fast'); // to transparent
@@ -9,6 +24,7 @@ jQuery(document).ready(function () {
 		}
 		return false;
 	});
+	
 	$("body").emailSpamProtection("email");
 	// Apaño para colocar el titulo de la pagina correcto cuando filtro por terminos en la pagina de proyectos
 	if ( $(".resultadosFiltrado").attr("vocabulario") == "taxonomy-term vocabulary-palabrasclaveproyectos" ) {

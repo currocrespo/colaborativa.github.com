@@ -10,15 +10,19 @@
 		<section class="cuerpoPagina Inicio">
 			<div class="contenedor Inicio">
 				<div class="imagenInicio">
-					{% for banner in site.categories.proyectos %}
-					{% if banner.en-cabecera %}
-					<div>
-						<a href="{{ banner.url }}">
-							<img src="{{ banner.imagen-cabecera }}" alt="{{ banner.title }}" title="{{ banner.title }}">
-						</a>
+					<div id="slides">
+						<div class="slides_container">
+							{% for banner in site.categories.proyectos %}
+								{% if banner.en-cabecera %}
+								<div>
+									<a href="{{ banner.url }}">
+										<img src="{{ banner.imagen-cabecera }}" alt="{{ banner.title }}" title="{{ banner.title }}">
+									</a>
+								</div>
+								{% endif %}
+							{% endfor %}
+						</div>
 					</div>
-					{% endif %}
-					{% endfor %}
 				</div>
 				<div class="listadoNodosInicio">
 					{% for articulo in site.categories.blog limit:2 %}

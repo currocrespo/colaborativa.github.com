@@ -1,0 +1,84 @@
+/* line 4, ../sass/slides.scss */
+.slides_container {
+  width: 960px;
+  height: 300px;
+}
+
+/* line 8, ../sass/slides.scss */
+.slides_container div {
+  width: 960px;
+  height: 300px;
+  display: block;
+}
+
+/* line 13, ../sass/slides.scss */
+#slides {
+  position: relative;
+  z-index: 100;
+}
+/* line 16, ../sass/slides.scss */
+#slides a.prev, #slides a.next {
+  border: none;
+  position: absolute;
+  display: table-cell;
+  vertical-align: center;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  font: 20px/16px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.3);
+  -webkit-border-radius: 20px 20px;
+  -moz-border-radius: 20px / 20px;
+  -o-border-radius: 20px / 20px;
+  -ms-border-radius: 20px / 20px;
+  -khtml-border-radius: 20px / 20px;
+  border-radius: 20px / 20px;
+  cursor: pointer;
+  z-index: 10;
+}
+/* line 30, ../sass/slides.scss */
+#slides a.prev.prev, #slides a.next.prev {
+  background-position: 0 0;
+  top: 130px;
+  left: 20px;
+}
+/* line 35, ../sass/slides.scss */
+#slides a.prev.next, #slides a.next.next {
+  background-position: 160px 0;
+  top: 130px;
+  right: 20px;
+}
+/* line 41, ../sass/slides.scss */
+#slides .pagination {
+  position: absolute;
+  z-index: 10;
+  bottom: 7px;
+  width: 960px;
+  text-align: center;
+}
+/* line 47, ../sass/slides.scss */
+#slides .pagination li {
+  display: inline-block;
+  margin: 3px;
+}
+/* line 50, ../sass/slides.scss */
+#slides .pagination li a {
+  border: none;
+  background-color: rgba(255, 255, 255, 0.3);
+  display: block;
+  width: 10px;
+  height: 10px;
+  outline: none;
+  -webkit-border-radius: 5px 5px;
+  -moz-border-radius: 5px / 5px;
+  -o-border-radius: 5px / 5px;
+  -ms-border-radius: 5px / 5px;
+  -khtml-border-radius: 5px / 5px;
+  border-radius: 5px / 5px;
+  color: rgba(255, 255, 255, 0);
+}
+/* line 61, ../sass/slides.scss */
+#slides .pagination .current a {
+  background-color: rgba(255, 255, 255, 0.6);
+}
