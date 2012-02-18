@@ -1,5 +1,5 @@
 ---
-layout: equipo
+layout: equipo-colaborativo
 category: equipo
 title: Javi Burón
 cargo: Co-fundador

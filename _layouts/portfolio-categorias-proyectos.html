@@ -11,26 +11,33 @@
 			<div class="contenedor">
 				<h2>{{ site.navegacion-proyectos.es }}</h2>
 				<div id="columnaNavegacion">
+					<section class="listadoArticulos Proyectos">
+						<ul>
+							<li>
+								<h3>{{ content }}</h3>
+							</li>
+						</ul>
+					</section>
 				</div>
 				<div id="dosColumnasContenido">
 					<section class="listadoNodos">
-						<h2 class="tituloListadoArticulos">{% include _inline-contador-proyectos.html %}</h2>
-						{% for proyecto in site.categories.proyectos %}
-							{% for tag in proyecto.tags %}
-								{% if tag == page.title %}
+						<h2 class="tituloListadoArticulos">{% include _inline-contador.html %}</h2>
+						{% for item in site.categories.proyectos %}
+							{% for categoria in item.categorias %}
+								{% if categoria == page.title %}
 								<article class="nodoLista">
 									<div class="imagenNodoLista">
-										<a href="{{ proyecto.url }}" style="background: url(http://{{ proyecto.imagen }}.jpg) center center no-repeat"></a>
+										<a href="{{ item.url }}" style="background: url(http://{{ item.imagen }}.jpg) center center no-repeat"></a>
 									</div>
 									<div class="infoNodoLista">
 										<div class="cabeceraNodo">
 											<hgroup>
-												<h2><a href="{{ proyecto.url }}">{{ proyecto.title }}</a></h2>
-												<h3>{{ proyecto.subtitulo }}</h3>
+												<h2><a href="{{ item.url }}">{{ item.title }}</a></h2>
+												<h3>{{ item.subtitulo }}</h3>
 											</hgroup>
 										</div>
 										<div class="cuerpoNodo">
-											<p>{{ proyecto.content | truncate: 400 }}</p>
+											<p>{{ item.content | truncate: 400 }}</p>
 										</div>
 									</div>
 									<div class="contenedorPie"></div>

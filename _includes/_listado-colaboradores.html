@@ -5,14 +5,14 @@
 	</hgroup>
 	<section>
 		<ul>
-			{% for colaborador in site.categories.colaboradores reversed %}
+			{% for item in site.categories.colaboradores reversed %}
 			<li>
 				<div class="subcategoryPopUp">
 					<span class="triangulo"> </span>
-					<h3>{{ colaborador.nombre }}</h3>
-					<a target="_blank" href="{{ colaborador.link }}"><span></span>{{ colaborador.link }}</a>
+					<h3>{{ item.nombre }}</h3>
+					<a target="_blank" href="{{ item.link }}"><span></span>{{ item.link }}</a>
 				</div>
-				<div class="colaboradorIcono" style="background: url(http://{{ colaborador.imagen }}_s.jpg) center center no-repeat"></div>
+				<div class="colaboradorIcono" style="background: url(http://{{ item.imagen }}_s.jpg) center center no-repeat"></div>
 			</li>
 			{% endfor %}
 		</ul>

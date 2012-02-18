@@ -1,0 +1,25 @@
+{% case page.layout %} 
+{% when "blog" %}
+	{% assign objeto = "articulos" %}
+	{% for item in site.categories.[objeto] %}
+		{% assign contador = forloop.length %}
+	{% endfor %}
+	{% if contador == 1 %}
+		{{ contador }} {{ site.inline-articulos.es }}
+	{% else %}
+		{{ contador }} {{ site.inline-articulos.es }}s
+	{% endif %}
+	
+{% when "portfolio-categorias-proyectos" %}	
+	{% assign objeto = "proyectos" %}
+	{% for item in site.categories.[objeto] %}
+		{% assign contador = forloop.length %}
+	{% endfor %}
+	{% if contador == 1 %}
+		{{ contador }} {{ site.inline-proyectos.es }} {{ site.inline-en.es }} {{ page.title }}
+	{% else %}
+		{{ contador }} {{ site.inline-proyectos.es }}s {{ site.inline-en.es }} {{ page.title }}
+	{% endif %}
+	
+{% else %}
+{% endcase %}

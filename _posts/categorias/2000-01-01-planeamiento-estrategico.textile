@@ -1,7 +1,9 @@
 ---
-layout: categorias
-category: categorias
+layout: portfolio-categorias-proyectos
+category: categorias-proyectos
 title: Planeamiento estratégico y gestión urbana
 slug: estrategico
-permalink: /categorias/planeamiento-estrategico/
+permalink: /proyectos/planeamiento-estrategico/
 ---
+
+Esta es una descripción de la categoría de proyectos describiendo brevemente en que tipo de proyectos trabajamos

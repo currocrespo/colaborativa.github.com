@@ -1,6 +1,6 @@
 ---
-layout: articulo
-category: blog
+layout: blog-articulo
+category: articulos
 title: Cambio de prioridades
 subtitulo: El Espacio Creativo Independiente busca asociarse con la iniciativa privada
 imagen: farm7.staticflickr.com/6083/6079835568_1067d215a6
@@ -11,10 +11,10 @@ autores:
 enlaces-externos:
 - { title: Blog del Espacio Creativo Independiente, url: http://wwww.espaciocreativo.colaborativa.eu }
 - { title: Nota de prensa publicada en el facebook del Espacio Creativo, url: http://www.facebook.com/espaciocreativo }
-proyectos:
+categorias:
  - Espacio Creativo Independiente
  - Localwiz
-articulos-relacionados:
+relacionados:
  - Otro artículo
 ---
 

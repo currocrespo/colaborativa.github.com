@@ -25,21 +25,21 @@
 					</div>
 				</div>
 				<div class="listadoNodosInicio">
-					{% for articulo in site.categories.blog limit:2 %}
+					{% for item in site.categories.articulos limit:2 %}
 					<article class="nodoLista">
 						<div class="imagenNodoLista">
-							<a href="{{ articulo.url }}" style="background: url(http://{{ articulo.imagen }}.jpg) center center no-repeat"></a>
+							<a href="{{ item.url }}" style="background: url(http://{{ item.imagen }}.jpg) center center no-repeat"></a>
 						</div>
 						<div class="infoNodoLista">
 							<div class="cabeceraNodo">
-								{% include _inline-articulo-fecha-autor.html %}
+								{% include _inline-fecha-autor.html %}
 								<hgroup>
-									<h2><a href="{{ articulo.url }}">{{ articulo.title }}</a></h2>
-									<h3>{{ articulo.subtitulo }}</h3>
+									<h2><a href="{{ item.url }}">{{ item.title }}</a></h2>
+									<h3>{{ item.subtitulo }}</h3>
 								</hgroup>
 							</div>
 							<div class="cuerpoNodo">
-								{{ articulo.content | truncate: 200 }}
+								{{ item.content | truncate: 200 }}
 							</div>
 						</div>
 						<div class="contenedorPie"></div>
@@ -47,14 +47,7 @@
 					{% endfor %}
 				</div>
 				<div id="columnaTres">
-					<div class="bloqueActividades">
-						<h2>¿Qué hacemos?</h2>
-						<ul>
-							{% for categorias in site.categories.categorias %}
-							<li class="{{ categorias.slug }}"><span></span><a href="{{ categorias.url }}">{{ categorias.title }}</a></li>
-							{% endfor %}
-						</ul>
-					</div>
+					{% include _listado-categorias-proyectos.html %}
 					<div id="ultimoTweetInicio">
 						<div>
 						</div>

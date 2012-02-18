@@ -5,13 +5,10 @@
 	</hgroup>
 	<section>
 	<ul>
-		{% for articulo in site.categories.blog %}
-		{% for proyecto in articulo.proyectos %}
-		<li>
-			<span class="count"></span>
-			<a href="/blog/tags/acciones.html">{{ articulo.proyectos[forloop.index] }}</a> 
-		</li>
-		{% endfor %}
+		{% for categorias in site.categories.articulos-categorias %}
+			<li>
+				<a href="{{ categorias.url }}">{{ categorias.title }}</a>
+			</li>
 		{% endfor %}
 	</ul>
 	<div class="contenedorPie"></div>

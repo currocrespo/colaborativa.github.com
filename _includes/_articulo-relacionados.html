@@ -6,10 +6,10 @@
 	<section>
 		<div class="featured-content-block featured-content-block-1 featured-content-block-filter">
 			<ul class="featured-content-block-content">
-				{% for articulos in site.categories.blog %}
-					{% for relacionados in page.articulos-relacionados %}
-						{% if relacionados == articulos.title %}
-						<li><a href="{{ articulos.url }}">{{ articulos.title }}</a></li>
+				{% for item in site.categories.articulos %}
+					{% for relacionados in page.relacionados %}
+						{% if relacionados == item.title %}
+						<li><a href="{{ item.url }}">{{ item.title }}</a></li>
 						{% endif %}
 					{% endfor %}
 				{% endfor %}

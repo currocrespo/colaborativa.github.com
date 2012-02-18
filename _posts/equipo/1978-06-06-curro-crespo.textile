@@ -1,11 +1,10 @@
 ---
-layout: equipo
+layout: equipo-colaborativo
 category: equipo
 title: Curro Crespo
 cargo: Co-fundador
 permalink: /equipo/curro-crespo/
 imagen: farm8.staticflickr.com/7029/6537173667_fb67e1c206
-
 enlaces-externos:
 - { title: Mi perfil en twitter currocrespog, url: http://wwww.twitter.com/currocrespog }
 - { title: Mi página personal, url: http://www.currocrespo.es }

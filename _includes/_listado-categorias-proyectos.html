@@ -1,0 +1,8 @@
+<div class="bloqueActividades">
+	<h2>{{ site.listado-proyectos-categorias-titulo.es }}</h2>
+	<ul>
+		{% for item in site.categories.categorias-proyectos %}
+		<li class="{{ item.slug }}"><span></span><a href="{{ item.url }}">{{ item.title }}</a></li>
+		{% endfor %}
+	</ul>
+</div>

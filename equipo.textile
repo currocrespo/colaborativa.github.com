@@ -1,5 +1,5 @@
 ---
-layout: sobre-colaborativa
+layout: equipo
 title: Sobre Colaborativa
 permalink: /equipo/sobre-colaborativa/
 subtitulo: Estrategias y herramientas para transformar ciudades

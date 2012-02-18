@@ -14,18 +14,26 @@
 					{% include _listado-colaborativos.html %}
 					{% include _listado-colaboradores.html %}
 				</div>
-				<div id="dosColumnasContenido">
-					<article class="nodo">
+				<div id="tresColumnasContenido">
+					<article class="nodo equipo">
 						<div class="cabeceraNodo">
+							<div class="miniaturaNodo" style="background: url(http://{{ page.imagen }}_t.jpg) center center no-repeat">
+							</div>
 							<hgroup>
 								<h2>{{ page.title }}</h2>
-								<h3>{{ page.subtitulo }}</h3>
+								<h3>{{ page.cargo }}</h3>
 							</hgroup>
 						</div>
 						<div class="cuerpoNodo">
 							{{ content }}
 						</div>
+						<div class="enlacesNodo">
+							{% include _enlaces-autor.html %}
+						</div>
 					</article>
+				</div>
+				<div id="columnaAuxiliar">
+					{% include _listado-articulos-autor.html %}
 				</div>
 			</div>
 		</section>

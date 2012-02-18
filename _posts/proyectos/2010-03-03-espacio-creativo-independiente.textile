@@ -1,7 +1,7 @@
 ---
-layout: proyecto
+layout: portfolio-proyecto
 category: proyectos
-title: Espacio Creativo Independiente
+title: Espacio Creativo
 subtitulo: Espacios de trabajo para las industrias creativas
 permalink: /proyectos/espacio-creativo-independiente/
 imagen: farm7.staticflickr.com/6083/6079835568_1067d215a6
@@ -12,7 +12,7 @@ enlaces-externos:
 colaboradores:
  - Zum Creativos
 en-cabecera: yes
-tags:
+categorias:
  - Planeamiento estratégico y gestión urbana
 ---
 

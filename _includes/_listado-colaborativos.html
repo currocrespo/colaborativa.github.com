@@ -5,9 +5,9 @@
 	</hgroup>
 	<section>
 		<ul>
-			{% for colaborativo in site.categories.equipo reversed %}
+			{% for item in site.categories.equipo reversed %}
 			<li>
-				<a href="{{ colaborativo.url }}" style="background: url(http://{{ colaborativo.imagen }}_s.jpg) center center no-repeat"></a>
+				<a href="{{ item.url }}" style="background: url(http://{{ item.imagen }}_s.jpg) center center no-repeat"></a>
 			</li>
 			{% endfor %}
 		</ul>

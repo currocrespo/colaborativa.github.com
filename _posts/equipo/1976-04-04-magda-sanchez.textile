@@ -1,5 +1,5 @@
 ---
-layout: equipo
+layout: equipo-colaborativo
 category: equipo
 title: Magda Sánchez
 cargo: Co-fundadora

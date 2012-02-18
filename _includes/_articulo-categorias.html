@@ -5,10 +5,10 @@
 	</hgroup>
 	<section>
 		<ul>
-			{% for proyectos in site.categories.proyectos %}
-				{% for proyecto in page.proyectos %}
-				{% if proyecto == proyectos.title %}
-				<li><a href="{{proyectos.url}}">{{ proyectos.title }}</a></li>
+			{% for item in site.categories.proyectos %}
+				{% for categoria in page.categorias %}
+				{% if categoria == item.title %}
+				<li><a href="{{ item.url }}">{{ item.title }}</a></li>
 				{% endif %}
 				{% endfor %}
 			{% endfor %}

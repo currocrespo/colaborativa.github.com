@@ -1,8 +1,0 @@
-{% for articulo in site.categories.blog %}
-	{% assign contador = forloop.length %}
-{% endfor %}
-{% if contador == 1 %}
-	{{ contador }} {{ site.articulos.es }}
-{% else %}
-	{{ contador }} {{ site.articulos.es }}s
-{% endif %}
