@@ -37,7 +37,8 @@ jQuery(document).ready(function () {
                  showGeoLocation: false,
                  showFollowButton: true,
                  showConnectButton:true,
-                 showUserScreenNames:true
+                 showUserScreenNames:true,
+				expandHovercards: true
          },
          tweetFeedDecorator: function(options)
          {
