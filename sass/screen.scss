@@ -1,6 +1,7 @@
 @import "compass/reset";
 @import "fonts/fontfaces";
 @import "slides";
+@import "botonSocial";
 
 html{
 	background-color: rgb(238,238,238);
@@ -852,15 +853,6 @@ li div.subcategoryPopUp {
 }
 .subcategoryPopUp a:hover{
 	color: #bdbdbd;
-}
-.cuerpoPagina .addthis_toolbox{
-	float: left;
-	padding-right: 8px;
-	padding-top: 10px;
-	width: 80px;
-}
-.addthis_button_google_plusone at300b{
-	margin-left: 5px;
 }
 /* @end */
 /* @group bloque actividades */

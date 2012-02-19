@@ -1,0 +1,9 @@
+/* line 1, ../sass/botonSocial.scss */
+.botonlateralSocial {
+  margin-top: 15px;
+  clear: both;
+}
+/* line 4, ../sass/botonSocial.scss */
+.botonlateralSocial a:link {
+  border: none;
+}
