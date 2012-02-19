@@ -1,4 +1,4 @@
-<section class="listadoEtiquetas">
+<section class="listadoArticulos Proyectos">
 	<hgroup>
 		<h2>{{ site.listado-articulos-relacionados-titulo.es }}</h2>
 		<h3>{{ site.listado-articulos-relacionados-subtitulo.es }}</h3>
@@ -8,7 +8,10 @@
 			{% for item in site.categories.articulos %}
 				{% for relacionados in page.relacionados %}
 					{% if relacionados == item.title %}
-					<li><a href="{{ item.url }}">{{ item.title }}</a></li>
+					<li>
+						<h2><a href="{{ item.url }}">{{ item.title }}</a></h2>
+						<h3>{{ item.date | date:"%b %Y" }} · {{ item.subtitulo }}</h3>
+					</li>
 					{% endif %}
 				{% endfor %}
 			{% endfor %}
