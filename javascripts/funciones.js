@@ -35,7 +35,7 @@
 				showFollowButton: true,
 				showConnectButton:true,
 				showUserScreenNames:true,
-				expandHovercards: false
+				expandHovercards: true
 			},
 			tweetFeedDecorator: function(options)
 			{
