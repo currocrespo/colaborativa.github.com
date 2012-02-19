@@ -10,7 +10,7 @@
 					{% if autor == page.title %}
 					<li>
 						<h2><a href="{{ item.url }}">{{ item.title }}</a></h2>
-						<h3>{{ item.subtitulo }}</h3>
+						<h3>{{ item.date | date:"%b %Y" }} · {{ item.subtitulo }}</h3>
 					</li>
 					{% else %}
 					{% endif %}

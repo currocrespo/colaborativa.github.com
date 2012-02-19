@@ -24,9 +24,15 @@ listado-articulos-categorias-titulo: { es: Proyectos, en: Proyectos}
 listado-articulos-categorias-subtitulo: { es: Relacionados, en: Relacionados}
 listado-articulos-relacionados-titulo: { es: Otros artículos, en: Otros artículos}
 listado-articulos-relacionados-subtitulo: { es: Relacionados, en: Relacionados}
+listado-articulos-proyecto-titulo: { es: Últimos artículos, en: Last articles}
+listado-articulos-proyecto-subtitulo: { es: Sobre el proyecto, en: About this project}
 listado-proyectos-categorias-titulo: { es: ¿Qué hacemos?, en: ¿Qué hacemos?}
-listado-blog-etiquetas-titulo: { es: Etiquetas, en: Etiquetas}
-listado-blog-etiquetas-subtitulo: { es: Filtra Artículos, en: Filtra Artículos}
+listado-blog-categorias-titulo: { es: Ver artículos, en: List articles}
+listado-blog-categorias-subtitulo: { es: por categoría, en: by category}
+listado-enlaces-prensa-titulo: { es: Referencias, en: References}
+listado-enlaces-prensa-subtitulo: { es: en otros medios, en: in other media}
+listado-reacciones-titulo: { es: Reacciones, en: Reactions}
+listado-reacciones-subtitulo: { es: en redes sociales, en: in social media}
 inline-articulos: { es: artículo, en: article}
 inline-en: { es: en, en: in}
 inline-por: { es: por, en: by}

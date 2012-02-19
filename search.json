@@ -1,0 +1,15 @@
+---
+---
+
+[
+{% for item in site.categories.proyectos %}
+  {% include post.json %},
+{% endfor %}
+{% for item in site.categories.equipo %}
+  {% include post.json %},
+{% endfor %}
+{% for item in site.categories.articulos limit:200 %}
+  {% include post.json %},
+{% endfor %}
+false
+]

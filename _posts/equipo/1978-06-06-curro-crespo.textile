@@ -2,12 +2,15 @@
 layout: equipo-colaborativo
 category: equipo
 title: Curro Crespo
-cargo: Co-fundador
 permalink: /equipo/curro-crespo/
+
 imagen: farm8.staticflickr.com/7029/6537173667_fb67e1c206
-enlaces-externos:
-- { title: Mi perfil en twitter currocrespog, url: http://wwww.twitter.com/currocrespog }
-- { title: Mi página personal, url: http://www.currocrespo.es }
+cargo: Co-fundador
+
+enlaces:
+- { type: externo, title: Mi perfil en twitter currocrespog, url: http://wwww.twitter.com/currocrespog }
+- { type: externo, title: Mi página personal, url: http://www.currocrespo.es }
+
 ---
 
 Soy arquitecto. Me titulé en la Escuela de Arquitectura de Sevilla en 2007, comenzando a colaborar desde entonces con diferentes estudios de arquitectura de Córdoba y Sevilla en la redacción de proyectos de arquitectura y urbanismo.

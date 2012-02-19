@@ -1,0 +1,9 @@
+---
+layout: blog-categorias-articulos
+category: categorias-articulos
+title: Localwiz
+slug: localwiz
+permalink: /blog/localwiz/
+---
+
+Esta es una descripción de la categoría de proyectos describiendo brevemente en que tipo de proyectos trabajamos ver más "aquí":/proyectos/localwiz/

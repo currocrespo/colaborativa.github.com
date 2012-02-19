@@ -1,16 +1,30 @@
+
+
 <section class="listadoEtiquetas">
 	<hgroup>
-		<h2>{{site.listado-blog-etiquetas-titulo.es}}</h2>
-		<h3>{{site.listado-blog-etiquetas-subtitulo.es}}</h3>
+		<h2>{{site.listado-blog-categorias-titulo.es}}</h2>
+		<h3>{{site.listado-blog-categorias-subtitulo.es}}</h3>
 	</hgroup>
 	<section>
 	<ul>
-		{% for categorias in site.categories.articulos-categorias %}
+		{% for item in site.categories.categorias-articulos %}
+			{% for otro in site.categories.articulos %}
+				{% for tag in otro.categorias %}
+				{% if tag == item.title %}
+					{% capture temp2 %}{{ contador2 }}*{% endcapture %}
+					{% assign contador2 = temp2 %}
+					{% assign an_integer2 = contador2.size %}
+				{% endif %}
+				{% endfor %}
+			{% endfor %}
 			<li>
-				<a href="{{ categorias.url }}">{{ categorias.title }}</a>
+				<span class="count">{{ an_integer2 }}</span><a href="{{ item.url }}">{{ item.title }}</a>
 			</li>
+			{% assign contador2 = '' %}
 		{% endfor %}
 	</ul>
 	<div class="contenedorPie"></div>
 	</section>
 </section>
+
+

@@ -1,0 +1,25 @@
+{% for item in page.enlaces %}
+	{% if item.type == "prensa" %}
+		{% assign hayprensa = 1 %}
+	{% endif %}
+{% endfor %}
+{% if hayprensa %}
+<section class="listadoColaborativos">
+	<hgroup>
+		<h2>{{ site.listado-enlaces-prensa-titulo.es }}</h2>
+		<h3>{{ site.listado-enlaces-prensa-subtitulo.es }}</h3>
+	</hgroup>
+	<section>
+		<ul>
+			{% for item in page.enlaces %}
+			{% if item.type == "prensa" %}
+			<li>
+				<a href="{{ item.url }}" style="background: url(http://{{ item.imagen }}_s.jpg) center center no-repeat"></a>
+			</li>
+			{% endif %}
+			{% endfor %}
+		</ul>
+		<div class="contenedorPie"></div>
+	</section>
+</section>
+{% endif %}

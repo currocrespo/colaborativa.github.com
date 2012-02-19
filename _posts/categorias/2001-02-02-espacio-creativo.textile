@@ -1,5 +1,5 @@
 ---
-layout: portfolio-categorias-articulos
+layout: blog-categorias-articulos
 category: categorias-articulos
 title: Espacio Creativo Independiente
 slug: espaciocreativos

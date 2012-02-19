@@ -4,8 +4,6 @@
 {% assign objeto = "item" %}
 {% endif %}
 
-<p>
-
 {{ [objeto].date | date:"%d %B de %Y" | replace:"January","Enero" | replace:"February","Febrero" | replace:"March","Marzo" | replace:"Mayo","May" | replace:"June","Junio" | replace:"July","Julio" | replace:"August","Agosto" | replace:"September","Septiembre" | replace:"November","Noviembre" | replace:"December","Diciembre" }}  {{ site.inline-por.es }}
 
 {% for equipo in site.categories.equipo reversed %}
@@ -44,4 +42,3 @@
 		{% endcase %}
 	{% endfor %}
 {% endfor %}
-</p>

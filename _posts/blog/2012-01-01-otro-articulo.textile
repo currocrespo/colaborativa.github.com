@@ -2,20 +2,27 @@
 layout: blog-articulo
 category: articulos
 title: Otro artículo
+permalink: /blog/otro-articulo/
+
 subtitulo: El Espacio Creativo Independiente busca asociarse con la iniciativa privada
 imagen: farm7.staticflickr.com/6083/6079835568_1067d215a6
-permalink: /blog/otro-articulo/
 autores: 
  - Magda Sánchez
  - Javi Burón
  - Curro Crespo
-enlaces-externos:
-- { title: Blog del Espacio Creativo Independiente, url: http://wwww.espaciocreativo.colaborativa.eu }
-- { title: Nota de prensa publicada en el facebook del Espacio Creativo, url: http://www.facebook.com/espaciocreativo }
+
 categorias:
  - Espacio Creativo Independiente
+
 relacionados:
  - Cambio de prioridades
+
+enlaces:
+- { type: externo, title: Blog del Espacio Creativo Independiente, url: http://wwww.espaciocreativo.colaborativa.eu }
+- { type: externo, title: Nota de prensa publicada en el facebook del Espacio Creativo, url: http://www.facebook.com/espaciocreativo }
+- { type: prensa, title: Blog del Espacio Creativo Independiente, url: http://wwww.espaciocreativo.colaborativa.eu }
+- { type: prensa, title: Nota de prensa publicada en el facebook del Espacio Creativo, url: http://www.facebook.com/espaciocreativo }
+
 ---
 
 Han pasado más de 8 meses desde la última noticia que tuvimos sobre el concurso de la Pérgola. Podéis leerlo en este blog. Fue el 27 de junio cuando la mesa de contratación decidió que nuestra propuesta pasara a la siguiente fase del concurso por ser la única que reunía las condiciones de solvencia técnica y profesional requeridas. Desde entonces no hemos vuelto a tener ninguna noticia del proceso.

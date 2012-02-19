@@ -1,0 +1,7 @@
+<ul>
+	{% for item in page.enlaces %}
+	{% if item.type == "externo" %}
+	<li><a class="enlaceExterno" target="_blank" href="{{ item.url }}"><span class="{{ item.url }}"></span>{{ item.title }}</a></li>
+	{% endif  %}
+	{% endfor  %}
+</ul>

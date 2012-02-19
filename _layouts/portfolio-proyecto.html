@@ -9,9 +9,11 @@
 		{% include _header.html %}
 		<section class="cuerpoPagina">
 			<div class="contenedor">
-				<h2>{{ site.navegacion-proyectos.es }}</h2>
+				<h2>{{ site.inline-proyectos.es }}</h2>
 				<div id="columnaNavegacion">
-					{% include _listado-proyectos.html %}
+					{% include _listado-reacciones.html %}
+					{% include _listado-enlaces-prensa.html %}
+					{% include _listado-articulos-proyecto.html %}
 				</div>
 				<div id="dosColumnasContenido">
 					<article class="nodo">
@@ -29,7 +31,7 @@
 							{{ content }}
 						</div>
 						<div class="enlacesNodo">
-							{% include _enlaces-autor.html %}
+							{% include _enlaces.html %}
 						</div>
 					</article>
 				</div>

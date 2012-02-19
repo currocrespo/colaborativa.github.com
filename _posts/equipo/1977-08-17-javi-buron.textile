@@ -5,9 +5,11 @@ title: Javi Burón
 cargo: Co-fundador
 permalink: /equipo/javi-buron/
 imagen: farm8.staticflickr.com/7029/6537173667_fb67e1c206
-enlaces-externos:
-- { title: Mi perfil en twitter javiburon, url: http://wwww.twitter.com/javiburon }
-- { title: Mi página personal, url: http://www.javierburon.net }
+
+enlaces:
+- { type: externo, title: Mi perfil en twitter javiburon, url: http://wwww.twitter.com/javiburon }
+- { type: externo, title: Mi página personal, url: http://www.javierburon.net }
+
 ---
 
 Me gradué como Arquitecto por la Escuela Superior Politécnica de Madrid en 2003 y trabajé durante unos años como freelance realizando numerosos proyectos de diseño gráfico y mobiliario, varios de mis diseños fueron seleccionados para formar parte del salón de jóvenes diseñadores Nude de la feria Internacional del Mueble de Valencia. 

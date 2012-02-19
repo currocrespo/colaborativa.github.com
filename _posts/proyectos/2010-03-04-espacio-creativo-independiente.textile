@@ -2,18 +2,26 @@
 layout: portfolio-proyecto
 category: proyectos
 title: Espacio Creativo Independiente
+permalink: /proyectos/espacio-creativo-independiente/
+
 subtitulo: Espacios de trabajo para las industrias creativas
-permalink: /proyectos/espacio-creativo-independiente2/
 imagen: farm7.staticflickr.com/6083/6079835568_1067d215a6
 imagen-cabecera: http://farm8.staticflickr.com/7177/6876467923_c26ed2c84d_b.jpg
-enlaces-externos:
-- { title: Visita el blog del Espacio Creativo Independiente, url: http://wwww.espaciocreativo.colaborativa.eu }
-- { title: Página del Espacio Creativo Independiente en Facebook, url: http://www.facebook.com/espaciocreativo }
+en-cabecera: yes
+
 colaboradores:
  - Zum Creativos
-en-cabecera: yes
+
 categorias:
  - Planeamiento estratégico y gestión urbana
+
+enlaces:
+- { type: externo, title: Visita el blog del Espacio Creativo Independiente, url: http://wwww.espaciocreativo.colaborativa.eu }
+- { type: externo, title: Página del Espacio Creativo Independiente en Facebook, url: http://www.facebook.com/espaciocreativo }
+- { type: prensa, title: Blog del Espacio Creativo Independiente, url: http://wwww.espaciocreativo.colaborativa.eu }
+- { type: prensa, title: Nota de prensa publicada en el facebook del Espacio Creativo, url: http://www.facebook.com/espaciocreativo }
+
+
 ---
 
 El Espacio Creativo Independiente es el nombre del lugar que estamos promoviendo en Córdoba que ofrezca espacios de trabajo para emprendedores de las industrias creativas y culturales, además de espacios comunes para la convivencia y una programación cultural asociada.

@@ -1,4 +1,4 @@
-/* line 17, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 20, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 20, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1;
 }
 
-/* line 22, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 101, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 114, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 114, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -87,25 +87,25 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   font-style: normal;
 }
 
-/* line 4, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/slides.scss */
+/* line 4, ../sass/slides.scss */
 .slides_container {
   width: 960px;
   height: 300px;
 }
 
-/* line 8, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/slides.scss */
+/* line 8, ../sass/slides.scss */
 .slides_container div {
   width: 960px;
   height: 300px;
   display: block;
 }
 
-/* line 13, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/slides.scss */
+/* line 13, ../sass/slides.scss */
 #slides {
   position: relative;
   z-index: 100;
 }
-/* line 16, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/slides.scss */
+/* line 16, ../sass/slides.scss */
 #slides a.prev, #slides a.next {
   border: none;
   position: absolute;
@@ -126,19 +126,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   cursor: pointer;
   z-index: 10;
 }
-/* line 30, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/slides.scss */
+/* line 30, ../sass/slides.scss */
 #slides a.prev.prev, #slides a.next.prev {
   background-position: 0 0;
   top: 130px;
   left: 20px;
 }
-/* line 35, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/slides.scss */
+/* line 35, ../sass/slides.scss */
 #slides a.prev.next, #slides a.next.next {
   background-position: 160px 0;
   top: 130px;
   right: 20px;
 }
-/* line 41, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/slides.scss */
+/* line 41, ../sass/slides.scss */
 #slides .pagination {
   position: absolute;
   z-index: 10;
@@ -146,12 +146,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   width: 960px;
   text-align: center;
 }
-/* line 47, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/slides.scss */
+/* line 47, ../sass/slides.scss */
 #slides .pagination li {
   display: inline-block;
   margin: 3px;
 }
-/* line 50, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/slides.scss */
+/* line 50, ../sass/slides.scss */
 #slides .pagination li a {
   border: none;
   background-color: rgba(255, 255, 255, 0.3);
@@ -167,7 +167,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   border-radius: 5px / 5px;
   color: rgba(255, 255, 255, 0);
 }
-/* line 61, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/slides.scss */
+/* line 61, ../sass/slides.scss */
 #slides .pagination .current a {
   background-color: rgba(255, 255, 255, 0.6);
 }
@@ -518,7 +518,7 @@ blockquote p {
 }
 
 /* line 264, ../sass/screen.scss */
-.cabeceraPagina #search-block-form {
+.cabeceraPagina .search-form {
   height: 50px;
   display: table-cell;
   vertical-align: middle;
@@ -528,7 +528,7 @@ blockquote p {
 }
 
 /* line 272, ../sass/screen.scss */
-.cabeceraPagina #search-block-form > div {
+.cabeceraPagina .search-form {
   position: relative;
   height: 50px;
   display: table-cell;
@@ -537,12 +537,12 @@ blockquote p {
 }
 
 /* line 279, ../sass/screen.scss */
-.cabeceraPagina #search-block-form > div > div {
+.cabeceraPagina .search-form {
   margin: 0;
 }
 
 /* line 282, ../sass/screen.scss */
-#search-block-form input[type='text'], #search-block-form input[type='submit'] {
+.search-form input[type='text'], .search-form input[type='submit'] {
   display: table-cell;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -550,7 +550,7 @@ blockquote p {
 }
 
 /* line 289, ../sass/screen.scss */
-.listadoNodos #search-form {
+.listadoNodos .search-form {
   display: none;
 }
 
@@ -612,7 +612,7 @@ blockquote p {
 }
 
 /* line 330, ../sass/screen.scss */
-#search-block-form input[type='text'] {
+.search-form input[type='text'] {
   -webkit-border-top-left-radius: 15px;
   -webkit-border-bottom-left-radius: 15px;
   -moz-border-top-left-radius: 15px;
@@ -633,7 +633,7 @@ blockquote p {
 }
 
 /* line 349, ../sass/screen.scss */
-#search-block-form input[type='submit'] {
+.search-form input[type='submit'] {
   -webkit-border-top-right-radius: 15px;
   -webkit-border-bottom-right-radius: 15px;
   -moz-border-top-right-radius: 15px;
@@ -655,7 +655,7 @@ blockquote p {
 }
 
 /* line 369, ../sass/screen.scss */
-#search-block-form input[type='submit']:hover {
+.search-form input[type='submit']:hover {
   background-color: #e6e6e6;
   cursor: pointer;
 }
@@ -685,7 +685,7 @@ footer {
 }
 
 /* line 400, ../sass/screen.scss */
-.datosContacto .email > span, .datosContacto .tel > span {
+.datosContacto .email, .datosContacto .tel {
   width: 20px;
   height: 20px;
   display: inline-block;
@@ -695,13 +695,13 @@ footer {
 }
 
 /* line 408, ../sass/screen.scss */
-.datosContacto .email > span {
-  background: url(/imagenes/iconosContacto.png) 0 0px no-repeat;
+.datosContacto .email {
+  background: url(/imagenes/iconosContacto.png) 0px -20px no-repeat;
 }
 
 /* line 411, ../sass/screen.scss */
-.datosContacto .tel > span {
-  background: url(/imagenes/iconosContacto.png) 0 -20px no-repeat;
+.datosContacto .tel {
+  background: url(/imagenes/iconosContacto.png) 0px 0px no-repeat;
   margin-left: 15px;
 }
 
@@ -908,7 +908,7 @@ a.enlaceExterno[href*='youtube.com']:hover > span {
   margin-bottom: 25px;
 }
 
-/*	Los márgenes del segundo subtitulo tanto en la vista de proyectos como en la vista de articulos*/
+/*Los márgenes del segundo subtitulo tanto en la vista de proyectos como en la vista de articulos*/
 /* line 559, ../sass/screen.scss */
 .nodo .cabeceraNodo p, .nodo .cabeceraNodo ul {
   margin-top: 10px;

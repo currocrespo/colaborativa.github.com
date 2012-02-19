@@ -7,9 +7,9 @@
 		<ul>
 			{% for item in site.categories.proyectos %}
 				{% for categoria in page.categorias %}
-				{% if categoria == item.title %}
-				<li><a href="{{ item.url }}">{{ item.title }}</a></li>
-				{% endif %}
+					{% if categoria == item.title %}
+					<li><a href="{{ item.url }}">{{ item.title }}</a></li>
+					{% endif %}
 				{% endfor %}
 			{% endfor %}
 		</ul>

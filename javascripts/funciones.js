@@ -1,6 +1,5 @@
 (function ($) {
 jQuery(document).ready(function () {
-	
 /*-----------------------------------------------------------------------------------*/
 /*  Slides Navigation Effect
 /*-----------------------------------------------------------------------------------*/
@@ -14,7 +13,7 @@ jQuery(document).ready(function () {
 			jQuery('.next').fadeOut(200);
         });
     }
-	
+
 	$('.colaboradorIcono').live('click', function() {
 		if($(this).parent().children('.subcategoryPopUp').css('display') == 'none'){
 			$('.subcategoryPopUp').fadeOut('fast'); // to transparent
