@@ -126,12 +126,12 @@ h2.terminoBusqueda, h2.resultadosFiltrado span.terminosFiltrado, h2.resultadosBu
 }
 
 /* Subtitulo Footer, Titulo Bloque, Titulo listadoEtiquetas, titulo listadoArticulo, titulo listadoColaborativos, titulillo nodo*/
-footer h3, .listadoEtiquetas h2, .listadoArticulos h2, .listadoColaborativos h2, .nodo .cuerpoNodo h1, .nodo .cuerpoNodo h2, .nodo .cuerpoNodo h3, .cuerpoNodo h4, .nodo .cuerpoNodo h5, .nodo .cuerpoNodo h6, .enlacesNodo h2{
+footer h3, .listadoEtiquetas h2, .listadoArticulos h2, .listadoColaborativos h2, .listadoReacciones h2, .nodo .cuerpoNodo h1, .nodo .cuerpoNodo h2, .nodo .cuerpoNodo h3, .cuerpoNodo h4, .nodo .cuerpoNodo h5, .nodo .cuerpoNodo h6, .enlacesNodo h2{
 	font: 18px "colaborativaBook";
 	color: #343434;
 }
 /*Subtitulo listadoEtiquetas, Subtitulo listadoArticulos, subtitulo articulo listadoArticulos, subtitulo listadoColaborativos, subtitulo cierrenodo, cabecera nodo parrafo, subtitulo nodo equipo*/
-.listadoEtiquetas h3, .listadoArticulos h3, .listadoArticulos li h3, .listadoColaborativos h3, .cierreNodo h3, .nodo .cabeceraNodo p, .nodo .cabeceraNodo h4, .listadoNodos .nodoLista .infoNodoCuerpo, p.tweetInfo{
+.listadoEtiquetas h3, .listadoArticulos h3, .listadoArticulos li h3, .listadoColaborativos h3, .listadoReacciones h3, .listadoReacciones p, .cierreNodo h3, .nodo .cabeceraNodo p, .nodo .cabeceraNodo h4, .listadoNodos .nodoLista .infoNodoCuerpo, p.tweetInfo{
 	font: 13px/16px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 	color: #929292;
 }
@@ -493,6 +493,10 @@ a.enlaceExterno[href*='youtube.com']:hover>span{
 .listadoEtiquetas hgroup, .listadoArticulos>hgroup, .listadoColaborativos>hgroup{
 	margin-top: 20px;
 }
+.listadoReacciones p.nota {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
 .listadoEtiquetas li:first-child, .listadoArticulos li:first-child{
 	border-top: 1px solid #f2f2f2;
 }
@@ -520,9 +524,9 @@ a.enlaceExterno[href*='youtube.com']:hover>span{
 .listadoArticulos li h2{
 	margin-top: 3px;
 }
-.listadoColaborativos li,  .listadoColaborativos li a, 
+.listadoColaborativos li, 
 .listadoColaboradoresProyecto li, .listadoColaboradoresProyecto li a,
-.colaboradorIcono, .colaboradorIcono span,
+.colaboradorIcono, .colaboradorIcono span, .colaborativoIcono,
 {
 	display: block;
 	width: 50px;
@@ -660,7 +664,7 @@ h2.resultadosFiltrado, h2.resultadosBusqueda, h2.tituloListadoArticulos{
 }
 
 .proyectosColaboradores{
-	margin-top: 30px;
+	margin-top: 20px;
 }
 
 /* @group Pagina Inicio */
@@ -716,6 +720,9 @@ hgroup.imagenInicioTitulo h3{
 }
 .listadoNodosInicio{
 	width: 720px;
+}
+.listadoNodosInicio.Portfolio{
+	width: 960px;
 }
 .listadoNodosInicio .nodoLista{
 	width: 304px;
@@ -846,7 +853,6 @@ li div.subcategoryPopUp {
 }
 .subcategoryPopUp a, .subcategoryPopUp a:link, .subcategoryPopUp a:active{
 	color: white;
-	display: block;
 	margin: 3px 20px 15px 10px;
 	border-bottom-style: none;
 	position: relative;

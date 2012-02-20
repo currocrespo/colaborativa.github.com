@@ -23,19 +23,13 @@
 							</div>
 							<div class="infoNodoLista">
 								<div class="cabeceraNodo">
-									<p>
-										<ul class="links inline">
-											<li class="comment-add first"><a href="" title="">Add new comment</a></li>
-											<li class="disqus_comments_num last"><a href="">Sin comentarios y Sin reacciones</a></li>
-										</ul>
-									</p>
 									<hgroup>
 										<h2><a href="{{ item.url }}">{{ item.title }}</a></h2>
 										<h3>{{ item.subtitulo }}</h3>
 									</hgroup>
 								</div>
 								<div class="cuerpoNodo">
-									<p>{% include _inline-fecha-autor.html %} {{ item.content | truncate: 200 }}</p>
+									<p>{% include _inline-fecha-autor.html %} {{ item.content | truncate: 280 }}</p>
 								</div>
 							</div>
 							<div class="contenedorPie"></div>

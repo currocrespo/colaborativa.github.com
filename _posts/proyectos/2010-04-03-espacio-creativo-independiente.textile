@@ -1,8 +1,8 @@
 ---
 layout: portfolio-proyecto
 category: proyectos
-title: Espacio Creativo Independiente
-permalink: /proyectos/espacio-creativo-independiente/
+title: Localwiz
+permalink: /proyectos/localwiz/
 
 subtitulo: Espacios de trabajo para las industrias creativas
 imagen: farm7.staticflickr.com/6083/6079835568_1067d215a6
@@ -18,7 +18,6 @@ categorias:
 enlaces:
 - { type: externo, title: Visita el blog del Espacio Creativo Independiente, url: http://wwww.espaciocreativo.colaborativa.eu }
 - { type: externo, title: Página del Espacio Creativo Independiente en Facebook, url: http://www.facebook.com/espaciocreativo }
-- { type: prensa, title: Córdoba en pantalla táctil, source: Diario El Mundo, date: Feb 2012, url: http://www.elmundo.es/elmundo/2012/02/18/andalucia/1329589378.html }
 
 ---
 

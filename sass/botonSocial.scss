@@ -4,4 +4,76 @@
 	a:link{
 		border:none;
 	}
+	margin-bottom:25px;
+}
+.listadoReacciones {
+	margin-bottom: 25px;
+	#follow{
+		margin-top: 15px;	
+	}
+	.tweetButton{
+		margin-top: 10px;
+		margin-bottom: 0px;
+	}
+	.tweetContenido.cargando{
+		display: block;
+		height: 105px;
+		font: 13px/16px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+		color: #929292;
+	}
+	li, .reaccionesIcono
+	{
+		position: relative;
+		display: block;
+		width: 30px;
+		height: 30px;
+		float: left;
+		background-size:cover;
+	}
+	li, .reaccionesIcono {
+		margin-right: 5px;
+		margin-bottom: 5px;
+	}
+
+	.reaccionesIcono{
+		cursor: pointer;
+		opacity: 0.65;
+	}
+	.subcategoryPopUp2 {
+		position: absolute;
+		z-index: 5;
+		font: 13px 'lucinda grande', Helvetica, Arial;
+		display: none;
+		width: 260px;
+		margin-top: 42px;
+		border: 1px solid rgba(66,66,66,0.8);
+		background-color: rgba(50,50,50,0.8);
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		margin-left: 0;
+	}
+	.subcategoryPopUp2 .triangulo{
+		background-image: url(/imagenes/triangulo.png);
+		display: block;
+		width: 23px;
+		height: 13px;
+		position: absolute;
+		top: -12px;
+		left: 5px;
+		border-style: none;
+		border-width: 0;
+	}
+	.subcategoryPopUp2 p{
+		padding:7px;
+	}
+	.subcategoryPopUp2 a, .subcategoryPopUp2 a:link, .subcategoryPopUp2 a:active{
+		color: white;
+		border-bottom-style: none;
+		position: relative;
+	}
+	.subcategoryPopUp2 a:hover{
+		color: #bdbdbd;
+	}
+	/* @end */
 }

@@ -2,7 +2,6 @@
 layout: blog-articulo
 category: articulos
 title: Otro artículo
-permalink: /blog/otro-articulo/
 
 subtitulo: El Espacio Creativo Independiente busca asociarse con la iniciativa privada
 imagen: farm7.staticflickr.com/6083/6079835568_1067d215a6
@@ -20,8 +19,6 @@ relacionados:
 enlaces:
 - { type: externo, title: Blog del Espacio Creativo Independiente, url: http://wwww.espaciocreativo.colaborativa.eu }
 - { type: externo, title: Nota de prensa publicada en el facebook del Espacio Creativo, url: http://www.facebook.com/espaciocreativo }
-- { type: prensa, title: Blog del Espacio Creativo Independiente, url: http://wwww.espaciocreativo.colaborativa.eu }
-- { type: prensa, title: Nota de prensa publicada en el facebook del Espacio Creativo, url: http://www.facebook.com/espaciocreativo }
 
 ---
 

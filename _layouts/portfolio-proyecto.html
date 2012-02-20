@@ -12,8 +12,10 @@
 				<h2>{{ site.inline-proyectos.es | capitalize }}</h2>
 				<div id="columnaNavegacion">
 					{% include _social.html %}
+					{% include _listado-colaboradores-proyecto.html %}
 					{% include _listado-enlaces-prensa.html %}
 					{% include _listado-articulos-proyecto.html %}
+					{% include _listado-reacciones.html %}
 				</div>
 				<div id="dosColumnasContenido">
 					<article class="nodo">
@@ -36,7 +38,6 @@
 					</article>
 				</div>
 			</div>
-			{% include _proyecto-colaboradores.html %}
 		</section>
 		<div class="contenedorPie"></div>
 		{% include _footer.html %}

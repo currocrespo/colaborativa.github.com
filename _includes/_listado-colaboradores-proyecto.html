@@ -1,0 +1,25 @@
+<section class="listadoColaborativos">
+	<hgroup>
+		<h2>{{ site.listado-proyectos-colaboradores-titulo.es }}</h2>
+		<h3>{{ site.listado-proyectos-colaboradores-subtitulo.es }}</h3>
+	</hgroup>
+	<section>
+	<ul class="proyectosColaboradores">
+		{% for colaboradores in page.colaboradores %}
+			{% for item in site.categories.colaboradores %}
+			{% if colaboradores == item.title %}
+			<li>
+				<div class="subcategoryPopUp">
+					<span class="triangulo"> </span>
+					<h3>{{ item.title }}</h3>
+					<a target="_blank" href="{{ item.link }}"><span></span>{{ item.link }}</a>
+				</div>
+				<div class="colaboradorIcono" style="background: url(http://{{ item.imagen }}_s.jpg) center center no-repeat"></div>
+			</li>
+			{% endif %}
+			{% endfor %}
+		{% endfor %}
+	</ul>
+	<div class="contenedorPie"></div>
+	</section>
+</section>

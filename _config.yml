@@ -1,5 +1,5 @@
 auto: true
-permalink: /:year/:month/:categories/:title/
+permalink: /blog/:year/:month/:title/
 url: http://www.colaborativa.eu
 
 titulo: Colaborativa
@@ -10,29 +10,47 @@ navegacion-proyectos: { es: Proyectos, en: Projects}
 navegacion-equipo: { es: Equipo, en: Team}
 navegacion-herramientas: { es: Herramientas, en: Tools}
 navegacion-codigo: { es: Código, en: Code}
+
 enlaces-sociales-facebook: { url: http://www.facebook.com/pages/Colaborativa/129415973823832, es: Estamos en Facebook, en: Estamos en Facebook}
 enlaces-sociales-twitter: { url: http://twitter.com/colaborativaeu, es: Síguenos en Twitter, en: Síguenos en Twitter}
 enlaces-sociales-flickr: { url: http://www.flickr.com/photos/50381188@N06/, es: Nuestras fotos en Flickr, en: Nuestras fotos en Flickr}
 enlaces-sociales-youtube: { url: http://www.youtube.com/user/colaborativaeu, es: Nuestros videos en YouTube, en: Nuestros videos en YouTube}
+
 listado-colaborativos-titulo: { es: Colaborativos, en: Colaborativos}
 listado-colaborativos-subtitulo: { es: ¿Quiénes somos?, en: ¿Quiénes somos?}
+
 listado-colaboradores-titulo: { es: Colaboradores, en: Colaboradores}
 listado-colaboradores-subtitulo: { es: ¿Con quién colaboramos?, en: ¿Con quién colaboramos?}
+
 listado-articulos-autor-titulo: { es: Artículos del mismo autor, en: Artículos del mismo autor}
 listado-articulos-autor-subtitulo: { es: En nuestro blog, en: En nuestro blog}
-listado-articulos-categorias-titulo: { es: Proyectos, en: Proyectos}
-listado-articulos-categorias-subtitulo: { es: Relacionados, en: Relacionados}
-listado-articulos-relacionados-titulo: { es: Otros artículos, en: Otros artículos}
-listado-articulos-relacionados-subtitulo: { es: Relacionados, en: Relacionados}
-listado-articulos-proyecto-titulo: { es: Últimos artículos, en: Last articles}
-listado-articulos-proyecto-subtitulo: { es: Sobre el proyecto, en: About this project}
+
+listado-articulos-categorias-titulo: { es: Algunos proyectos, en: Proyectos}
+listado-articulos-categorias-subtitulo: { es: relacionados con este artículo, en: Relacionados}
+
+listado-articulos-relacionados-titulo: { es: Otros artículos en el Blog, en: Otros artículos}
+listado-articulos-relacionados-subtitulo: { es: que podrían interesarte, en: Relacionados}
+
+listado-articulos-proyecto-titulo: { es: Últimos 5 artículos en el Blog, en: Last 5 articles}
+listado-articulos-proyecto-subtitulo: { es: Sobre este proyecto, en: About this project}
+
 listado-proyectos-categorias-titulo: { es: ¿Qué hacemos?, en: ¿Qué hacemos?}
+listado-proyectos-colaboradores-titulo: { es: Colaboradores, en: Estamos colaborando con}
+listado-proyectos-colaboradores-subtitulo: { es: En este proyecto colaboramos con, en: Hemos colaborado con}
+
+
 listado-blog-categorias-titulo: { es: Ver artículos, en: List articles}
 listado-blog-categorias-subtitulo: { es: por categoría, en: by category}
-listado-enlaces-prensa-titulo: { es: Referencias, en: References}
-listado-enlaces-prensa-subtitulo: { es: en otros medios, en: in other media}
-listado-reacciones-titulo: { es: Reacciones, en: Reactions}
-listado-reacciones-subtitulo: { es: en redes sociales, en: in social media}
+
+listado-enlaces-prensa-titulo: { es: Referencias en medios, en: References en medios}
+listado-enlaces-prensa-subtitulo: { es: Sobre este proyecto, en: in media}
+
+listado-reacciones-titulo: { es: Reacciones en Twitter, en: Twitter's reactions}
+listado-reacciones-subtitulo: { es: , en:  }
+
+listado-reacciones-articulo-texto: { es: Comenta este artículo con nosotros @colaborativaeu, en: in twitter }
+listado-reacciones-proyecto-texto: { es: Comenta este proyecto con nosotros @colaborativaeu, en: in twitter }
+
 inline-articulos: { es: artículo, en: article}
 inline-en: { es: en, en: in}
 inline-por: { es: por, en: by}

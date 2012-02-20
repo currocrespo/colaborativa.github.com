@@ -1,4 +1,4 @@
-/* line 17, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 20, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 20, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1;
 }
 
-/* line 22, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 101, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 114, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 114, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -87,25 +87,25 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   font-style: normal;
 }
 
-/* line 4, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/slides.scss */
+/* line 4, ../sass/slides.scss */
 .slides_container {
   width: 960px;
   height: 300px;
 }
 
-/* line 8, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/slides.scss */
+/* line 8, ../sass/slides.scss */
 .slides_container div {
   width: 960px;
   height: 300px;
   display: block;
 }
 
-/* line 13, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/slides.scss */
+/* line 13, ../sass/slides.scss */
 #slides {
   position: relative;
   z-index: 100;
 }
-/* line 16, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/slides.scss */
+/* line 16, ../sass/slides.scss */
 #slides a.prev, #slides a.next {
   border: none;
   position: absolute;
@@ -126,19 +126,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   cursor: pointer;
   z-index: 10;
 }
-/* line 30, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/slides.scss */
+/* line 30, ../sass/slides.scss */
 #slides a.prev.prev, #slides a.next.prev {
   background-position: 0 0;
   top: 130px;
   left: 20px;
 }
-/* line 35, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/slides.scss */
+/* line 35, ../sass/slides.scss */
 #slides a.prev.next, #slides a.next.next {
   background-position: 160px 0;
   top: 130px;
   right: 20px;
 }
-/* line 41, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/slides.scss */
+/* line 41, ../sass/slides.scss */
 #slides .pagination {
   position: absolute;
   z-index: 10;
@@ -146,12 +146,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   width: 960px;
   text-align: center;
 }
-/* line 47, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/slides.scss */
+/* line 47, ../sass/slides.scss */
 #slides .pagination li {
   display: inline-block;
   margin: 3px;
 }
-/* line 50, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/slides.scss */
+/* line 50, ../sass/slides.scss */
 #slides .pagination li a {
   border: none;
   background-color: rgba(255, 255, 255, 0.3);
@@ -167,19 +167,102 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   border-radius: 5px / 5px;
   color: rgba(255, 255, 255, 0);
 }
-/* line 61, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/slides.scss */
+/* line 61, ../sass/slides.scss */
 #slides .pagination .current a {
   background-color: rgba(255, 255, 255, 0.6);
 }
 
-/* line 1, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/botonSocial.scss */
+/* line 1, ../sass/botonSocial.scss */
 .botonlateralSocial {
   margin-top: 15px;
   clear: both;
+  margin-bottom: 25px;
 }
-/* line 4, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/botonSocial.scss */
+/* line 4, ../sass/botonSocial.scss */
 .botonlateralSocial a:link {
   border: none;
+}
+
+/* line 9, ../sass/botonSocial.scss */
+.listadoReacciones {
+  margin-bottom: 25px;
+  /* @end */
+}
+/* line 11, ../sass/botonSocial.scss */
+.listadoReacciones #follow {
+  margin-top: 15px;
+}
+/* line 14, ../sass/botonSocial.scss */
+.listadoReacciones .tweetButton {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+/* line 18, ../sass/botonSocial.scss */
+.listadoReacciones .tweetContenido.cargando {
+  display: block;
+  height: 105px;
+  font: 13px/16px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  color: #929292;
+}
+/* line 25, ../sass/botonSocial.scss */
+.listadoReacciones li, .listadoReacciones .reaccionesIcono {
+  position: relative;
+  display: block;
+  width: 30px;
+  height: 30px;
+  float: left;
+  background-size: cover;
+}
+/* line 33, ../sass/botonSocial.scss */
+.listadoReacciones li, .listadoReacciones .reaccionesIcono {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+/* line 38, ../sass/botonSocial.scss */
+.listadoReacciones .reaccionesIcono {
+  cursor: pointer;
+  opacity: 0.65;
+}
+/* line 42, ../sass/botonSocial.scss */
+.listadoReacciones .subcategoryPopUp2 {
+  position: absolute;
+  z-index: 5;
+  font: 13px 'lucinda grande', Helvetica, Arial;
+  display: none;
+  width: 260px;
+  margin-top: 42px;
+  border: 1px solid rgba(66, 66, 66, 0.8);
+  background-color: rgba(50, 50, 50, 0.8);
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  margin-left: 0;
+}
+/* line 56, ../sass/botonSocial.scss */
+.listadoReacciones .subcategoryPopUp2 .triangulo {
+  background-image: url(/imagenes/triangulo.png);
+  display: block;
+  width: 23px;
+  height: 13px;
+  position: absolute;
+  top: -12px;
+  left: 5px;
+  border-style: none;
+  border-width: 0;
+}
+/* line 67, ../sass/botonSocial.scss */
+.listadoReacciones .subcategoryPopUp2 p {
+  padding: 7px;
+}
+/* line 70, ../sass/botonSocial.scss */
+.listadoReacciones .subcategoryPopUp2 a, .listadoReacciones .subcategoryPopUp2 a:link, .listadoReacciones .subcategoryPopUp2 a:active {
+  color: white;
+  border-bottom-style: none;
+  position: relative;
+}
+/* line 75, ../sass/botonSocial.scss */
+.listadoReacciones .subcategoryPopUp2 a:hover {
+  color: #bdbdbd;
 }
 
 /* line 6, ../sass/screen.scss */
@@ -356,14 +439,14 @@ h2.terminoBusqueda, h2.resultadosFiltrado span.terminosFiltrado, h2.resultadosBu
 
 /* Subtitulo Footer, Titulo Bloque, Titulo listadoEtiquetas, titulo listadoArticulo, titulo listadoColaborativos, titulillo nodo*/
 /* line 129, ../sass/screen.scss */
-footer h3, .listadoEtiquetas h2, .listadoArticulos h2, .listadoColaborativos h2, .nodo .cuerpoNodo h1, .nodo .cuerpoNodo h2, .nodo .cuerpoNodo h3, .cuerpoNodo h4, .nodo .cuerpoNodo h5, .nodo .cuerpoNodo h6, .enlacesNodo h2 {
+footer h3, .listadoEtiquetas h2, .listadoArticulos h2, .listadoColaborativos h2, .listadoReacciones h2, .nodo .cuerpoNodo h1, .nodo .cuerpoNodo h2, .nodo .cuerpoNodo h3, .cuerpoNodo h4, .nodo .cuerpoNodo h5, .nodo .cuerpoNodo h6, .enlacesNodo h2 {
   font: 18px "colaborativaBook";
   color: #343434;
 }
 
 /*Subtitulo listadoEtiquetas, Subtitulo listadoArticulos, subtitulo articulo listadoArticulos, subtitulo listadoColaborativos, subtitulo cierrenodo, cabecera nodo parrafo, subtitulo nodo equipo*/
 /* line 134, ../sass/screen.scss */
-.listadoEtiquetas h3, .listadoArticulos h3, .listadoArticulos li h3, .listadoColaborativos h3, .cierreNodo h3, .nodo .cabeceraNodo p, .nodo .cabeceraNodo h4, .listadoNodos .nodoLista .infoNodoCuerpo, p.tweetInfo {
+.listadoEtiquetas h3, .listadoArticulos h3, .listadoArticulos li h3, .listadoColaborativos h3, .listadoReacciones h3, .listadoReacciones p, .cierreNodo h3, .nodo .cabeceraNodo p, .nodo .cabeceraNodo h4, .listadoNodos .nodoLista .infoNodoCuerpo, p.tweetInfo {
   font: 13px/16px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
   color: #929292;
 }
@@ -831,50 +914,56 @@ a.enlaceExterno[href*='youtube.com']:hover > span {
 }
 
 /* line 496, ../sass/screen.scss */
+.listadoReacciones p.nota {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* line 500, ../sass/screen.scss */
 .listadoEtiquetas li:first-child, .listadoArticulos li:first-child {
   border-top: 1px solid #f2f2f2;
 }
 
-/* line 499, ../sass/screen.scss */
+/* line 503, ../sass/screen.scss */
 .listadoEtiquetas li, .listadoEtiquetas li:first-child {
   border-bottom: 1px solid #f2f2f2;
   padding-top: 7px;
   padding-bottom: 7px;
 }
 
-/* line 504, ../sass/screen.scss */
+/* line 508, ../sass/screen.scss */
 .listadoArticulos li, .listadoArticulos li:first-child {
   border-bottom: 1px solid #f2f2f2;
   padding-top: 12px;
   padding-bottom: 12px;
 }
 
-/* line 509, ../sass/screen.scss */
+/* line 513, ../sass/screen.scss */
 .listadoArticulos.Proyectos ul {
   margin-top: 10px;
 }
 
-/* line 512, ../sass/screen.scss */
+/* line 516, ../sass/screen.scss */
 .listadoArticulos.Proyectos li:first-child {
   border-top-style: none;
 }
 
-/* line 515, ../sass/screen.scss */
+/* line 519, ../sass/screen.scss */
 .listadoEtiquetas li span.count {
   width: 35px;
   display: inline-block;
   text-align: center;
 }
 
-/* line 520, ../sass/screen.scss */
+/* line 524, ../sass/screen.scss */
 .listadoArticulos li h2 {
   margin-top: 3px;
 }
 
-/* line 526, ../sass/screen.scss */
-.listadoColaborativos li, .listadoColaborativos li a,
+/* line 530, ../sass/screen.scss */
+.listadoColaborativos li,
 .listadoColaboradoresProyecto li, .listadoColaboradoresProyecto li a,
-.colaboradorIcono, .colaboradorIcono span {
+.colaboradorIcono, .colaboradorIcono span, .colaborativoIcono {
   display: block;
   width: 50px;
   height: 50px;
@@ -882,24 +971,24 @@ a.enlaceExterno[href*='youtube.com']:hover > span {
   background-size: cover;
 }
 
-/* line 533, ../sass/screen.scss */
+/* line 537, ../sass/screen.scss */
 .listadoColaborativos li h2, .listadoColaboradoresProyecto li h2 {
   display: none;
 }
 
-/* line 536, ../sass/screen.scss */
+/* line 540, ../sass/screen.scss */
 .listadoColaborativos li, .listadoColaboradoresProyecto li {
   margin-left: 10px;
   margin-bottom: 10px;
 }
 
-/* line 541, ../sass/screen.scss */
+/* line 545, ../sass/screen.scss */
 .listadoColaborativos li:first-child, .listadoColaborativos li:nth-child(5n),
 .listadoColaboradoresProyecto li:first-child {
   margin-left: 0px;
 }
 
-/* line 545, ../sass/screen.scss */
+/* line 549, ../sass/screen.scss */
 .listadoColaborativos li a:link {
   text-decoration: none;
   border-bottom-style: none;
@@ -907,35 +996,35 @@ a.enlaceExterno[href*='youtube.com']:hover > span {
 
 /* @end */
 /* @group nodoProyecto nodoArticulo*/
-/* line 552, ../sass/screen.scss */
+/* line 556, ../sass/screen.scss */
 .nodo, .listadoNodos {
   top: -30px;
   position: relative;
 }
 
-/* line 556, ../sass/screen.scss */
+/* line 560, ../sass/screen.scss */
 .nodo .cabeceraNodo {
   margin-bottom: 25px;
 }
 
 /*Los márgenes del segundo subtitulo tanto en la vista de proyectos como en la vista de articulos*/
-/* line 560, ../sass/screen.scss */
+/* line 564, ../sass/screen.scss */
 .nodo .cabeceraNodo p, .nodo .cabeceraNodo ul {
   margin-top: 10px;
 }
 
-/* line 563, ../sass/screen.scss */
+/* line 567, ../sass/screen.scss */
 .nodo .cabeceraNodo h3 {
   margin-top: 8px;
   margin-bottom: 0px;
 }
 
-/* line 567, ../sass/screen.scss */
+/* line 571, ../sass/screen.scss */
 .nodo .cabeceraNodo h4 {
   margin-left: 110px;
 }
 
-/* line 570, ../sass/screen.scss */
+/* line 574, ../sass/screen.scss */
 .nodo .miniaturaNodo {
   display: block;
   float: left;
@@ -945,86 +1034,86 @@ a.enlaceExterno[href*='youtube.com']:hover > span {
   background-size: cover;
 }
 
-/* line 578, ../sass/screen.scss */
+/* line 582, ../sass/screen.scss */
 .palabrasClave li {
   display: inline-block;
 }
 
-/* line 581, ../sass/screen.scss */
+/* line 585, ../sass/screen.scss */
 .palabrasClave li:after {
   content: ", ";
   color: #2671bc;
 }
 
-/* line 585, ../sass/screen.scss */
+/* line 589, ../sass/screen.scss */
 .palabrasClave li:last-child:after {
   content: "";
   color: #2671bc;
 }
 
-/* line 589, ../sass/screen.scss */
+/* line 593, ../sass/screen.scss */
 .nodo .imagenNodo img {
   width: 600px;
 }
 
-/* line 592, ../sass/screen.scss */
+/* line 596, ../sass/screen.scss */
 .nodo .imagenNodo, .nodoProyecto .contenedorMultimediaNodo {
   margin-bottom: 25px;
 }
 
-/* line 595, ../sass/screen.scss */
+/* line 599, ../sass/screen.scss */
 .nodoProyecto .contenedorMultimediaNodo {
   margin-top: 25px;
 }
 
-/* line 598, ../sass/screen.scss */
+/* line 602, ../sass/screen.scss */
 .nodo .cuerpoNodo h1, .nodo .cuerpoNodo h2, .nodo .cuerpoNodo h3, .cuerpoNodo h4, .nodo .cuerpoNodo h5, .nodo .cuerpoNodo h6 {
   margin-bottom: 10px;
 }
 
-/* line 601, ../sass/screen.scss */
+/* line 605, ../sass/screen.scss */
 .nodo .cuerpoNodo p {
   margin-bottom: 20px;
 }
 
-/* line 604, ../sass/screen.scss */
+/* line 608, ../sass/screen.scss */
 .nodo .contenedorMultimediaNodo {
   margin-top: 35px;
   margin-bottom: 25px;
 }
 
-/* line 608, ../sass/screen.scss */
+/* line 612, ../sass/screen.scss */
 .nodo .contenedorMultimediaNodo object {
   margin-bottom: 10px;
   margin-top: 10px;
 }
 
-/* line 613, ../sass/screen.scss */
+/* line 617, ../sass/screen.scss */
 .nodo .enlacesNodo {
   margin-top: 35px;
   margin-bottom: 25px;
 }
 
-/* line 617, ../sass/screen.scss */
+/* line 621, ../sass/screen.scss */
 .nodo .enlacesNodo h2 {
   margin-bottom: 5px;
 }
 
 /* @end */
-/* line 625, ../sass/screen.scss */
+/* line 629, ../sass/screen.scss */
 .nodoLista {
   padding-top: 25px;
   padding-bottom: 25px;
   border-bottom: 1px solid #f2f2f2;
 }
 
-/* line 630, ../sass/screen.scss */
+/* line 634, ../sass/screen.scss */
 .nodoLista .imagenNodoLista {
   float: left;
   margin-right: 15px;
 }
 
-/* line 634, ../sass/screen.scss */
+/* line 638, ../sass/screen.scss */
 .nodoLista .imagenNodoLista a {
   display: block;
   width: 230px;
@@ -1033,45 +1122,45 @@ a.enlaceExterno[href*='youtube.com']:hover > span {
   background-size: cover;
 }
 
-/* line 641, ../sass/screen.scss */
+/* line 645, ../sass/screen.scss */
 .nodoLista .infoNodoLista {
   float: left;
   width: 450px;
 }
 
-/* line 645, ../sass/screen.scss */
+/* line 649, ../sass/screen.scss */
 .nodoLista hgroup {
   margin-top: 8px;
 }
 
-/* line 648, ../sass/screen.scss */
+/* line 652, ../sass/screen.scss */
 .nodoLista h3 {
   padding-top: 8px;
   padding-bottom: 14px;
 }
 
-/* line 652, ../sass/screen.scss */
+/* line 656, ../sass/screen.scss */
 .nodoLista .cuerpoNodo p {
   display: inline-block;
 }
 
-/* line 655, ../sass/screen.scss */
+/* line 659, ../sass/screen.scss */
 span.terminosFiltrado {
   padding-left: 10px;
 }
 
-/* line 658, ../sass/screen.scss */
+/* line 662, ../sass/screen.scss */
 h2.resultadosFiltrado, h2.resultadosBusqueda, h2.tituloListadoArticulos {
   margin-bottom: 15px;
 }
 
-/* line 662, ../sass/screen.scss */
+/* line 666, ../sass/screen.scss */
 .proyectosColaboradores {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 /* @group Pagina Inicio */
-/* line 668, ../sass/screen.scss */
+/* line 672, ../sass/screen.scss */
 .imagenInicio {
   width: 960px;
   height: 300px;
@@ -1080,20 +1169,20 @@ h2.resultadosFiltrado, h2.resultadosBusqueda, h2.tituloListadoArticulos {
   position: relative;
 }
 
-/* line 675, ../sass/screen.scss */
+/* line 679, ../sass/screen.scss */
 hgroup.imagenInicioTitulo {
   position: absolute;
   background-color: white;
   padding: 25px;
 }
 
-/* line 680, ../sass/screen.scss */
+/* line 684, ../sass/screen.scss */
 hgroup.imagenInicioTitulo h3 {
   width: 480px;
   margin-top: 7px;
 }
 
-/* line 684, ../sass/screen.scss */
+/* line 688, ../sass/screen.scss */
 .posicionDerechaAlta, .posicionDerechaBaja {
   -webkit-border-top-left-radius: 10px;
   -webkit-border-bottom-left-radius: 10px;
@@ -1103,7 +1192,7 @@ hgroup.imagenInicioTitulo h3 {
   border-bottom-left-radius: 10px;
 }
 
-/* line 692, ../sass/screen.scss */
+/* line 696, ../sass/screen.scss */
 .posicionIzquierdaAlta, .posicionIzquierdaBaja {
   -webkit-border-top-right-radius: 10px;
   -webkit-border-bottom-right-radius: 10px;
@@ -1113,37 +1202,42 @@ hgroup.imagenInicioTitulo h3 {
   border-bottom-right-radius: 10px;
 }
 
-/* line 700, ../sass/screen.scss */
+/* line 704, ../sass/screen.scss */
 .posicionDerechaAlta {
   top: 50px;
   right: 0;
 }
 
-/* line 704, ../sass/screen.scss */
+/* line 708, ../sass/screen.scss */
 .posicionDerechaBaja {
   bottom: 50px;
   right: 0;
 }
 
-/* line 708, ../sass/screen.scss */
+/* line 712, ../sass/screen.scss */
 .posicionIzquierdaAlta {
   top: 50px;
   left: 0;
 }
 
-/* line 712, ../sass/screen.scss */
+/* line 716, ../sass/screen.scss */
 .posicionIzquierdaBaja {
   bottom: 50px;
   left: 0;
   opacity: 0.85;
 }
 
-/* line 717, ../sass/screen.scss */
+/* line 721, ../sass/screen.scss */
 .listadoNodosInicio {
   width: 720px;
 }
 
-/* line 720, ../sass/screen.scss */
+/* line 724, ../sass/screen.scss */
+.listadoNodosInicio.Portfolio {
+  width: 960px;
+}
+
+/* line 727, ../sass/screen.scss */
 .listadoNodosInicio .nodoLista {
   width: 304px;
   height: 440px;
@@ -1153,25 +1247,25 @@ hgroup.imagenInicioTitulo h3 {
   border-bottom-style: none;
 }
 
-/* line 728, ../sass/screen.scss */
+/* line 735, ../sass/screen.scss */
 .listadoNodosInicio .nodoLista:first-child {
   padding-right: 15px;
   border-right: 1px solid #f2f2f2;
   padding-left: 0;
 }
 
-/* line 733, ../sass/screen.scss */
+/* line 740, ../sass/screen.scss */
 .listadoNodosInicio .nodoLista:last-child {
   border-right: 1px solid #f2f2f2;
   padding: 0 15px;
 }
 
-/* line 737, ../sass/screen.scss */
+/* line 744, ../sass/screen.scss */
 .listadoNodosInicio .infoNodoLista {
   width: 304px;
 }
 
-/* line 740, ../sass/screen.scss */
+/* line 747, ../sass/screen.scss */
 .listadoNodosInicio .nodoLista .imagenNodoLista, .listadoNodosInicio .nodoLista .imagenNodoLista a {
   display: block;
   margin: 0;
@@ -1181,17 +1275,17 @@ hgroup.imagenInicioTitulo h3 {
   background-size: cover;
 }
 
-/* line 748, ../sass/screen.scss */
+/* line 755, ../sass/screen.scss */
 .nodoLista .imagenNodoLista a:link, .nodoLista .imagenNodoLista a:visited {
   border-bottom-style: none;
 }
 
-/* line 751, ../sass/screen.scss */
+/* line 758, ../sass/screen.scss */
 .listadoNodosInicio .infoNodoLista .cabeceraNodo p {
   margin-top: 10px;
 }
 
-/* line 754, ../sass/screen.scss */
+/* line 761, ../sass/screen.scss */
 #columnaTres {
   height: 440px;
   width: 304px;
@@ -1199,45 +1293,45 @@ hgroup.imagenInicioTitulo h3 {
   border-bottom: none;
 }
 
-/* line 761, ../sass/screen.scss */
+/* line 768, ../sass/screen.scss */
 p.tweetContenido {
   margin-top: 40px;
   padding-left: 20px;
 }
 
-/* line 765, ../sass/screen.scss */
+/* line 772, ../sass/screen.scss */
 p.tweetFecha {
   text-align: right;
   margin-top: 15px;
 }
 
-/* line 769, ../sass/screen.scss */
+/* line 776, ../sass/screen.scss */
 p.tweetInfo {
   text-align: right;
   margin-top: 5px;
 }
 
-/* line 773, ../sass/screen.scss */
+/* line 780, ../sass/screen.scss */
 a.nombreUsuario:link, a.nombreUsuario:visited {
   border-bottom-style: none;
 }
 
 /* @end */
 /* @group Pager */
-/* line 779, ../sass/screen.scss */
+/* line 786, ../sass/screen.scss */
 ul.pager {
   margin: 15px 0 0;
   padding: 0;
 }
 
-/* line 783, ../sass/screen.scss */
+/* line 790, ../sass/screen.scss */
 li.paginacion {
   margin: 0;
   padding: 0;
   display: block;
 }
 
-/* line 788, ../sass/screen.scss */
+/* line 795, ../sass/screen.scss */
 li.paginacion.current {
   background-color: #dfdfdf;
   padding: 4px 10px;
@@ -1247,7 +1341,7 @@ li.paginacion.current {
   color: white;
 }
 
-/* line 796, ../sass/screen.scss */
+/* line 803, ../sass/screen.scss */
 li.paginacion a:link, li.paginacion a:visited {
   border-bottom-style: none;
   padding: 4px 10px;
@@ -1256,24 +1350,24 @@ li.paginacion a:link, li.paginacion a:visited {
   -moz-border-radius: 10px;
 }
 
-/* line 803, ../sass/screen.scss */
+/* line 810, ../sass/screen.scss */
 li.paginacion a:hover {
   background-color: #ededed;
 }
 
-/* line 806, ../sass/screen.scss */
+/* line 813, ../sass/screen.scss */
 li.paginacion a:active {
   background-color: #dfdfdf;
 }
 
 /* @end */
 /* @group ExtraInfoColaboradores */
-/* line 813, ../sass/screen.scss */
+/* line 820, ../sass/screen.scss */
 .colaboradorIcono {
   cursor: pointer;
 }
 
-/* line 816, ../sass/screen.scss */
+/* line 823, ../sass/screen.scss */
 li div.subcategoryPopUp {
   position: absolute;
   z-index: 5;
@@ -1289,7 +1383,7 @@ li div.subcategoryPopUp {
   margin-left: 0;
 }
 
-/* line 830, ../sass/screen.scss */
+/* line 837, ../sass/screen.scss */
 .subcategoryPopUp .triangulo {
   background-image: url(/imagenes/triangulo.png);
   display: block;
@@ -1302,7 +1396,7 @@ li div.subcategoryPopUp {
   border-width: 0;
 }
 
-/* line 841, ../sass/screen.scss */
+/* line 848, ../sass/screen.scss */
 .subcategoryPopUp h3 {
   margin-right: 20px;
   margin-left: 10px;
@@ -1310,30 +1404,29 @@ li div.subcategoryPopUp {
   position: relative;
 }
 
-/* line 847, ../sass/screen.scss */
+/* line 854, ../sass/screen.scss */
 .subcategoryPopUp a, .subcategoryPopUp a:link, .subcategoryPopUp a:active {
   color: white;
-  display: block;
   margin: 3px 20px 15px 10px;
   border-bottom-style: none;
   position: relative;
 }
 
-/* line 854, ../sass/screen.scss */
+/* line 860, ../sass/screen.scss */
 .subcategoryPopUp a:hover {
   color: #bdbdbd;
 }
 
 /* @end */
 /* @group bloque actividades */
-/* line 860, ../sass/screen.scss */
+/* line 866, ../sass/screen.scss */
 .bloqueActividades {
   height: 170px;
   width: 290px;
   margin-left: 15px;
 }
 
-/* line 865, ../sass/screen.scss */
+/* line 871, ../sass/screen.scss */
 .bloqueActividades h2 {
   font: 25px/25px "colaborativaBook";
   color: white;
@@ -1342,13 +1435,13 @@ li div.subcategoryPopUp {
   height: 30px;
 }
 
-/* line 872, ../sass/screen.scss */
+/* line 878, ../sass/screen.scss */
 .bloqueActividades {
   font: 13px/16px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
   color: #343434;
 }
 
-/* line 878, ../sass/screen.scss */
+/* line 884, ../sass/screen.scss */
 .bloqueActividades li {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1359,7 +1452,7 @@ li div.subcategoryPopUp {
   width: 290px;
 }
 
-/* line 887, ../sass/screen.scss */
+/* line 893, ../sass/screen.scss */
 .bloqueActividades li a:link {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1375,23 +1468,23 @@ li div.subcategoryPopUp {
   border-bottom-style: none;
 }
 
-/* line 901, ../sass/screen.scss */
+/* line 907, ../sass/screen.scss */
 .bloqueActividades li a:visited {
   text-decoration: none;
   color: #323232;
 }
 
-/* line 905, ../sass/screen.scss */
+/* line 911, ../sass/screen.scss */
 .bloqueActividades li:hover {
   background-color: #efefef;
 }
 
-/* line 908, ../sass/screen.scss */
+/* line 914, ../sass/screen.scss */
 .bloqueActividades li:active {
   background-color: #d7d7d7;
 }
 
-/* line 911, ../sass/screen.scss */
+/* line 917, ../sass/screen.scss */
 .bloqueActividades li span {
   width: 33px;
   display: table-cell;
@@ -1401,22 +1494,22 @@ li div.subcategoryPopUp {
   height: 33px;
 }
 
-/* line 919, ../sass/screen.scss */
+/* line 925, ../sass/screen.scss */
 .bloqueActividades li.estrategico span {
   background: url(/imagenes/iconoEstrategias.png) 0 0px no-repeat;
 }
 
-/* line 922, ../sass/screen.scss */
+/* line 928, ../sass/screen.scss */
 .bloqueActividades li.acciones span {
   background: url(/imagenes/iconoAcciones.png) 0 0px no-repeat;
 }
 
-/* line 925, ../sass/screen.scss */
+/* line 931, ../sass/screen.scss */
 .bloqueActividades li.geoposicionamiento span {
   background: url(/imagenes/iconoGeoposicionamiento.png) 0 0px no-repeat;
 }
 
-/* line 928, ../sass/screen.scss */
+/* line 934, ../sass/screen.scss */
 .bloqueActividades li.visualizacion span {
   background: url(/imagenes/iconoVisualizacion.png) 0 0px no-repeat;
 }

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>{{ site.titulo }} | {{ page.title }}</title>
+		<meta charset='UTF-8'/>
+		{% include _scripts.html %}
+	</head>
+	<body>
+		{% include _header.html %}
+		<section class="cuerpoPagina">
+			<div class="contenedor">
+				<h2>{{ site.navegacion-proyectos.es }}</h2>
+				<div class="listadoNodosInicio Portfolio">
+					{% for item in site.categories.proyectos limit:3 %}
+					<article class="nodoLista">
+						<div class="imagenNodoLista">
+							<a href="{{ item.url }}" style="background: url(http://{{ item.imagen }}.jpg) center center no-repeat"></a>
+						</div>
+						<div class="infoNodoLista">
+							<div class="cabeceraNodo">
+								<hgroup>
+									<h2><a href="{{ item.url }}">{{ item.title }}</a></h2>
+									<h3>{{ item.subtitulo }}</h3>
+								</hgroup>
+							</div>
+							<div class="cuerpoNodo">
+								{{ item.content | truncate: 200 }}
+							</div>
+						</div>
+						<div class="contenedorPie"></div>
+					</article>
+					{% endfor %}
+				</div>
+			</div>
+		</section>
+		<div class="contenedorPie"></div>
+		{% include _footer.html %}
+	</body>
+</html>

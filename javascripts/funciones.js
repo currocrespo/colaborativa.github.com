@@ -23,6 +23,15 @@
 			}
 			return false;
 		});
+		$('.reaccionesIcono').live('click', function() {
+			if($(this).parent().children('.subcategoryPopUp2').css('display') == 'none'){
+				$('.subcategoryPopUp2').fadeOut('fast'); // to transparent
+				$(this).parent().children('.subcategoryPopUp2').fadeIn('fast'); // to opaque
+			}else{
+				$(this).parent().children('.subcategoryPopUp2').fadeOut('fast'); // to transparent
+			}
+			return false;
+		});
 
 		$("body").emailSpamProtection("email");
 		// Apaño para colocar el titulo de la pagina correcto cuando filtro por terminos en la pagina de proyectos
@@ -33,8 +42,8 @@
 				showProfileImages: false,
 				showGeoLocation: false,
 				showFollowButton: true,
-				showConnectButton:true,
-				showUserScreenNames:true,
+				showConnectButton: true,
+				showUserScreenNames: false,
 				expandHovercards: true
 			},
 			tweetFeedDecorator: function(options)

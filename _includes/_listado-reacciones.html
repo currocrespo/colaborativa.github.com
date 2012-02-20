@@ -1,13 +1,328 @@
-<section class="listadoColaborativos">
+<section class="listadoReacciones">
 	<hgroup>
 		<h2>{{ site.listado-reacciones-titulo.es }}</h2>
-		<h3>{{ site.listado-reacciones-subtitulo.es }}</h3>
+		{% if page.category == "articulos" %}
+		<h3>{{ site.listado-reacciones-articulo-texto.es }}</h3>
+		{% else %}
+		<h3>{{ site.listado-reacciones-proyecto-texto.es }}</h3>
+		{% endif %}
 	</hgroup>
-	<section>
-		<ul>
-			<li>
-			</li>
-		</ul>
-		<div class="contenedorPie"></div>
+	<div class="tweetButton">
+		<a href="https://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	</div>
+	<section id="follow">
 	</section>
+	<div class="contenedorPie"></div>
+	<!--'q=colaborativa.eu{{ page.url | xml_escape }}',-->
 </section>
+<script>
+	(function ($) {
+		jQuery(document).ready(function () {
+			$('#follow').jTweetsAnywhere({
+				searchParams: 'q=twitter.com/',
+				count: 18,
+				showTweetFeed: {
+					showProfileImages: true,
+					showGeoLocation: false,
+					showFollowButton: false,
+					showConnectButton: false,
+					showUserScreenNames: false,
+					expandHovercards: false
+				},
+				tweetFeedDecorator: function(options)
+				{
+					// the default placeholder for the tweet feed is an unordered list
+					return '<ul></ul>';
+				},
+				tweetDecorator: function(tweet, options)
+				{
+					// the default tweet is made of the optional user's profile image and the
+					// tweet body inside a list item element
+					var html = '';
+					if (options._tweetFeedConfig.showProfileImages)
+					{
+						html += options.tweetProfileImageDecorator(tweet, options);
+					}
+					if (options.tweetBodyDecorator)
+					{
+						html += options.tweetBodyDecorator(tweet, options);
+					}
+					html += '';
+					return '<li>' + html + '</li>';
+				},
+				tweetProfileImageDecorator: function(tweet, options)
+				{
+					// if tweet is a native retweet, use the retweet's profile
+					var t = tweet.retweeted_status || tweet;
+					// the default profile image decorator simply adds a link to the user's Twitter profile
+					var screenName = getScreenName(tweet);
+					var imageUrl = t.user ? t.user.profile_image_url : false || t.profile_image_url;
+					var html =
+						'<div class="reaccionesIcono" style="background: url(' + imageUrl + ') center center no-repeat"></div>';
+					return '' + html + '';
+				},
+				tweetBodyDecorator: function(tweet, options)
+				{
+					// the default tweet body contains the tweet text and the tweet's creation date
+					var html = '';
+					if (options.tweetTextDecorator)
+					{
+						html += options.tweetTextDecorator(tweet, options);
+					}
+					if (options.tweetAttributesDecorator)
+					{
+						html += options.tweetAttributesDecorator(tweet, options);
+					}
+					return '<div class="subcategoryPopUp2"><span class="triangulo"></span><p>' + html + '</p></div>';
+				},
+				tweetTextDecorator : function(tweet, options)
+				{
+					var tweetText = tweet.text;
+					// if usernames should be visible and tweet is a native retweet, use
+					// the original tweet text
+					if (tweet.retweeted_status &&
+						(
+							options._tweetFeedConfig.showUserScreenNames ||
+							options._tweetFeedConfig.showUserScreenNames == null ||
+							options._tweetFeedConfig.showUserFullNames ||
+							options._tweetFeedConfig.showUserFullNames == null
+						)
+					)
+					{
+						tweetText = tweet.retweeted_status.text;
+					}
+					// the default tweet text decorator optionally marks links, @usernames,
+					// and #hashtags
+					if (options.linkDecorator)
+					{
+						tweetText = options.linkDecorator(tweetText, options);
+					}
+					if (options.usernameDecorator)
+					{
+						tweetText = options.usernameDecorator(tweetText, options);
+					}
+					if (options.hashtagDecorator)
+					{
+						tweetText = options.hashtagDecorator(tweetText, options);
+					}
+					if (options._tweetFeedConfig.showUserScreenNames ||
+						options._tweetFeedConfig.showUserFullNames ||
+						tweet.retweeted_status &&
+						(
+							options._tweetFeedConfig.showUserScreenNames == null ||
+							options._tweetFeedConfig.showUserFullNames == null
+						)
+					)
+					{
+						tweetText = options.tweetUsernameDecorator(tweet, options) + ' ' + tweetText;
+					}
+
+					return '<span>' + tweetText + '</span>';
+				},
+				tweetAttributesDecorator : function(tweet, options)
+				{
+					var html = '';
+					if (options.tweetTimestampDecorator ||
+						options.tweetSourceDecorator ||
+						options.tweetGeoLocationDecorator ||
+						options.tweetInReplyToDecorator ||
+						(tweet.retweeted_status && options.tweetRetweeterDecorator)
+					)
+					{
+						html += '<span class="tweetAtributos">';
+						if (options.tweetTimestampDecorator)
+						{
+							html += options.tweetTimestampDecorator(tweet, options);
+						}
+						if (options.tweetSourceDecorator)
+						{
+							html += options.tweetSourceDecorator(tweet, options);
+						}
+						if (options.tweetGeoLocationDecorator)
+						{
+							html += options.tweetGeoLocationDecorator(tweet, options);
+						}
+						if (options.tweetInReplyToDecorator)
+						{
+							html += options.tweetInReplyToDecorator(tweet, options);
+						}
+						if (tweet.retweeted_status && options.tweetRetweeterDecorator)
+						{
+							html += options.tweetRetweeterDecorator(tweet, options);
+						}
+						html += '</span>';
+					}
+					return html;
+				},
+				loadingDecorator : function(options)
+				{
+					// the default loading decorator simply says: loading ...
+					return '<span class="tweetContenido cargando">Cargando...</span>';
+				},
+				errorDecorator : function(errorText, options)
+				{
+					// the default error decorator shows the error message
+					return '<p class="tweetContenido error">error: ' + errorText + '</p>';
+				},
+				noDataDecorator : function(options)
+				{
+					// the default no-data decorator simply says: No more data
+					return '';
+				},
+				tweetTimestampDecorator : function(tweet, options)
+				{
+					// the default tweet timestamp decorator does a little bit of Twitter like formatting.
+					// if tweet is a native retweet, use the retweet's timestamp
+					var tw = tweet.retweeted_status || tweet;
+					// reformat timestamp from Twitter, so IE is happy
+					var createdAt = formatDate(tw.created_at);
+					// format the timestamp by the tweetTimestampFormatter
+					var tweetTimestamp = options.tweetTimestampFormatter(createdAt);
+					var tweetTimestampTooltip = options.tweetTimestampTooltipFormatter(createdAt);
+					var screenName = tw.user ? tw.user.screen_name : false || tw.from_user;
+					var html =
+					'<span>' +
+					'<a class="tweetFecha" data-timestamp="' + createdAt +
+					'" href="http://twitter.com/' + screenName + '/status/' + tw.id + '" target="_blank" title="' +
+					tweetTimestampTooltip + '">' +
+					tweetTimestamp +
+					'</a>' +
+					'</span>';
+					return html;
+				},
+				tweetTimestampFormatter: function(timeStamp)
+				{
+					var now = new Date();
+					var diff = parseInt((now.getTime() - Date.parse(timeStamp)) / 1000);
+					var tweetTimestamp = '';
+					if (diff < 60)
+					{
+						tweetTimestamp += 'hace ' + diff + ' segundo' + (diff == 1 ? '' : 's');
+					}
+					else if (diff < 3600)
+					{
+						var t = parseInt((diff + 30) / 60);
+						tweetTimestamp += 'hace ' + t + ' minuto' + (t == 1 ? '' : 's');
+					}
+					else if (diff < 86400)
+					{
+						var t = parseInt((diff + 1800) / 3600);
+						tweetTimestamp += 'hace ' + t + ' hora' + (t == 1 ? '' : 's');
+					}
+					else
+					{
+						var d = new Date(timeStamp);
+						var period = 'AM';
+						var hours = d.getHours();
+						if (hours > 12)
+						{
+							hours -= 12;
+							period = 'PM';
+						}
+						var mins = d.getMinutes();
+						var minutes = (mins < 10 ? '0' : '') + mins;
+						var monthName = [ "Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic" ];
+						tweetTimestamp += d.getDate() + ' de ' + monthName[d.getMonth()];
+						if (d.getFullYear() < now.getFullYear())
+						{
+							tweetTimestamp += ', ' + d.getFullYear();
+						}
+						var t = parseInt((diff + 43200) / 86400);
+						tweetTimestamp += ' (hace ' + t + ' día' + (t == 1 ? '' : 's') + ')';
+					}
+					return tweetTimestamp;
+				},
+				tweetInReplyToDecorator: function(tweet, options)
+				{
+					// if tweet is a native retweet, use the retweet's source
+					var tw = tweet.retweeted_status || tweet;
+					var html = '';
+					if (tw.in_reply_to_status_id && tw.in_reply_to_screen_name)
+					{
+						html =
+						'<span class="tweetInfo">' +
+						' ' +
+						'<a class="tweetlink" href="http://twitter.com/' + tw.in_reply_to_screen_name + '/status/' + tw.in_reply_to_status_id + '" target="_blank">' +
+						'respondiendo a ' + tw.in_reply_to_screen_name +
+						'</a>' +
+						'</span>';
+					}
+					return html;
+				},
+				tweetRetweeterDecorator: function(tweet, options)
+				{
+					var html = '';
+					if (tweet.retweeted_status)
+					{
+						var screenName = tweet.user ? tweet.user.screen_name : false || tweet.from_user;
+						var rtc = (tweet.retweeted_status.retweet_count || 0) - 1;
+						var link =
+						'<a class="twitter-anywhere-user" href="http://twitter.com/' + screenName + '" target="_blank">' +
+						screenName +
+						'</a>';
+						var rtcount = ' y ' + rtc + (rtc > 1 ? ' otros' : ' otro');
+						html =
+						'' +
+						'<span class="tweetInfo">' +
+						'Retuiteado por ' + link +
+						(rtc > 0 ? rtcount : '') +
+						'</span>';
+					}
+					return html;
+				},
+				tweetUsernameDecorator : function(tweet, options)
+				{
+					// if tweet is a native retweet, use the retweet's profile
+					var t = tweet.retweeted_status || tweet;
+					var screenName = t.user ? t.user.screen_name : false || t.from_user;
+					var fullName = t.user ? t.user.name : null;
+					var htmlScreenName;
+					if (screenName && (options._tweetFeedConfig.showUserScreenNames || (options._tweetFeedConfig.showUserScreenNames == null && tweet.retweeted_status)))
+					{
+						htmlScreenName =
+						'' +
+						'<a href="http://twitter.com/' + screenName + '" target="_blank">' +
+						screenName +
+						'</a>: ' +
+						'';
+					}
+					var htmlFullName;
+					if (fullName && (options._tweetFeedConfig.showUserFullNames || (options._tweetFeedConfig.showUserFullNames == null && tweet.retweeted_status)))
+					{
+						htmlFullName =
+						'' +
+						(htmlScreenName ? ' (' : '') +
+						'<a class="nombreCompleto" href="http://twitter.com/' + screenName + '" name="' + screenName + '" target="_blank">' +
+						fullName +
+						'</a>: ' +
+						(htmlScreenName ? ')' : '') +
+						'';
+					}
+					var html = "";
+					if (htmlScreenName)
+					{
+						html += htmlScreenName;
+					}
+					if (htmlFullName)
+					{
+						if (htmlScreenName)
+						{
+							html += ' ';
+						}
+						html += htmlFullName;
+					}
+					if (htmlScreenName || htmlFullName)
+					{
+						html =
+						'' +
+						(tweet.retweeted_status ? 'RT ' : '') +
+						html +
+						'';
+					}
+					return html;
+				}
+			});
+		});
+	})(jQuery);
+</script>
