@@ -1,0 +1,33 @@
+@import "compass/css3";
+
+.listadoNodosInicio.Portfolio {
+	margin-top: 30px;
+	.nodoLista{
+		@include box-sizing(border-box);
+		height: 400px;
+		margin-bottom: 30px;
+	}
+	.nodoLista:nth-child(3n+1){
+		padding-left : 0px;
+		padding-right : 15px;
+		width: 315px;
+		border:none;
+		border-right: 1px dotted #dfdfdf;
+	}
+	.nodoLista:nth-child(3n+2){
+		padding-left : 15px;
+		padding-right : 15px;
+		width: 330px;
+		border:none;
+		border-right: 1px dotted #dfdfdf;	
+	}
+	.nodoLista:nth-child(3n+3){
+		padding-left : 15px;
+		padding-right : 0px;
+		width: 315px;
+		border:none;
+	}
+	.imagenNodoLista a{
+		width:300px;
+	}
+}

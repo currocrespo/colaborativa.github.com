@@ -11,7 +11,7 @@
 			<div class="contenedor">
 				<h2>{{ site.navegacion-proyectos.es }}</h2>
 				<div class="listadoNodosInicio Portfolio">
-					{% for item in site.categories.proyectos limit:3 %}
+					{% for item in site.categories.proyectos limit:10 %}
 					<article class="nodoLista">
 						<div class="imagenNodoLista">
 							<a href="{{ item.url }}" style="background: url(http://{{ item.imagen }}.jpg) center center no-repeat"></a>

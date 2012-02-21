@@ -1,0 +1,40 @@
+/* line 3, ../sass/portfoliolayout.scss */
+.listadoNodosInicio.Portfolio {
+  margin-top: 30px;
+}
+/* line 5, ../sass/portfoliolayout.scss */
+.listadoNodosInicio.Portfolio .nodoLista {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 400px;
+  margin-bottom: 30px;
+}
+/* line 10, ../sass/portfoliolayout.scss */
+.listadoNodosInicio.Portfolio .nodoLista:nth-child(3n+1) {
+  padding-left: 0px;
+  padding-right: 15px;
+  width: 315px;
+  border: none;
+  border-right: 1px dotted #dfdfdf;
+}
+/* line 17, ../sass/portfoliolayout.scss */
+.listadoNodosInicio.Portfolio .nodoLista:nth-child(3n+2) {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 330px;
+  border: none;
+  border-right: 1px dotted #dfdfdf;
+}
+/* line 24, ../sass/portfoliolayout.scss */
+.listadoNodosInicio.Portfolio .nodoLista:nth-child(3n+3) {
+  padding-left: 15px;
+  padding-right: 0px;
+  width: 315px;
+  border: none;
+}
+/* line 30, ../sass/portfoliolayout.scss */
+.listadoNodosInicio.Portfolio .imagenNodoLista a {
+  width: 300px;
+}
