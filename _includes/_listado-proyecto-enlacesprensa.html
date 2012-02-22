@@ -14,8 +14,8 @@
 			{% for item in page.enlaces %}
 			{% if item.type == "prensa" %}
 			<li>
-				<h2><a href="{{ item.url }}">{{ item.title }}</a></h2>
-				<h3>{{ item.source }} · {{ item.date }}</h3>
+				<h4><a class="listadoTitulo" href="{{ item.url }}">{{ item.title }}</a></h4>
+				<h5>{{ item.source }} · {{ item.date }}</h5>
 			</li>
 			{% endif %}
 			{% endfor %}
