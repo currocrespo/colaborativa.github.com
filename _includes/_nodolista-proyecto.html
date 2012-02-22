@@ -1,0 +1,17 @@
+<article class="nodoLista">
+	<div class="imagenNodoLista">
+		<a href="{{ item.url }}" style="background: url(http://{{ item.imagen }}.jpg) center center no-repeat"></a>
+	</div>
+	<div class="infoNodoLista">
+		<div class="cabeceraNodo">
+			<hgroup>
+				<h1><a class="titulo" href="{{ item.url }}">{{ item.title }}</a></h2>
+				<h2>{{ item.subtitulo }}</h3>
+			</hgroup>
+		</div>
+		<div class="cuerpoNodo">
+			<p>{{ item.content | truncate: 300 }}</p>
+		</div>
+	</div>
+	<div class="contenedorPie"></div>
+</article>

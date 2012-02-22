@@ -1,0 +1,229 @@
+@import "compass/css3";
+
+.listadoEtiquetas{
+	margin-bottom: 30px;
+	hgroup{
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+	li:first-child, li:first-child{
+		border-top: 1px solid #f2f2f2;
+	}
+	li, li:first-child{
+		border-bottom: 1px solid #f2f2f2;
+		padding-top: 7px;
+		padding-bottom: 7px;
+	}
+	li span.count{
+		color: #2671bc;
+		width: 35px;
+		display: inline-block;
+		text-align: center;
+	}
+}
+
+.listadoArticulos{
+	margin-bottom: 30px;
+	hgroup{
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+	ul{
+		margin-top: 10px;
+		li:first-child{
+			border-top-style: none;
+		}
+		li {
+			border-bottom: 1px solid #f2f2f2;
+			padding-top: 12px;
+			padding-bottom: 12px;
+			hgroup{
+				margin: 0px;
+			}
+		}
+		li span.count{
+			width: 35px;
+			display: inline-block;
+			text-align: center;
+		}
+		
+	}
+}
+
+.listadoColaborativos{
+	margin-bottom: 30px;
+	hgroup{
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+	ul{
+		margin-top: 10px;
+		li {
+			.colaborativoIcono, .colaboradorIcono{
+				position: relative;
+				display: block;
+				cursor: pointer;
+				width: 50px;
+				height: 50px;
+				float: left;
+				background-size:cover;
+				margin-right: 10px;
+				margin-bottom: 10px;
+			}
+			a:link{
+				text-decoration: none;
+				border-bottom: none;
+			}
+		}
+	}
+}
+
+
+/* bloqueActividades */
+.bloqueActividades{
+	height: 170px;
+	width: 290px;
+	margin-left: 15px;
+	
+	h2{
+		font: 25px/25px "colaborativaBook";
+		color: white;
+		background-color: #c7c7c7;
+		padding-left: 10px;
+		height: 30px;
+		margin-top:0px;
+		margin-bottom:0px;
+	}
+	li{
+		@include box-sizing(border-box);@include box-sizing(border-box);
+		border-bottom: 1px dotted silver;
+		height: 35px;
+		display: table;
+		width: 290px;
+		a:link{
+			@include box-sizing(border-box);
+			height: 20px;
+			display: table-cell;
+			vertical-align: middle;
+			text-decoration: none;
+			color: #323232;
+			margin: 0;
+			text-align: left;
+			padding: 0;
+			border-bottom-style: none;
+		}
+		a:visited{
+			text-decoration: none;
+			color: #323232;
+		}
+	}
+	li:hover{
+		background-color: #efefef;
+	}
+	li:active{
+		background-color: #d7d7d7;
+	}
+	li span{
+		width: 33px;
+		display: table-cell;
+		position: relative;
+		top: 0;
+		left: 0;
+		height: 33px;
+	}
+	li.estrategico span{
+		background: url(/imagenes/iconoEstrategias.png) 0 0px no-repeat;
+	}
+	li.acciones span{
+		background: url(/imagenes/iconoAcciones.png) 0 0px no-repeat;
+	}
+	li.geoposicionamiento span{
+		background: url(/imagenes/iconoGeoposicionamiento.png) 0 0px no-repeat;
+	}
+	li.visualizacion span{
+		background: url(/imagenes/iconoVisualizacion.png) 0 0px no-repeat;
+	}
+}
+
+
+/* subcategoryPopUp */
+.subcategoryPopUp, .subcategoryPopUp2 {
+	position: absolute;
+	@include box-sizing(border-box);
+	padding:10px;
+	z-index: 5;
+	font: 13px 'lucinda grande', Helvetica, Arial;
+	display: none;
+	width: 260px;
+	border: 1px solid rgba(66,66,66,0.8);
+	background-color: rgba(50,50,50,0.8);
+	@include border-radius(5px,5px);
+	.triangulo{
+		background-image: url(/imagenes/triangulo.png);
+		display: block;
+		width: 23px;
+		height: 13px;
+		position: absolute;
+		top: -12px;
+		left: 14px;
+		border-style: none;
+		border-width: 0;
+	}
+	p{
+		color: rgb(180,180,180);
+	}
+	a, a:link, a:active{
+		color: white;
+		border-bottom-style: none;
+		position: relative;
+	}
+	a:hover{
+		color: #bdbdbd;
+	}
+}
+.subcategoryPopUp{
+	margin-top: 65px;
+}
+.subcategoryPopUp2{
+	margin-top: 42px;
+	.triangulo{
+		left: 8px;
+	}
+}
+
+
+/* listadoReacciones */
+.listadoReacciones {
+	margin-bottom: 25px;
+	p.nota {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	#follow{
+		margin-top: 15px;	
+	}
+	.tweetButton{
+		margin-top: 10px;
+		margin-bottom: 0px;
+	}
+	.tweetContenido.cargando{
+		display: block;
+		height: 105px;
+		font: 13px/16px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+		color: #929292;
+	}
+	li, .reaccionesIcono {
+		position: relative;
+		display: block;
+		width: 30px;
+		height: 30px;
+		float: left;
+		background-size:cover;
+		margin-right: 5px;
+		margin-bottom: 5px;
+	}
+	.reaccionesIcono {
+		cursor: pointer;
+		opacity: 0.65;
+	}
+}

@@ -1,7 +1,10 @@
 @import "compass/reset";
 @import "fonts/fontfaces";
-@import "slides";
-@import "botonSocial";
+@import "_slides";
+@import "_type";
+@import "_botonSocial";
+@import "_listadosAuxiliares";
+@import "_cabecerapagina";
 @import "compass/css3";
 
 html{
@@ -82,303 +85,6 @@ footer{
 }
 /* @group EstilosTextos */
 
-/* Titulo de página */
-.cabeceraPagina .tituloMenuBusqueda h1{
-	color: #343434;
-	text-shadow: 0 1px #ffffff;
-	font: 37px/50px "colaborativaBook";
-}
-/* Menu cabecera */
-nav li{
-	font: 18px "colaborativaMedium";
-	color: #343434;
-	text-shadow: 0 1px #ffffff;
-}
-
-/* Titulo Pagina, Titulo Footer, Titulo cuerpoPagina*/
-footer h2,  .cuerpoPagina h2{
-	font: 30px "colaborativaBook";
-	color: #343434;
-
-}
-a.nombreUsuario:link, a.nombreUsuario:visited{
-	color: #4a4a4a;
-	font-family: "colaborativaMedium";
-}
-a.nombreUsuario:hover{
-	color: black;
-}
-/* Titulo nodo, titulo cierreNodo*/
-.nodo h2, .nodoLista  h2, .cierreNodo h2, h2.resultadosFiltrado, h2.resultadosBusqueda, h2.tituloListadoArticulos, .imagenInicioTitulo h2, p.tweetContenido{
-	font: 25px/25px "colaborativaBook";
-	color: #343434;
-}
-p.tweetContenido{
-	color: #575757;
-}
-h2.terminoBusqueda, h2.resultadosFiltrado span.terminosFiltrado, h2.resultadosBusqueda span.terminosBusqueda{
-	font: 25px/25px "colaborativaBook";
-	color: #2671bc;
-}
-/* subtitulo nodo*/
-.nodo h3, .nodoLista h3, .imagenInicioTitulo h3, p.tweetFecha{
-	font: 18px/19px "colaborativaMediumItalic";
-	color: #929292;
-}
-
-/* Subtitulo Footer, Titulo Bloque, Titulo listadoEtiquetas, titulo listadoArticulo, titulo listadoColaborativos, titulillo nodo*/
-footer h3, .listadoEtiquetas h2, .listadoArticulos h2, .listadoColaborativos h2, .listadoReacciones h2, .nodo .cuerpoNodo h1, .nodo .cuerpoNodo h2, .nodo .cuerpoNodo h3, .cuerpoNodo h4, .nodo .cuerpoNodo h5, .nodo .cuerpoNodo h6, .enlacesNodo h2{
-	font: 18px "colaborativaBook";
-	color: #343434;
-}
-/*Subtitulo listadoEtiquetas, Subtitulo listadoArticulos, subtitulo articulo listadoArticulos, subtitulo listadoColaborativos, subtitulo cierrenodo, cabecera nodo parrafo, subtitulo nodo equipo*/
-.listadoEtiquetas h3, .listadoArticulos h3, .listadoArticulos li h3, .listadoColaborativos h3, .listadoReacciones h3, .listadoReacciones p, .cierreNodo h3, .nodo .cabeceraNodo p, .nodo .cabeceraNodo h4, .listadoNodos .nodoLista .infoNodoCuerpo, p.tweetInfo{
-	font: 13px/16px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-	color: #929292;
-}
-/* nodo cuerpo de texto */
-.nodo p, .nodoLista p{
-	font: 13px/20px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-	color: #343434;
-}
-/* parrafos listadoEtiquetas, titulo articulo listadoArticulos, nodo lista palabras clave*/
-.listadoEtiquetas a:link, .listadoArticulos li h2 a:link, .listadoArticulos li h2, .nodo .cabeceraNodo li a:link, .nodoLista .cabeceraNodo li a:link, .nodoLista .cabeceraNodo ul, listadoEtiquetas li, .listadoArticulos li a:link, .listadoEtiquetas{
-	font: 13px/16px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-	color: #2671bc;
-	text-decoration: none;
-	border-bottom-style: none;
-}
-.listadoEtiquetas a:hover, .listadoArticulos li h2 a:hover, .listadoArticulos li a:hover{
-	color: #5195da;
-}
-/* cuerpo Footer, enlaces sociales pagina, enlaces sociales nodo*/
-footer p, .enlacesSociales, .enlacesNodo, .listadoComentariosArticulo{
-	font: 13px/16px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-	color: #343434;
-}
-/* enlaces sociales pagina, enlaces sociales nodo*/
-.enlacesSociales a:link,  .enlacesSociales a:active,  .enlacesSociales a:visited,  .enlacesNodo a:link,  .enlacesNodo a:active,  .enlacesNodo a:visited{
-	color: #929292;
-	text-decoration: none;
-	border-bottom-style: none;
-}
-.enlacesSociales a:hover,  .enlacesNodo a:hover{
-	color: #bfbfbf;
-}
-a:link, a:visited, a:active{
-	color: #2671bc;
-	text-decoration: none;
-	border-bottom: 1px dotted #dfdfdf;
-}
-a:hover{
-	color: #5195da;
-}
-.cabeceraPagina a:link,  .cabeceraPagina a:active,  .cabeceraPagina a:visited{
-	color: #343434;
-	text-decoration: none;
-	border-bottom-style: none;
-}
-.paginacion, .paginacion a:link, .paginacion a:visited{
-	font: 13px/16px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-	color: #929292;
-}
-.nodoLista  h2 a:link, .nodoLista  h2 a:active, .nodoLista  h2 a:visited{
-	border-bottom-style: none;
-	color: #343434;
-}
-.nodoLista  h2 a:hover{
-	border-bottom: 1px dotted #dfdfdf;
-	color: #343434;
-}
-/* @group etiquetas semánticas */
-
-i{
-	font-style: italic;
-}
-strong{
-	font-weight: bold;
-}
-blockquote p{
-	font-style: italic;
-	text-indent: 4px;
-	margin-top: 4px;
-	margin-bottom: 4px;
-}
-/* @end */
-
-/* @end */
-/* @group Navegacion cabecera Pagina */
-.cabeceraPagina{
-	height: 85px;
-	background-image: -webkit-gradient(
-	linear,
-	left top,
-	left bottom,
-	color-stop(0, rgb(238,238,238)),
-	color-stop(1, rgb(250,250,250))
-	);
-	background-image: -moz-linear-gradient(
-	center top,
-	rgb(238,238,238) 0%,
-	rgb(250,250,250) 100%
-	);
-	padding-top: 25px;
-}
-.cabeceraPagina h2{
-	display: none;
-}
-/* @group Navegacion cabecera Layout */
-.cabeceraPagina .menu ul, .cabeceraPagina h2, .cabeceraPagina h1{
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-o-user-select: none;
-	user-select: none;
-}
-.cabeceraPagina .tituloMenuBusqueda{
-	display: table;
-	width: 960px;
-}
-.cabeceraPagina .tituloMenuBusqueda h1{
-	display: table-cell;
-	vertical-align: middle;
-	width: 20%;
-	height: 15px;
-	resize: none;
-}
-.cabeceraPagina nav{
-	height: 50px;
-	display: table-cell;
-	vertical-align: middle;
-	width: 60%;
-	/* esto sirve para alinear perfectamente el titulo */
-	padding-top: 8px;
-	padding-right: 15px;
-	padding-left: 15px;
-}
-.cabeceraPagina .menu li{
-	display: inline-block;
-	width: 24%;
-	text-align: center;
-	margin: 0;
-	padding: 0;
-}
-.cabeceraPagina .search-form{
-	height: 50px;
-	display: table-cell;
-	vertical-align: middle;
-	width: 20%;
-	/* esto sirve para alinear perfectamente el titulo */
-	padding-top: 8px;
-}
-.cabeceraPagina .search-form {
-	position: relative;
-	height: 50px;
-	display: table-cell;
-	vertical-align: middle;
-	width: 420px;
-}
-.cabeceraPagina .search-form {
-	margin: 0;
-}
-.search-form input[type='text'],   .search-form input[type='submit']{
-	display: table-cell;
-	box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-
-}
-.listadoNodos .search-form{
-	display: none;
-}
-.cabeceraPagina #botonesSociales{
-	display: block;
-}
-.cabeceraPagina #botonesSociales .addthis_toolbox{
-	display: table;
-	float: right;
-}
-
-/* @end */
-.cabeceraPagina .menu li a:link{
-	padding: 3px 10px;
-	border-radius: 15px;
-	-webkit-border-radius: 15px;
-	-moz-border-radius: 15px;
-	@include transition(all .2s linear);
-}
-.cabeceraPagina .menu li a:hover, .cabeceraPagina .menu li a:hover.active{
-	background-color: #e6e6e6;
-	@include transition(all .2s linear);
-}
-.cabeceraPagina .menu li a:active{
-	background-color: #dfdfdf;
-	@include transition(all .2s linear);
-}
-.cabeceraPagina .menu li a.active {
-	background-color: rgba(150,150,150,0.08);
-	@include transition(all .2s linear);
-}
-.cabeceraPagina .menu li a:before{
-	padding-right: 7px;
-	position: relative;
-	top: 2px;
-}
-.menuBlog:before{
-	content: url(/imagenes/menuBlog.png);
-}
-.menuProyectos:before{
-	content: url(/imagenes/menuProyectos.png);
-}
-.menuEquipo:before{
-	content: url(/imagenes/menuEquipo.png);
-}
-.menuCodigo:before{
-	content: url(/imagenes/menuCodigo.png);
-}
-.search-form input[type='text']{
-	-webkit-border-top-left-radius: 15px;
-	-webkit-border-bottom-left-radius: 15px;
-	-moz-border-top-left-radius: 15px;
-	-moz-border-bottom-left-radius: 15px;
-	-ms-border-radius-topleft: 15px;
-	-ms-border-radius-bottomleft: 15px;
-	border-top-left-radius: 15px;
-	border-bottom-left-radius: 15px;
-	border: 1px solid silver;
-	color: #343434;
-	background-color: white;
-	height: 30px;
-	border-right-style: none;
-	margin: 0;
-	padding: 0 15px;
-	float: left;
-	width: 70%;
-}
-.search-form input[type='submit']{
-	-webkit-border-top-right-radius: 15px;
-	-webkit-border-bottom-right-radius: 15px;
-	-moz-border-top-right-radius: 15px;
-	-moz-border-bottom-right-radius: 15px;
-	-ms-border-radius-toprigth: 15px;
-	-ms-border-radius-bottomrigth: 15px;
-	border-top-right-radius: 15px;
-	border-bottom-right-radius: 15px;
-	border: 1px solid silver;
-	color: #343434;
-	background-color: #ededed;
-	height: 30px;
-	border-left-style: solid;
-	margin: 0;
-	padding: 0 5px;
-	width: 30%;
-	float: left;
-	text-shadow: 0 1px #ffffff;
-}
-.search-form input[type='submit']:hover{
-	background-color: #e6e6e6;
-	cursor: pointer;
-}
 
 /* @end */
 /* @group piePagina */
@@ -488,78 +194,6 @@ a.enlaceExterno[href*='youtube.com']:hover>span{
 	min-height: 400px;
 	background-color: rgb(250,250,250);
 }
-/* @end */
-
-
-/* @group listado Etiquetas, listado Articulos, listadoColaborativos*/
-.listadoEtiquetas, .listadoArticulos, .listadoColaborativos{
-	margin-bottom: 30px;
-}
-.listadoEtiquetas hgroup, .listadoArticulos>hgroup, .listadoColaborativos>hgroup, .listadoColaboradoresProyecto>hgroup{
-	margin-bottom: 10px;
-}
-.listadoEtiquetas hgroup, .listadoArticulos>hgroup, .listadoColaborativos>hgroup{
-	margin-top: 20px;
-}
-.listadoReacciones p.nota {
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
-.listadoEtiquetas li:first-child, .listadoArticulos li:first-child{
-	border-top: 1px solid #f2f2f2;
-}
-.listadoEtiquetas li,  .listadoEtiquetas li:first-child{
-	border-bottom: 1px solid #f2f2f2;
-	padding-top: 7px;
-	padding-bottom: 7px;
-}
-.listadoArticulos li, .listadoArticulos li:first-child{
-	border-bottom: 1px solid #f2f2f2;
-	padding-top: 12px;
-	padding-bottom: 12px;
-}
-.listadoArticulos.Proyectos ul{
-	margin-top: 10px;
-}
-.listadoArticulos.Proyectos li:first-child{
-	border-top-style: none;
-}
-.listadoEtiquetas li span.count{
-	width: 35px;
-	display: inline-block;
-	text-align: center;
-}
-.listadoArticulos li h2{
-	margin-top: 3px;
-}
-.listadoColaborativos li, 
-.listadoColaboradoresProyecto li, .listadoColaboradoresProyecto li a,
-.colaboradorIcono, .colaboradorIcono span, .colaborativoIcono,
-{
-	display: block;
-	width: 50px;
-	height: 50px;
-	float: left;
-	background-size:cover;
-}
-.listadoColaborativos li h2, .listadoColaboradoresProyecto li h2{
-	display: none;
-}
-.listadoColaborativos li, .listadoColaboradoresProyecto li{
-	margin-left: 10px;
-	margin-bottom: 10px;
-}
-.listadoColaborativos li:first-child,  .listadoColaborativos li:nth-child(5n),
-.listadoColaboradoresProyecto li:first-child{
-	margin-left: 0px;
-}
-
-.listadoColaborativos li a:link{
-	text-decoration: none;
-	border-bottom-style: none;
-}
-/* @end */
-
 /* @group nodoProyecto nodoArticulo*/
 .nodo, .listadoNodos{
 	top: -30px;
@@ -631,9 +265,6 @@ a.enlaceExterno[href*='youtube.com']:hover>span{
 }
 /* @end */
 
-.terminoBusqueda{
-
-}
 .nodoLista{
 	padding-top: 25px;
 	padding-bottom: 25px;
@@ -667,15 +298,13 @@ a.enlaceExterno[href*='youtube.com']:hover>span{
 span.terminosFiltrado{
 	padding-left: 10px;
 }
-h2.resultadosFiltrado, h2.resultadosBusqueda, h2.tituloListadoArticulos{
+h2.tituloListado{
 	margin-bottom: 15px;
 }
 
 .proyectosColaboradores{
 	margin-top: 20px;
 }
-
-/* @group Pagina Inicio */
 
 .imagenInicio{
 	width: 960px;
@@ -772,25 +401,25 @@ hgroup.imagenInicioTitulo h3{
 	float: right;
 	border-bottom: none;
 }
+#ultimoTweetInicio{
+	@include box-sizing(border-box);
+	padding-left:15px;
+	.tweetContenido{
+		margin-top: 40px;
+	}
+	.tweetFecha{
+		text-align: right;
+		margin-top: 15px;
+	}
+	.tweetInfo{
+		text-align: right;
+		margin-top: 5px;
+	}
+	a.nombreUsuario:link,  a.nombreUsuario:visited{
+		border-bottom-style: none;	
+	}
+}
 
-p.tweetContenido{
-	margin-top: 40px;
-	padding-left: 20px;
-}
-p.tweetFecha{
-	text-align: right;
-	margin-top: 15px;
-}
-p.tweetInfo{
-	text-align: right;
-	margin-top: 5px;
-}
-a.nombreUsuario:link,  a.nombreUsuario:visited{
-	border-bottom-style: none;	
-}
-/* @end */
-
-/* @group Pager */
 ul.pager{
 	margin: 15px 0 0;
 	padding: 0;
@@ -822,126 +451,4 @@ li.paginacion a:active{
 	background-color: #dfdfdf;
 }
 
-/* @end */
-
-/* @group ExtraInfoColaboradores */
-.colaboradorIcono{
-	cursor: pointer;
-}
-li div.subcategoryPopUp {
-	position: absolute;
-	z-index: 5;
-	font: 13px 'lucinda grande', Helvetica, Arial;
-	display: none;
-	width: 260px;
-	margin-top: 65px;
-	border: 1px solid rgba(66,66,66,0.8);
-	background-color: rgba(50,50,50,0.8);
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	margin-left: 0;
-}
-.subcategoryPopUp .triangulo{
-	background-image: url(/imagenes/triangulo.png);
-	display: block;
-	width: 23px;
-	height: 13px;
-	position: absolute;
-	top: -12px;
-	left: 14px;
-	border-style: none;
-	border-width: 0;
-}
-.subcategoryPopUp h3{
-	margin-right: 20px;
-	margin-left: 10px;
-	margin-top: 8px;
-	position: relative;
-}
-.subcategoryPopUp a, .subcategoryPopUp a:link, .subcategoryPopUp a:active{
-	color: white;
-	margin: 3px 20px 15px 10px;
-	border-bottom-style: none;
-	position: relative;
-}
-.subcategoryPopUp a:hover{
-	color: #bdbdbd;
-}
-/* @end */
-/* @group bloque actividades */
-
-.bloqueActividades{
-	height: 170px;
-	width: 290px;
-	margin-left: 15px;
-}
-.bloqueActividades h2{
-	font: 25px/25px "colaborativaBook";
-	color: white;
-	background-color: #c7c7c7;
-	padding-left: 10px;
-	height: 30px;
-}
-.bloqueActividades{
-	font: 13px/16px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-	color: #343434;
-}
-.bloqueActividades ul{
-}
-.bloqueActividades li{
-	box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	border-bottom: 1px dotted silver;
-	height: 35px;
-	display: table;
-	width: 290px;
-}
-.bloqueActividades li a:link{
-	box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	height: 20px;
-	display: table-cell;
-	vertical-align: middle;
-	text-decoration: none;
-	color: #323232;
-	margin: 0;
-	text-align: left;
-	padding: 0;
-	border-bottom-style: none;
-}
-.bloqueActividades li a:visited{
-	text-decoration: none;
-	color: #323232;
-}
-.bloqueActividades li:hover{
-	background-color: #efefef;
-}
-.bloqueActividades li:active{
-	background-color: #d7d7d7;
-}
-.bloqueActividades li span{
-	width: 33px;
-	display: table-cell;
-	position: relative;
-	top: 0;
-	left: 0;
-	height: 33px;
-}
-.bloqueActividades li.estrategico span{
-	background: url(/imagenes/iconoEstrategias.png) 0 0px no-repeat;
-}
-.bloqueActividades li.acciones span{
-	background: url(/imagenes/iconoAcciones.png) 0 0px no-repeat;
-}
-.bloqueActividades li.geoposicionamiento span{
-	background: url(/imagenes/iconoGeoposicionamiento.png) 0 0px no-repeat;
-}
-.bloqueActividades li.visualizacion span{
-	background: url(/imagenes/iconoVisualizacion.png) 0 0px no-repeat;
-}
-
-/* @end */
-@import "portfoliolayout";
+@import "_portfoliolayout";

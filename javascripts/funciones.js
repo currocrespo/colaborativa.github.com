@@ -136,7 +136,7 @@
 					tweetText = options.tweetUsernameDecorator(tweet, options) + ' ' + tweetText;
 				}
 
-				return '<p class="tweetContenido">' + tweetText + '</p>';
+				return '<h1 class="tweetContenido parrafo">' + tweetText + '</h1>';
 			},
 			tweetAttributesDecorator : function(tweet, options)
 			{
@@ -184,17 +184,17 @@
 			loadingDecorator : function(options)
 			{
 				// the default loading decorator simply says: loading ...
-				return '<p class="tweetContenido cargando">Cargando...</p>';
+				return '<h1 class="tweetContenido cargando">Cargando...</h1>';
 			},
 			errorDecorator : function(errorText, options)
 			{
 				// the default error decorator shows the error message
-				return '<p class="tweetContenido error">error: ' + errorText + '</p>';
+				return '<h1 class="tweetContenido error">error: ' + errorText + '</h1>';
 			},
 			noDataDecorator : function(options)
 			{
 				// the default no-data decorator simply says: No more data
-				return '<p class="tweetContenido sindatos">No hay más datos</p>';
+				return '<h1 class="tweetContenido sindatos">No hay más datos</h1>';
 			},
 			tweetTimestampDecorator : function(tweet, options)
 			{
@@ -212,13 +212,13 @@
 
 				var screenName = tw.user ? tw.user.screen_name : false || tw.from_user;
 				var html =
-				'<p class="tweetFecha">' +
-				'<a class="tweetFecha-link" data-timestamp="' + createdAt +
+				'<h2 class="tweetFecha">' +
+				'<a class="tweetFecha-link listadoTitulo" data-timestamp="' + createdAt +
 				'" href="http://twitter.com/' + screenName + '/status/' + tw.id + '" target="_blank" title="' +
 				tweetTimestampTooltip + '">' +
 				tweetTimestamp +
 				'</a>' +
-				'</p>';
+				'</h2>';
 
 				return html;
 			},
@@ -282,12 +282,12 @@
 				if (tw.in_reply_to_status_id && tw.in_reply_to_screen_name)
 				{
 					html =
-					'<p class="tweetInfo">' +
+					'<h2 class="tweetInfo">' +
 					' ' +
-					'<a class="tweetInfo-link" href="http://twitter.com/' + tw.in_reply_to_screen_name + '/status/' + tw.in_reply_to_status_id + '" target="_blank">' +
+					'<a class="tweetInfo-link listadoTitulo" href="http://twitter.com/' + tw.in_reply_to_screen_name + '/status/' + tw.in_reply_to_status_id + '" target="_blank">' +
 					'respondiendo a ' + tw.in_reply_to_screen_name +
 					'</a>' +
-					'</p>';
+					'</h2>';
 				}
 
 				return html;
@@ -302,16 +302,16 @@
 					var rtc = (tweet.retweeted_status.retweet_count || 0) - 1;
 
 					var link =
-					'<a class="tweetInfo-retweeter-link" href="http://twitter.com/' + screenName + '" target="_blank">' +
+					'<a class="tweetInfo-retweeter-link listadoTitulo" href="http://twitter.com/' + screenName + '" target="_blank">' +
 					screenName +
 					'</a>';
 					var rtcount = ' y ' + rtc + (rtc > 1 ? ' otros' : ' otro');
 					html =
 					'' +
-					'<p class="tweetInfo">' +
+					'<h2 class="tweetInfo">' +
 					'Retuiteado por ' + link +
 					(rtc > 0 ? rtcount : '') +
-					'</p>';
+					'</h2>';
 				}
 
 				return html;

@@ -1,0 +1,130 @@
+/* Titulo nodo, titulo cierreNodo*/
+/* line 2, ../sass/type.scss */
+h1.hero {
+  color: #343434;
+  text-shadow: 0 1px #ffffff;
+  font: 37px/50px "colaborativaBook";
+}
+
+/* line 8, ../sass/type.scss */
+h1.big {
+  font: 30px "colaborativaBook";
+  color: #343434;
+}
+
+/* line 12, ../sass/type.scss */
+h1 {
+  font: 25px/25px "colaborativaBook";
+  color: #343434;
+}
+/* line 15, ../sass/type.scss */
+h1.parrafo {
+  line-height: 30px;
+}
+
+/* line 19, ../sass/type.scss */
+h2 {
+  margin-top: 10px;
+  margin-bottom: 14px;
+  font: 20px/23px "colaborativaLight";
+  color: #929292;
+}
+
+/* line 25, ../sass/type.scss */
+h3 {
+  font: 18px "colaborativaBook";
+  color: #343434;
+}
+
+/* line 30, ../sass/type.scss */
+nav h3 {
+  font: 18px "colaborativaMedium";
+  color: #343434;
+  text-shadow: 0 1px #ffffff;
+}
+
+/* line 35, ../sass/type.scss */
+h4 {
+  font: 13px/16px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  color: #929292;
+}
+
+/* line 39, ../sass/type.scss */
+h5 {
+  font: 13px/16px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  color: #929292;
+}
+
+/* line 43, ../sass/type.scss */
+body, p {
+  font: 13px/20px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  color: #343434;
+}
+
+/* line 47, ../sass/type.scss */
+i {
+  font-style: italic;
+}
+
+/* line 50, ../sass/type.scss */
+strong {
+  font-weight: bold;
+}
+
+/* line 53, ../sass/type.scss */
+blockquote p {
+  font-style: italic;
+  text-indent: 4px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+/* line 59, ../sass/type.scss */
+a:link, a:visited, a:active {
+  color: #2671bc;
+  text-decoration: none;
+  border-bottom: 1px dotted #DFDFDF;
+}
+
+/* line 64, ../sass/type.scss */
+a:hover {
+  color: #5195da;
+}
+
+/* line 67, ../sass/type.scss */
+a:link.listadoTitulo, a:visited.listadoTitulo, a:active.listadoTitulo {
+  color: #2671bc;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+/* line 72, ../sass/type.scss */
+a:hover.listadoTitulo {
+  color: #5195da;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+/* line 77, ../sass/type.scss */
+a:link.social {
+  color: #929292;
+  border-bottom: none;
+}
+
+/* line 81, ../sass/type.scss */
+a:hover.social {
+  color: #bfbfbf;
+}
+
+/* line 84, ../sass/type.scss */
+a:link.titulo, a:visited.titulo, a:link.menu, a:visited.menu, a:hover.menu {
+  color: #343434;
+  border-bottom: none;
+  text-decoration: none;
+}
+
+/* line 89, ../sass/type.scss */
+a:hover.titulo {
+  color: #343434;
+  border-bottom: 1px dotted #DFDFDF;
+}
