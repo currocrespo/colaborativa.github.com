@@ -1,3 +1,5 @@
+@import "compass/css3";
+
 .botonlateralSocial {
 	margin-top:15px;
 	clear:both;
@@ -5,4 +7,63 @@
 		border:none;
 	}
 	margin-bottom:25px;
+}
+.enlacesSociales{
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	width: 240px;	 
+	display: block;
+	float: right;
+	@include box-sizing(border-box);
+	padding-left: 15px;
+	border-left: 1px solid #f2f2f2;
+	margin-top: 35px;
+}
+.enlacesSociales li{
+	padding: 2px 0;
+}
+a.enlaceExterno>span{
+	background: url(/imagenes/enlacesExternos.png) 0 -120px no-repeat;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	position: relative;
+	top: 5px;
+	margin-right: 7px;
+}
+a.enlaceExterno:hover>span{
+	background: url(/imagenes/enlacesExternos.png) -20 -120px no-repeat;
+}
+a.enlaceExterno[href*='facebook.com']>span{
+	background: url(/imagenes/enlacesExternos.png) 0 -40px no-repeat;
+}
+a.enlaceExterno[href*='facebook.com']:hover>span{
+	background: url(/imagenes/enlacesExternos.png) -20 -40px no-repeat;
+}
+a.enlaceExterno[href*='twitter.com']>span{
+	background: url(/imagenes/enlacesExternos.png) 0 0px no-repeat;
+}
+a.enlaceExterno[href*='twitter.com']:hover>span{
+	background: url(/imagenes/enlacesExternos.png) -20 0px no-repeat;
+}
+a.enlaceExterno[href*='flickr.com']>span{
+	background: url(/imagenes/enlacesExternos.png) 0 -20px no-repeat;
+}
+a.enlaceExterno[href*='flickr.com']:hover>span{
+	background: url(/imagenes/enlacesExternos.png) -20 -20px no-repeat;
+}
+a.enlaceExterno[href*='linkedin.com']>span{
+	background: url(/imagenes/enlacesExternos.png) 0 -60px no-repeat;
+}
+a.enlaceExterno[href*='linkedin.com']:hover>span{
+	background: url(/imagenes/enlacesExternos.png) -20 -60px no-repeat;
+}
+a.enlaceExterno[href*='youtube.com']>span{
+	background: url(/imagenes/enlacesExternos.png) 0 -80px no-repeat;
+}
+a.enlaceExterno[href*='youtube.com']:hover>span{
+	background: url(/imagenes/enlacesExternos.png) -20 -80px no-repeat;
 }

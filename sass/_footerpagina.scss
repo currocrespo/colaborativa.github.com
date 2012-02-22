@@ -1,0 +1,35 @@
+footer{
+	background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.0, rgb(238,238,238)),
+	color-stop(0.6, rgb(250,250,250))
+	);
+	height: 200px;
+	display: block;
+}
+
+.datosContacto{
+	width: 720px;
+	float: left;
+	.email, .tel{
+		width: 20px;
+		height: 20px;
+		display: inline-block;
+		position: relative;
+		top: 6px;
+		margin-right: 5px;
+	}
+	.email{
+		background: url(/imagenes/iconosContacto.png) 0px -20px no-repeat;
+	}
+	.tel{
+		background: url(/imagenes/iconosContacto.png) 0px 0px no-repeat;
+		margin-left: 15px;
+	}
+}
+footer h3{
+	margin-top: 8px;
+	margin-bottom: 30px;
+}

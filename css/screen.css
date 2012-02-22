@@ -1,4 +1,4 @@
-/* line 17, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 20, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 20, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1;
 }
 
-/* line 22, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 101, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 114, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 114, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -95,25 +95,24 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   font-style: normal;
 }
 
-/* line 4, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_slides.scss */
+/* line 4, ../sass/_slides.scss */
 .slides_container {
   width: 960px;
   height: 300px;
 }
-
-/* line 8, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_slides.scss */
+/* line 7, ../sass/_slides.scss */
 .slides_container div {
   width: 960px;
   height: 300px;
   display: block;
 }
 
-/* line 13, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_slides.scss */
+/* line 13, ../sass/_slides.scss */
 #slides {
   position: relative;
   z-index: 100;
 }
-/* line 16, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_slides.scss */
+/* line 16, ../sass/_slides.scss */
 #slides a.prev, #slides a.next {
   border: none;
   position: absolute;
@@ -134,19 +133,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   cursor: pointer;
   z-index: 10;
 }
-/* line 30, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_slides.scss */
+/* line 30, ../sass/_slides.scss */
 #slides a.prev.prev, #slides a.next.prev {
   background-position: 0 0;
   top: 130px;
   left: 20px;
 }
-/* line 35, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_slides.scss */
+/* line 35, ../sass/_slides.scss */
 #slides a.prev.next, #slides a.next.next {
   background-position: 160px 0;
   top: 130px;
   right: 20px;
 }
-/* line 41, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_slides.scss */
+/* line 41, ../sass/_slides.scss */
 #slides .pagination {
   position: absolute;
   z-index: 10;
@@ -154,12 +153,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   width: 960px;
   text-align: center;
 }
-/* line 47, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_slides.scss */
+/* line 47, ../sass/_slides.scss */
 #slides .pagination li {
   display: inline-block;
   margin: 3px;
 }
-/* line 50, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_slides.scss */
+/* line 50, ../sass/_slides.scss */
 #slides .pagination li a {
   border: none;
   background-color: rgba(255, 255, 255, 0.3);
@@ -175,36 +174,36 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   border-radius: 5px / 5px;
   color: rgba(255, 255, 255, 0);
 }
-/* line 61, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_slides.scss */
+/* line 61, ../sass/_slides.scss */
 #slides .pagination .current a {
   background-color: rgba(255, 255, 255, 0.6);
 }
 
 /* Titulo nodo, titulo cierreNodo*/
-/* line 2, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
+/* line 2, ../sass/_type.scss */
 h1.hero {
   color: #343434;
   text-shadow: 0 1px #ffffff;
   font: 37px/50px "colaborativaBook";
 }
 
-/* line 8, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
+/* line 8, ../sass/_type.scss */
 h1.big {
   font: 30px "colaborativaBook";
   color: #343434;
 }
 
-/* line 12, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
+/* line 12, ../sass/_type.scss */
 h1 {
   font: 25px/25px "colaborativaBook";
   color: #343434;
 }
-/* line 15, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
+/* line 15, ../sass/_type.scss */
 h1.parrafo {
   line-height: 30px;
 }
 
-/* line 19, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
+/* line 19, ../sass/_type.scss */
 h2 {
   margin-top: 10px;
   margin-bottom: 14px;
@@ -212,58 +211,58 @@ h2 {
   color: #929292;
 }
 
-/* line 25, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
+/* line 25, ../sass/_type.scss */
 h2.tweet {
   margin-bottom: 0px;
 }
 
-/* line 28, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
+/* line 28, ../sass/_type.scss */
 h3 {
   font: 18px "colaborativaBook";
   color: #343434;
 }
 
-/* line 32, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
+/* line 32, ../sass/_type.scss */
 nav h3 {
   font: 18px "colaborativaMedium";
   color: #343434;
   text-shadow: 0 1px #ffffff;
 }
 
-/* line 37, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
+/* line 37, ../sass/_type.scss */
 h4 {
   font: 13px/16px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
   color: #929292;
 }
 
-/* line 41, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
+/* line 41, ../sass/_type.scss */
 h5, .additionalInfo {
   font: 12px/15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
   color: #929292;
 }
 
-/* line 45, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
+/* line 45, ../sass/_type.scss */
 h5.tweet {
   margin-top: 0px;
 }
 
-/* line 48, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
+/* line 48, ../sass/_type.scss */
 body, p {
   font: 13px/20px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
   color: #343434;
 }
 
-/* line 52, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
+/* line 52, ../sass/_type.scss */
 i {
   font-style: italic;
 }
 
-/* line 55, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
+/* line 55, ../sass/_type.scss */
 strong {
   font-weight: bold;
 }
 
-/* line 58, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
+/* line 58, ../sass/_type.scss */
 blockquote p {
   font-style: italic;
   text-indent: 4px;
@@ -271,87 +270,177 @@ blockquote p {
   margin-bottom: 4px;
 }
 
-/* line 64, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
+/* line 64, ../sass/_type.scss */
 a:link, a:visited, a:active {
   color: #2671bc;
   text-decoration: none;
   border-bottom: 1px dotted #DFDFDF;
 }
 
-/* line 69, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
+/* line 69, ../sass/_type.scss */
 a:hover {
   color: #5195da;
 }
 
-/* line 72, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
+/* line 72, ../sass/_type.scss */
 a:link.listadoTitulo, a:visited.listadoTitulo, a:active.listadoTitulo {
   color: #2671bc;
   text-decoration: none;
   border-bottom: none;
 }
 
-/* line 77, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
+/* line 77, ../sass/_type.scss */
 a:hover.listadoTitulo {
   color: #5195da;
   text-decoration: none;
   border-bottom: none;
 }
 
-/* line 82, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
+/* line 82, ../sass/_type.scss */
 a:link.social {
   color: #929292;
   border-bottom: none;
 }
 
-/* line 86, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
+/* line 86, ../sass/_type.scss */
 a:hover.social {
   color: #bfbfbf;
 }
 
-/* line 89, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
+/* line 89, ../sass/_type.scss */
 a:link.titulo, a:visited.titulo, a:link.menu, a:visited.menu, a:hover.menu {
   color: #343434;
   border-bottom: none;
   text-decoration: none;
 }
 
-/* line 94, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
+/* line 94, ../sass/_type.scss */
 a:hover.titulo {
   color: #343434;
   border-bottom: 1px dotted #DFDFDF;
 }
 
-/* line 1, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_botonSocial.scss */
+/* line 3, ../sass/_botonSocial.scss */
 .botonlateralSocial {
   margin-top: 15px;
   clear: both;
   margin-bottom: 25px;
 }
-/* line 4, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_botonSocial.scss */
+/* line 6, ../sass/_botonSocial.scss */
 .botonlateralSocial a:link {
   border: none;
 }
 
-/* line 3, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 11, ../sass/_botonSocial.scss */
+.enlacesSociales {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  width: 240px;
+  display: block;
+  float: right;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 15px;
+  border-left: 1px solid #f2f2f2;
+  margin-top: 35px;
+}
+
+/* line 25, ../sass/_botonSocial.scss */
+.enlacesSociales li {
+  padding: 2px 0;
+}
+
+/* line 28, ../sass/_botonSocial.scss */
+a.enlaceExterno > span {
+  background: url(/imagenes/enlacesExternos.png) 0 -120px no-repeat;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  position: relative;
+  top: 5px;
+  margin-right: 7px;
+}
+
+/* line 37, ../sass/_botonSocial.scss */
+a.enlaceExterno:hover > span {
+  background: url(/imagenes/enlacesExternos.png) -20 -120px no-repeat;
+}
+
+/* line 40, ../sass/_botonSocial.scss */
+a.enlaceExterno[href*='facebook.com'] > span {
+  background: url(/imagenes/enlacesExternos.png) 0 -40px no-repeat;
+}
+
+/* line 43, ../sass/_botonSocial.scss */
+a.enlaceExterno[href*='facebook.com']:hover > span {
+  background: url(/imagenes/enlacesExternos.png) -20 -40px no-repeat;
+}
+
+/* line 46, ../sass/_botonSocial.scss */
+a.enlaceExterno[href*='twitter.com'] > span {
+  background: url(/imagenes/enlacesExternos.png) 0 0px no-repeat;
+}
+
+/* line 49, ../sass/_botonSocial.scss */
+a.enlaceExterno[href*='twitter.com']:hover > span {
+  background: url(/imagenes/enlacesExternos.png) -20 0px no-repeat;
+}
+
+/* line 52, ../sass/_botonSocial.scss */
+a.enlaceExterno[href*='flickr.com'] > span {
+  background: url(/imagenes/enlacesExternos.png) 0 -20px no-repeat;
+}
+
+/* line 55, ../sass/_botonSocial.scss */
+a.enlaceExterno[href*='flickr.com']:hover > span {
+  background: url(/imagenes/enlacesExternos.png) -20 -20px no-repeat;
+}
+
+/* line 58, ../sass/_botonSocial.scss */
+a.enlaceExterno[href*='linkedin.com'] > span {
+  background: url(/imagenes/enlacesExternos.png) 0 -60px no-repeat;
+}
+
+/* line 61, ../sass/_botonSocial.scss */
+a.enlaceExterno[href*='linkedin.com']:hover > span {
+  background: url(/imagenes/enlacesExternos.png) -20 -60px no-repeat;
+}
+
+/* line 64, ../sass/_botonSocial.scss */
+a.enlaceExterno[href*='youtube.com'] > span {
+  background: url(/imagenes/enlacesExternos.png) 0 -80px no-repeat;
+}
+
+/* line 67, ../sass/_botonSocial.scss */
+a.enlaceExterno[href*='youtube.com']:hover > span {
+  background: url(/imagenes/enlacesExternos.png) -20 -80px no-repeat;
+}
+
+/* line 3, ../sass/_listadosAuxiliares.scss */
 .listadoEtiquetas {
   margin-bottom: 30px;
 }
-/* line 5, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 5, ../sass/_listadosAuxiliares.scss */
 .listadoEtiquetas hgroup {
   margin-top: 20px;
   margin-bottom: 10px;
 }
-/* line 9, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 9, ../sass/_listadosAuxiliares.scss */
 .listadoEtiquetas li:first-child, .listadoEtiquetas li:first-child {
   border-top: 1px solid #f2f2f2;
 }
-/* line 12, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 12, ../sass/_listadosAuxiliares.scss */
 .listadoEtiquetas li, .listadoEtiquetas li:first-child {
   border-bottom: 1px solid #f2f2f2;
   padding-top: 7px;
   padding-bottom: 7px;
 }
-/* line 17, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 17, ../sass/_listadosAuxiliares.scss */
 .listadoEtiquetas li span.count {
   color: #2671bc;
   width: 35px;
@@ -359,54 +448,54 @@ a:hover.titulo {
   text-align: center;
 }
 
-/* line 25, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 25, ../sass/_listadosAuxiliares.scss */
 .listadoArticulos {
   margin-bottom: 30px;
 }
-/* line 27, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 27, ../sass/_listadosAuxiliares.scss */
 .listadoArticulos hgroup {
   margin-top: 20px;
   margin-bottom: 10px;
 }
-/* line 31, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 31, ../sass/_listadosAuxiliares.scss */
 .listadoArticulos ul {
   margin-top: 10px;
 }
-/* line 33, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 33, ../sass/_listadosAuxiliares.scss */
 .listadoArticulos ul li:first-child {
   border-top-style: none;
 }
-/* line 36, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 36, ../sass/_listadosAuxiliares.scss */
 .listadoArticulos ul li {
   border-bottom: 1px solid #f2f2f2;
   padding-top: 12px;
   padding-bottom: 12px;
 }
-/* line 40, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 40, ../sass/_listadosAuxiliares.scss */
 .listadoArticulos ul li hgroup {
   margin: 0px;
 }
-/* line 44, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 44, ../sass/_listadosAuxiliares.scss */
 .listadoArticulos ul li span.count {
   width: 35px;
   display: inline-block;
   text-align: center;
 }
 
-/* line 53, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 53, ../sass/_listadosAuxiliares.scss */
 .listadoColaborativos {
   margin-bottom: 30px;
 }
-/* line 55, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 55, ../sass/_listadosAuxiliares.scss */
 .listadoColaborativos hgroup {
   margin-top: 20px;
   margin-bottom: 10px;
 }
-/* line 59, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 59, ../sass/_listadosAuxiliares.scss */
 .listadoColaborativos ul {
   margin-top: 10px;
 }
-/* line 62, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 62, ../sass/_listadosAuxiliares.scss */
 .listadoColaborativos ul li .colaborativoIcono, .listadoColaborativos ul li .colaboradorIcono {
   position: relative;
   display: block;
@@ -418,20 +507,20 @@ a:hover.titulo {
   margin-right: 10px;
   margin-bottom: 10px;
 }
-/* line 73, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 73, ../sass/_listadosAuxiliares.scss */
 .listadoColaborativos ul li a:link {
   text-decoration: none;
   border-bottom: none;
 }
 
 /* bloqueActividades */
-/* line 83, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 83, ../sass/_listadosAuxiliares.scss */
 .bloqueActividades {
   height: 170px;
   width: 290px;
   margin-left: 15px;
 }
-/* line 88, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 88, ../sass/_listadosAuxiliares.scss */
 .bloqueActividades h2 {
   font: 25px/25px "colaborativaBook";
   color: white;
@@ -441,7 +530,7 @@ a:hover.titulo {
   margin-top: 0px;
   margin-bottom: 0px;
 }
-/* line 97, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 97, ../sass/_listadosAuxiliares.scss */
 .bloqueActividades li {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -456,7 +545,7 @@ a:hover.titulo {
   display: table;
   width: 290px;
 }
-/* line 103, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 103, ../sass/_listadosAuxiliares.scss */
 .bloqueActividades li a:link {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -472,20 +561,20 @@ a:hover.titulo {
   padding: 0;
   border-bottom-style: none;
 }
-/* line 115, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 115, ../sass/_listadosAuxiliares.scss */
 .bloqueActividades li a:visited {
   text-decoration: none;
   color: #323232;
 }
-/* line 120, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 120, ../sass/_listadosAuxiliares.scss */
 .bloqueActividades li:hover {
   background-color: #efefef;
 }
-/* line 123, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 123, ../sass/_listadosAuxiliares.scss */
 .bloqueActividades li:active {
   background-color: #d7d7d7;
 }
-/* line 126, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 126, ../sass/_listadosAuxiliares.scss */
 .bloqueActividades li span {
   width: 33px;
   display: table-cell;
@@ -494,25 +583,25 @@ a:hover.titulo {
   left: 0;
   height: 33px;
 }
-/* line 134, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 134, ../sass/_listadosAuxiliares.scss */
 .bloqueActividades li.estrategico span {
   background: url(/imagenes/iconoEstrategias.png) 0 0px no-repeat;
 }
-/* line 137, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 137, ../sass/_listadosAuxiliares.scss */
 .bloqueActividades li.acciones span {
   background: url(/imagenes/iconoAcciones.png) 0 0px no-repeat;
 }
-/* line 140, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 140, ../sass/_listadosAuxiliares.scss */
 .bloqueActividades li.geoposicionamiento span {
   background: url(/imagenes/iconoGeoposicionamiento.png) 0 0px no-repeat;
 }
-/* line 143, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 143, ../sass/_listadosAuxiliares.scss */
 .bloqueActividades li.visualizacion span {
   background: url(/imagenes/iconoVisualizacion.png) 0 0px no-repeat;
 }
 
 /* subcategoryPopUp */
-/* line 150, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 150, ../sass/_listadosAuxiliares.scss */
 .subcategoryPopUp, .subcategoryPopUp2 {
   position: absolute;
   -moz-box-sizing: border-box;
@@ -533,7 +622,7 @@ a:hover.titulo {
   -khtml-border-radius: 5px / 5px;
   border-radius: 5px / 5px;
 }
-/* line 161, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 161, ../sass/_listadosAuxiliares.scss */
 .subcategoryPopUp .triangulo, .subcategoryPopUp2 .triangulo {
   background-image: url(/imagenes/triangulo.png);
   display: block;
@@ -545,62 +634,62 @@ a:hover.titulo {
   border-style: none;
   border-width: 0;
 }
-/* line 172, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 172, ../sass/_listadosAuxiliares.scss */
 .subcategoryPopUp p, .subcategoryPopUp2 p {
   color: #b4b4b4;
 }
-/* line 175, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 175, ../sass/_listadosAuxiliares.scss */
 .subcategoryPopUp a, .subcategoryPopUp a:link, .subcategoryPopUp a:active, .subcategoryPopUp2 a, .subcategoryPopUp2 a:link, .subcategoryPopUp2 a:active {
   color: white;
   border-bottom-style: none;
   position: relative;
 }
-/* line 180, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 180, ../sass/_listadosAuxiliares.scss */
 .subcategoryPopUp a:hover, .subcategoryPopUp2 a:hover {
   color: #bdbdbd;
 }
 
-/* line 184, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 184, ../sass/_listadosAuxiliares.scss */
 .subcategoryPopUp {
   margin-top: 65px;
 }
 
-/* line 187, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 187, ../sass/_listadosAuxiliares.scss */
 .subcategoryPopUp2 {
   margin-top: 42px;
 }
-/* line 189, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 189, ../sass/_listadosAuxiliares.scss */
 .subcategoryPopUp2 .triangulo {
   left: 8px;
 }
 
 /* listadoReacciones */
-/* line 196, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 196, ../sass/_listadosAuxiliares.scss */
 .listadoReacciones {
   margin-bottom: 25px;
 }
-/* line 198, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 198, ../sass/_listadosAuxiliares.scss */
 .listadoReacciones p.nota {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-/* line 202, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 202, ../sass/_listadosAuxiliares.scss */
 .listadoReacciones #follow {
   margin-top: 15px;
 }
-/* line 205, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 205, ../sass/_listadosAuxiliares.scss */
 .listadoReacciones .tweetButton {
   margin-top: 10px;
   margin-bottom: 0px;
 }
-/* line 209, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 209, ../sass/_listadosAuxiliares.scss */
 .listadoReacciones .tweetContenido.cargando {
   display: block;
   height: 105px;
   font: 13px/16px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
   color: #929292;
 }
-/* line 215, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 215, ../sass/_listadosAuxiliares.scss */
 .listadoReacciones li, .listadoReacciones .reaccionesIcono {
   position: relative;
   display: block;
@@ -611,14 +700,13 @@ a:hover.titulo {
   margin-right: 5px;
   margin-bottom: 5px;
 }
-/* line 225, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 225, ../sass/_listadosAuxiliares.scss */
 .listadoReacciones .reaccionesIcono {
   cursor: pointer;
   opacity: 0.65;
 }
 
-/* cabeceraPagina */
-/* line 3, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+/* line 3, ../sass/_cabecerapagina.scss */
 .cabeceraPagina {
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -626,16 +714,20 @@ a:hover.titulo {
   -o-user-select: none;
   user-select: none;
   height: 85px;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #eeeeee), color-stop(1, #fafafa));
-  background-image: -moz-linear-gradient(center top, #eeeeee 0%, #fafafa 100%);
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e6e6e6), color-stop(100%, #fafafa));
+  background-image: -webkit-linear-gradient(top, #e6e6e6, #fafafa);
+  background-image: -moz-linear-gradient(top, #e6e6e6, #fafafa);
+  background-image: -o-linear-gradient(top, #e6e6e6, #fafafa);
+  background-image: -ms-linear-gradient(top, #e6e6e6, #fafafa);
+  background-image: linear-gradient(top, #e6e6e6, #fafafa);
   padding-top: 25px;
 }
-/* line 23, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+/* line 12, ../sass/_cabecerapagina.scss */
 .cabeceraPagina .tituloMenuBusqueda {
   display: table;
   width: 960px;
 }
-/* line 26, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+/* line 15, ../sass/_cabecerapagina.scss */
 .cabeceraPagina .tituloMenuBusqueda h1 {
   display: table-cell;
   vertical-align: middle;
@@ -643,7 +735,7 @@ a:hover.titulo {
   height: 15px;
   resize: none;
 }
-/* line 33, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+/* line 22, ../sass/_cabecerapagina.scss */
 .cabeceraPagina .tituloMenuBusqueda nav {
   height: 50px;
   display: table-cell;
@@ -654,13 +746,13 @@ a:hover.titulo {
   padding-right: 15px;
   padding-left: 15px;
 }
-/* line 42, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+/* line 31, ../sass/_cabecerapagina.scss */
 .cabeceraPagina .tituloMenuBusqueda nav h2 {
   display: none;
 }
 
 /* @end */
-/* line 50, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+/* line 39, ../sass/_cabecerapagina.scss */
 .menu li {
   display: inline-block;
   width: 24%;
@@ -668,7 +760,7 @@ a:hover.titulo {
   margin: 0;
   padding: 0;
 }
-/* line 57, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+/* line 46, ../sass/_cabecerapagina.scss */
 .menu a:link {
   padding: 3px 10px;
   border-radius: 15px;
@@ -679,7 +771,7 @@ a:hover.titulo {
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
-/* line 64, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+/* line 53, ../sass/_cabecerapagina.scss */
 .menu a:hover, .menu .cabeceraPagina .menu li a:hover.active {
   background-color: #e6e6e6;
   -moz-transition: all 0.2s linear;
@@ -687,7 +779,7 @@ a:hover.titulo {
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
-/* line 68, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+/* line 57, ../sass/_cabecerapagina.scss */
 .menu a:active {
   background-color: #dfdfdf;
   -moz-transition: all 0.2s linear;
@@ -695,7 +787,7 @@ a:hover.titulo {
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
-/* line 72, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+/* line 61, ../sass/_cabecerapagina.scss */
 .menu a.active {
   background-color: rgba(150, 150, 150, 0.08);
   -moz-transition: all 0.2s linear;
@@ -703,30 +795,30 @@ a:hover.titulo {
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
-/* line 76, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+/* line 65, ../sass/_cabecerapagina.scss */
 .menu a:before {
   padding-right: 7px;
   position: relative;
   top: 2px;
 }
-/* line 81, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+/* line 70, ../sass/_cabecerapagina.scss */
 .menu .menuBlog:before {
   content: url(/imagenes/menuBlog.png);
 }
-/* line 84, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+/* line 73, ../sass/_cabecerapagina.scss */
 .menu .menuProyectos:before {
   content: url(/imagenes/menuProyectos.png);
 }
-/* line 87, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+/* line 76, ../sass/_cabecerapagina.scss */
 .menu .menuEquipo:before {
   content: url(/imagenes/menuEquipo.png);
 }
-/* line 90, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+/* line 79, ../sass/_cabecerapagina.scss */
 .menu .menuCodigo:before {
   content: url(/imagenes/menuCodigo.png);
 }
 
-/* line 95, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+/* line 84, ../sass/_cabecerapagina.scss */
 .search-form {
   height: 50px;
   display: table-cell;
@@ -741,14 +833,14 @@ a:hover.titulo {
   width: 420px;
   margin: 0;
 }
-/* line 108, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+/* line 97, ../sass/_cabecerapagina.scss */
 .search-form input[type='text'], .search-form input[type='submit'] {
   display: table-cell;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
-/* line 114, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+/* line 103, ../sass/_cabecerapagina.scss */
 .search-form input[type='text'] {
   -webkit-border-top-left-radius: 15px;
   -webkit-border-bottom-left-radius: 15px;
@@ -768,7 +860,7 @@ a:hover.titulo {
   float: left;
   width: 70%;
 }
-/* line 133, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+/* line 122, ../sass/_cabecerapagina.scss */
 .search-form input[type='submit'] {
   -webkit-border-top-right-radius: 15px;
   -webkit-border-bottom-right-radius: 15px;
@@ -789,150 +881,25 @@ a:hover.titulo {
   float: left;
   text-shadow: 0 1px #ffffff;
 }
-/* line 153, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+/* line 142, ../sass/_cabecerapagina.scss */
 .search-form input[type='submit']:hover {
   background-color: #e6e6e6;
   cursor: pointer;
 }
 
-/* line 10, ../sass/screen.scss */
-html {
-  background-color: #eeeeee;
-  height: 100%;
-}
-
-/* line 14, ../sass/screen.scss */
-body {
-  background-color: #fafafa;
-}
-
-/* line 17, ../sass/screen.scss */
-.contenedor {
-  width: 960px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-/* line 22, ../sass/screen.scss */
-.contenedorPie {
-  clear: both;
-}
-
-/* line 25, ../sass/screen.scss */
-.cabeceraPagina, footer {
-  width: 100%;
-  min-width: 960px;
-}
-
-/* estilos linea cruzando el titulo de la seccion*/
-/* line 30, ../sass/screen.scss */
-footer .contenedor, .cuerpoPagina .contenedor {
-  position: relative;
-  top: -25px;
-}
-
-/* line 34, ../sass/screen.scss */
-.cierreNodo .contenedor {
-  position: relative;
-  top: -15px;
-}
-
-/* line 38, ../sass/screen.scss */
-.contenedor.Inicio {
-  position: relative;
-  top: 0px;
-}
-
-/* line 42, ../sass/screen.scss */
-.cuerpoPagina, .cierreNodo {
-  border-top: 1px solid #f2f2f2;
-  margin-top: 50px;
-}
-
-/* line 46, ../sass/screen.scss */
-.cuerpoPagina.Inicio {
-  border-top: none;
-  margin-top: 5px;
-}
-
-/* line 50, ../sass/screen.scss */
-footer {
-  border-top: 1px solid #f2f2f2;
-  margin-top: 80px;
-}
-
-/* line 54, ../sass/screen.scss */
-.cierreNodo {
-  clear: right;
-}
-
-/* line 57, ../sass/screen.scss */
-#columnaNavegacion, #columnaAuxiliar, #dosColumnasContenido, #tresColumnasContenido {
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-}
-
-/* line 62, ../sass/screen.scss */
-#columnaNavegacion {
-  width: 240px;
-  padding-right: 10px;
-  float: left;
-}
-
-/* line 67, ../sass/screen.scss */
-#columnaAuxiliar {
-  width: 240px;
-  padding-left: 10px;
-  float: right;
-}
-
-/* line 72, ../sass/screen.scss */
-#dosColumnasContenido {
-  width: 720px;
-  padding-left: 25px;
-  float: right;
-}
-
-/* line 77, ../sass/screen.scss */
-#tresColumnasContenido {
-  width: 480px;
-  padding-left: 25px;
-  float: left;
-  padding-right: 25px;
-}
-
-/* line 83, ../sass/screen.scss */
-#dosColumnasContenido .nodo .cuerpoNodo p {
-  width: 600px;
-}
-
-/* @group EstilosTextos */
-/* @end */
-/* @group piePagina */
-/* line 91, ../sass/screen.scss */
-.enlacesSociales {
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -o-user-select: none;
-  user-select: none;
-}
-
-/* line 99, ../sass/screen.scss */
+/* line 1, ../sass/_footerpagina.scss */
 footer {
   background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #eeeeee), color-stop(0.6, #fafafa));
   height: 200px;
   display: block;
 }
 
-/* line 111, ../sass/screen.scss */
+/* line 13, ../sass/_footerpagina.scss */
 .datosContacto {
   width: 720px;
   float: left;
 }
-
-/* line 115, ../sass/screen.scss */
+/* line 16, ../sass/_footerpagina.scss */
 .datosContacto .email, .datosContacto .tel {
   width: 20px;
   height: 20px;
@@ -941,146 +908,166 @@ footer {
   top: 6px;
   margin-right: 5px;
 }
-
-/* line 123, ../sass/screen.scss */
+/* line 24, ../sass/_footerpagina.scss */
 .datosContacto .email {
   background: url(/imagenes/iconosContacto.png) 0px -20px no-repeat;
 }
-
-/* line 126, ../sass/screen.scss */
+/* line 27, ../sass/_footerpagina.scss */
 .datosContacto .tel {
   background: url(/imagenes/iconosContacto.png) 0px 0px no-repeat;
   margin-left: 15px;
 }
 
-/* line 130, ../sass/screen.scss */
+/* line 32, ../sass/_footerpagina.scss */
 footer h3 {
   margin-top: 8px;
   margin-bottom: 30px;
 }
 
-/* line 134, ../sass/screen.scss */
-.enlacesSociales {
-  width: 240px;
-  display: block;
-  float: right;
+/* line 11, ../sass/screen.scss */
+html {
+  background-color: #eeeeee;
+  height: 100%;
+}
+
+/* line 15, ../sass/screen.scss */
+body {
+  background-color: #fafafa;
+}
+
+/* line 18, ../sass/screen.scss */
+.contenedor {
+  width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* line 23, ../sass/screen.scss */
+.contenedorPie {
+  clear: both;
+}
+
+/* line 26, ../sass/screen.scss */
+.cabeceraPagina, footer {
+  width: 100%;
+  min-width: 960px;
+}
+
+/* estilos linea cruzando el titulo de la seccion*/
+/* line 31, ../sass/screen.scss */
+footer .contenedor, .cuerpoPagina .contenedor {
+  position: relative;
+  top: -25px;
+}
+
+/* line 35, ../sass/screen.scss */
+.cierreNodo .contenedor {
+  position: relative;
+  top: -15px;
+}
+
+/* line 39, ../sass/screen.scss */
+.contenedor.Inicio {
+  position: relative;
+  top: 0px;
+}
+
+/* line 43, ../sass/screen.scss */
+.cuerpoPagina, .cierreNodo {
+  border-top: 1px solid #f2f2f2;
+  margin-top: 50px;
+}
+
+/* line 47, ../sass/screen.scss */
+.cuerpoPagina.Inicio {
+  border-top: none;
+  margin-top: 5px;
+}
+
+/* line 51, ../sass/screen.scss */
+footer {
+  border-top: 1px solid #f2f2f2;
+  margin-top: 80px;
+}
+
+/* line 55, ../sass/screen.scss */
+.cierreNodo {
+  clear: right;
+}
+
+/* line 58, ../sass/screen.scss */
+#columnaNavegacion, #columnaAuxiliar, #dosColumnasContenido, #tresColumnasContenido {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  padding-left: 15px;
-  border-left: 1px solid #f2f2f2;
-  margin-top: 35px;
 }
 
-/* line 145, ../sass/screen.scss */
-.enlacesSociales li, .enlacesNodo li {
-  padding: 2px 0;
+/* line 63, ../sass/screen.scss */
+#columnaNavegacion {
+  width: 240px;
+  padding-right: 10px;
+  float: left;
 }
 
-/* line 148, ../sass/screen.scss */
-a.enlaceExterno > span {
-  background: url(/imagenes/enlacesExternos.png) 0 -120px no-repeat;
-  width: 20px;
-  height: 20px;
-  display: inline-block;
-  position: relative;
-  top: 5px;
-  margin-right: 7px;
+/* line 68, ../sass/screen.scss */
+#columnaAuxiliar {
+  width: 240px;
+  padding-left: 10px;
+  float: right;
 }
 
-/* line 157, ../sass/screen.scss */
-a.enlaceExterno:hover > span {
-  background: url(/imagenes/enlacesExternos.png) -20 -120px no-repeat;
+/* line 73, ../sass/screen.scss */
+#dosColumnasContenido {
+  width: 720px;
+  padding-left: 25px;
+  float: right;
 }
 
-/* line 160, ../sass/screen.scss */
-a.enlaceExterno[href*='facebook.com'] > span {
-  background: url(/imagenes/enlacesExternos.png) 0 -40px no-repeat;
+/* line 78, ../sass/screen.scss */
+#tresColumnasContenido {
+  width: 480px;
+  padding-left: 25px;
+  float: left;
+  padding-right: 25px;
 }
 
-/* line 163, ../sass/screen.scss */
-a.enlaceExterno[href*='facebook.com']:hover > span {
-  background: url(/imagenes/enlacesExternos.png) -20 -40px no-repeat;
-}
-
-/* line 166, ../sass/screen.scss */
-a.enlaceExterno[href*='twitter.com'] > span {
-  background: url(/imagenes/enlacesExternos.png) 0 0px no-repeat;
-}
-
-/* line 169, ../sass/screen.scss */
-a.enlaceExterno[href*='twitter.com']:hover > span {
-  background: url(/imagenes/enlacesExternos.png) -20 0px no-repeat;
-}
-
-/* line 172, ../sass/screen.scss */
-a.enlaceExterno[href*='flickr.com'] > span {
-  background: url(/imagenes/enlacesExternos.png) 0 -20px no-repeat;
-}
-
-/* line 175, ../sass/screen.scss */
-a.enlaceExterno[href*='flickr.com']:hover > span {
-  background: url(/imagenes/enlacesExternos.png) -20 -20px no-repeat;
-}
-
-/* line 178, ../sass/screen.scss */
-a.enlaceExterno[href*='linkedin.com'] > span {
-  background: url(/imagenes/enlacesExternos.png) 0 -60px no-repeat;
-}
-
-/* line 181, ../sass/screen.scss */
-a.enlaceExterno[href*='linkedin.com']:hover > span {
-  background: url(/imagenes/enlacesExternos.png) -20 -60px no-repeat;
-}
-
-/* line 184, ../sass/screen.scss */
-a.enlaceExterno[href*='youtube.com'] > span {
-  background: url(/imagenes/enlacesExternos.png) 0 -80px no-repeat;
-}
-
-/* line 187, ../sass/screen.scss */
-a.enlaceExterno[href*='youtube.com']:hover > span {
-  background: url(/imagenes/enlacesExternos.png) -20 -80px no-repeat;
+/* line 84, ../sass/screen.scss */
+#dosColumnasContenido .nodo .cuerpoNodo p {
+  width: 600px;
 }
 
 /* @end */
 /* @group cuerpoPagina */
-/* line 193, ../sass/screen.scss */
+/* line 90, ../sass/screen.scss */
 .cuerpoPagina {
   min-height: 400px;
   background-color: #fafafa;
 }
 
 /* @group nodoProyecto nodoArticulo*/
-/* line 198, ../sass/screen.scss */
-.nodo, .listadoNodos {
+/* line 97, ../sass/screen.scss */
+.nodo {
   top: -30px;
   position: relative;
 }
-
-/* line 202, ../sass/screen.scss */
+/* line 100, ../sass/screen.scss */
 .nodo .cabeceraNodo {
   margin-bottom: 25px;
 }
-
-/*Los márgenes del segundo subtitulo tanto en la vista de proyectos como en la vista de articulos*/
-/* line 206, ../sass/screen.scss */
+/* line 102, ../sass/screen.scss */
 .nodo .cabeceraNodo p, .nodo .cabeceraNodo ul {
   margin-top: 10px;
 }
-
-/* line 209, ../sass/screen.scss */
-.nodo .cabeceraNodo h3 {
+/* line 106, ../sass/screen.scss */
+.nodo h3 {
   margin-top: 8px;
   margin-bottom: 0px;
 }
-
-/* line 213, ../sass/screen.scss */
-.nodo .cabeceraNodo h4 {
+/* line 110, ../sass/screen.scss */
+.nodo h4 {
   margin-left: 110px;
 }
-
-/* line 216, ../sass/screen.scss */
+/* line 113, ../sass/screen.scss */
 .nodo .miniaturaNodo {
   display: block;
   float: left;
@@ -1089,87 +1076,82 @@ a.enlaceExterno[href*='youtube.com']:hover > span {
   width: 90px;
   background-size: cover;
 }
+/* line 121, ../sass/screen.scss */
+.nodo .imagenNodo {
+  margin-bottom: 25px;
+}
+/* line 123, ../sass/screen.scss */
+.nodo .imagenNodo img {
+  width: 600px;
+}
+/* line 128, ../sass/screen.scss */
+.nodo .cuerpoNodo h1, .nodo .cuerpoNodo h2, .nodo .cuerpoNodo h3, .nodo .cuerpoNodo h4, .nodo .cuerpoNodo h5, .nodo .cuerpoNodo h6 {
+  margin-bottom: 10px;
+}
+/* line 131, ../sass/screen.scss */
+.nodo .cuerpoNodo p {
+  margin-bottom: 20px;
+}
+/* line 135, ../sass/screen.scss */
+.nodo .contenedorMultimediaNodo {
+  margin-top: 35px;
+  margin-bottom: 25px;
+}
+/* line 138, ../sass/screen.scss */
+.nodo .contenedorMultimediaNodo object {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+/* line 143, ../sass/screen.scss */
+.nodo .enlacesNodo {
+  margin-top: 35px;
+  margin-bottom: 25px;
+}
+/* line 146, ../sass/screen.scss */
+.nodo .enlacesNodo li {
+  padding: 2px 0;
+}
+/* line 149, ../sass/screen.scss */
+.nodo .enlacesNodo h2 {
+  margin-bottom: 5px;
+}
 
-/* line 224, ../sass/screen.scss */
+/* line 155, ../sass/screen.scss */
 .palabrasClave li {
   display: inline-block;
 }
-
-/* line 227, ../sass/screen.scss */
+/* line 158, ../sass/screen.scss */
 .palabrasClave li:after {
   content: ", ";
   color: #2671bc;
 }
-
-/* line 231, ../sass/screen.scss */
+/* line 162, ../sass/screen.scss */
 .palabrasClave li:last-child:after {
   content: "";
   color: #2671bc;
 }
 
-/* line 235, ../sass/screen.scss */
-.nodo .imagenNodo img {
-  width: 600px;
-}
-
-/* line 238, ../sass/screen.scss */
-.nodo .imagenNodo, .nodoProyecto .contenedorMultimediaNodo {
-  margin-bottom: 25px;
-}
-
-/* line 241, ../sass/screen.scss */
-.nodoProyecto .contenedorMultimediaNodo {
-  margin-top: 25px;
-}
-
-/* line 244, ../sass/screen.scss */
-.nodo .cuerpoNodo h1, .nodo .cuerpoNodo h2, .nodo .cuerpoNodo h3, .cuerpoNodo h4, .nodo .cuerpoNodo h5, .nodo .cuerpoNodo h6 {
-  margin-bottom: 10px;
-}
-
-/* line 247, ../sass/screen.scss */
-.nodo .cuerpoNodo p {
-  margin-bottom: 20px;
-}
-
-/* line 250, ../sass/screen.scss */
-.nodo .contenedorMultimediaNodo {
-  margin-top: 35px;
-  margin-bottom: 25px;
-}
-
-/* line 254, ../sass/screen.scss */
-.nodo .contenedorMultimediaNodo object {
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
-
-/* line 259, ../sass/screen.scss */
-.nodo .enlacesNodo {
-  margin-top: 35px;
-  margin-bottom: 25px;
-}
-
-/* line 263, ../sass/screen.scss */
-.nodo .enlacesNodo h2 {
-  margin-bottom: 5px;
-}
-
-/* @end */
-/* line 268, ../sass/screen.scss */
+/* line 168, ../sass/screen.scss */
 .nodoLista {
   padding-top: 25px;
   padding-bottom: 25px;
   border-bottom: 1px solid #f2f2f2;
 }
-
-/* line 273, ../sass/screen.scss */
+/* line 172, ../sass/screen.scss */
+.nodoLista h3 {
+  padding-top: 8px;
+  padding-bottom: 14px;
+}
+/* line 176, ../sass/screen.scss */
+.nodoLista hgroup {
+  margin-top: 8px;
+}
+/* line 179, ../sass/screen.scss */
 .nodoLista .imagenNodoLista {
   float: left;
   margin-right: 15px;
 }
-
-/* line 277, ../sass/screen.scss */
+/* line 182, ../sass/screen.scss */
 .nodoLista .imagenNodoLista a {
   display: block;
   width: 230px;
@@ -1177,45 +1159,28 @@ a.enlaceExterno[href*='youtube.com']:hover > span {
   overflow: hidden;
   background-size: cover;
 }
+/* line 190, ../sass/screen.scss */
+.nodoLista .cuerpoNodo p {
+  display: inline-block;
+}
 
-/* line 284, ../sass/screen.scss */
+/* line 195, ../sass/screen.scss */
 .nodoLista .infoNodoLista {
   float: left;
   width: 450px;
 }
 
-/* line 288, ../sass/screen.scss */
-.nodoLista hgroup {
-  margin-top: 8px;
-}
-
-/* line 291, ../sass/screen.scss */
-.nodoLista h3 {
-  padding-top: 8px;
-  padding-bottom: 14px;
-}
-
-/* line 295, ../sass/screen.scss */
-.nodoLista .cuerpoNodo p {
-  display: inline-block;
-}
-
-/* line 298, ../sass/screen.scss */
+/* line 199, ../sass/screen.scss */
 span.terminosFiltrado {
   padding-left: 10px;
 }
 
-/* line 301, ../sass/screen.scss */
+/* line 202, ../sass/screen.scss */
 h2.tituloListado {
   margin-bottom: 15px;
 }
 
-/* line 305, ../sass/screen.scss */
-.proyectosColaboradores {
-  margin-top: 20px;
-}
-
-/* line 309, ../sass/screen.scss */
+/* line 206, ../sass/screen.scss */
 .imagenInicio {
   width: 960px;
   height: 300px;
@@ -1224,20 +1189,20 @@ h2.tituloListado {
   position: relative;
 }
 
-/* line 316, ../sass/screen.scss */
+/* line 213, ../sass/screen.scss */
 hgroup.imagenInicioTitulo {
   position: absolute;
   background-color: white;
   padding: 25px;
 }
 
-/* line 321, ../sass/screen.scss */
+/* line 218, ../sass/screen.scss */
 hgroup.imagenInicioTitulo h3 {
   width: 480px;
   margin-top: 7px;
 }
 
-/* line 325, ../sass/screen.scss */
+/* line 222, ../sass/screen.scss */
 .posicionDerechaAlta, .posicionDerechaBaja {
   -webkit-border-top-left-radius: 10px;
   -webkit-border-bottom-left-radius: 10px;
@@ -1247,7 +1212,7 @@ hgroup.imagenInicioTitulo h3 {
   border-bottom-left-radius: 10px;
 }
 
-/* line 333, ../sass/screen.scss */
+/* line 230, ../sass/screen.scss */
 .posicionIzquierdaAlta, .posicionIzquierdaBaja {
   -webkit-border-top-right-radius: 10px;
   -webkit-border-bottom-right-radius: 10px;
@@ -1257,42 +1222,48 @@ hgroup.imagenInicioTitulo h3 {
   border-bottom-right-radius: 10px;
 }
 
-/* line 341, ../sass/screen.scss */
+/* line 238, ../sass/screen.scss */
 .posicionDerechaAlta {
   top: 50px;
   right: 0;
 }
 
-/* line 345, ../sass/screen.scss */
+/* line 242, ../sass/screen.scss */
 .posicionDerechaBaja {
   bottom: 50px;
   right: 0;
 }
 
-/* line 349, ../sass/screen.scss */
+/* line 246, ../sass/screen.scss */
 .posicionIzquierdaAlta {
   top: 50px;
   left: 0;
 }
 
-/* line 353, ../sass/screen.scss */
+/* line 250, ../sass/screen.scss */
 .posicionIzquierdaBaja {
   bottom: 50px;
   left: 0;
   opacity: 0.85;
 }
 
-/* line 358, ../sass/screen.scss */
+/* line 256, ../sass/screen.scss */
+.listadoNodos {
+  top: -30px;
+  position: relative;
+}
+
+/* line 260, ../sass/screen.scss */
 .listadoNodosInicio {
   width: 720px;
 }
 
-/* line 361, ../sass/screen.scss */
+/* line 263, ../sass/screen.scss */
 .listadoNodosInicio.Portfolio {
   width: 960px;
 }
 
-/* line 364, ../sass/screen.scss */
+/* line 266, ../sass/screen.scss */
 .listadoNodosInicio .nodoLista {
   width: 304px;
   height: 440px;
@@ -1302,25 +1273,25 @@ hgroup.imagenInicioTitulo h3 {
   border-bottom-style: none;
 }
 
-/* line 372, ../sass/screen.scss */
+/* line 274, ../sass/screen.scss */
 .listadoNodosInicio .nodoLista:first-child {
   padding-right: 15px;
   border-right: 1px solid #f2f2f2;
   padding-left: 0;
 }
 
-/* line 377, ../sass/screen.scss */
+/* line 279, ../sass/screen.scss */
 .listadoNodosInicio .nodoLista:last-child {
   border-right: 1px solid #f2f2f2;
   padding: 0 15px;
 }
 
-/* line 381, ../sass/screen.scss */
+/* line 283, ../sass/screen.scss */
 .listadoNodosInicio .infoNodoLista {
   width: 304px;
 }
 
-/* line 384, ../sass/screen.scss */
+/* line 286, ../sass/screen.scss */
 .listadoNodosInicio .nodoLista .imagenNodoLista, .listadoNodosInicio .nodoLista .imagenNodoLista a {
   display: block;
   margin: 0;
@@ -1330,17 +1301,17 @@ hgroup.imagenInicioTitulo h3 {
   background-size: cover;
 }
 
-/* line 392, ../sass/screen.scss */
+/* line 294, ../sass/screen.scss */
 .nodoLista .imagenNodoLista a:link, .nodoLista .imagenNodoLista a:visited {
   border-bottom-style: none;
 }
 
-/* line 395, ../sass/screen.scss */
+/* line 297, ../sass/screen.scss */
 .listadoNodosInicio .infoNodoLista .cabeceraNodo p {
   margin-top: 10px;
 }
 
-/* line 398, ../sass/screen.scss */
+/* line 300, ../sass/screen.scss */
 #columnaTres {
   height: 440px;
   width: 304px;
@@ -1348,7 +1319,7 @@ hgroup.imagenInicioTitulo h3 {
   border-bottom: none;
 }
 
-/* line 404, ../sass/screen.scss */
+/* line 306, ../sass/screen.scss */
 #ultimoTweetInicio {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -1356,38 +1327,37 @@ hgroup.imagenInicioTitulo h3 {
   box-sizing: border-box;
   padding-left: 15px;
 }
-/* line 407, ../sass/screen.scss */
+/* line 309, ../sass/screen.scss */
 #ultimoTweetInicio .tweetContenido {
   margin-top: 40px;
 }
-/* line 410, ../sass/screen.scss */
+/* line 312, ../sass/screen.scss */
 #ultimoTweetInicio .tweetFecha {
   text-align: right;
   margin-top: 15px;
 }
-/* line 414, ../sass/screen.scss */
+/* line 316, ../sass/screen.scss */
 #ultimoTweetInicio .tweetInfo {
   text-align: right;
 }
-/* line 417, ../sass/screen.scss */
+/* line 319, ../sass/screen.scss */
 #ultimoTweetInicio a.nombreUsuario:link, #ultimoTweetInicio a.nombreUsuario:visited {
   border-bottom-style: none;
 }
 
-/* line 422, ../sass/screen.scss */
+/* line 324, ../sass/screen.scss */
 ul.pager {
   margin: 15px 0 0;
   padding: 0;
 }
 
-/* line 426, ../sass/screen.scss */
+/* line 328, ../sass/screen.scss */
 li.paginacion {
   margin: 0;
   padding: 0;
   display: block;
 }
-
-/* line 431, ../sass/screen.scss */
+/* line 332, ../sass/screen.scss */
 li.paginacion.current {
   background-color: #dfdfdf;
   padding: 4px 10px;
@@ -1396,8 +1366,7 @@ li.paginacion.current {
   -moz-border-radius: 10px;
   color: white;
 }
-
-/* line 439, ../sass/screen.scss */
+/* line 340, ../sass/screen.scss */
 li.paginacion a:link, li.paginacion a:visited {
   border-bottom-style: none;
   padding: 4px 10px;
@@ -1405,22 +1374,20 @@ li.paginacion a:link, li.paginacion a:visited {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
 }
-
-/* line 446, ../sass/screen.scss */
+/* line 347, ../sass/screen.scss */
 li.paginacion a:hover {
   background-color: #ededed;
 }
-
-/* line 449, ../sass/screen.scss */
+/* line 350, ../sass/screen.scss */
 li.paginacion a:active {
   background-color: #dfdfdf;
 }
 
-/* line 3, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
+/* line 3, ../sass/_portfoliolayout.scss */
 .listadoNodosInicio.Portfolio {
   margin-top: 30px;
 }
-/* line 5, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
+/* line 5, ../sass/_portfoliolayout.scss */
 .listadoNodosInicio.Portfolio .nodoLista {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -1429,7 +1396,7 @@ li.paginacion a:active {
   height: 400px;
   margin-bottom: 30px;
 }
-/* line 10, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
+/* line 10, ../sass/_portfoliolayout.scss */
 .listadoNodosInicio.Portfolio .nodoLista:nth-child(3n+1) {
   padding-left: 0px;
   padding-right: 15px;
@@ -1437,7 +1404,7 @@ li.paginacion a:active {
   border: none;
   border-right: 1px dotted #dfdfdf;
 }
-/* line 17, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
+/* line 17, ../sass/_portfoliolayout.scss */
 .listadoNodosInicio.Portfolio .nodoLista:nth-child(3n+2) {
   padding-left: 15px;
   padding-right: 15px;
@@ -1445,14 +1412,14 @@ li.paginacion a:active {
   border: none;
   border-right: 1px dotted #dfdfdf;
 }
-/* line 24, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
+/* line 24, ../sass/_portfoliolayout.scss */
 .listadoNodosInicio.Portfolio .nodoLista:nth-child(3n+3) {
   padding-left: 15px;
   padding-right: 0px;
   width: 315px;
   border: none;
 }
-/* line 30, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
+/* line 30, ../sass/_portfoliolayout.scss */
 .listadoNodosInicio.Portfolio .imagenNodoLista a {
   width: 300px;
 }

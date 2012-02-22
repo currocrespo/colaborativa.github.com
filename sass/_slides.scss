@@ -4,11 +4,11 @@
 .slides_container {
 	width:960px;
 	height:300px;
-}
-.slides_container div {
-	width:960px;
-	height:300px;
-	display:block;
+	div {
+		width:960px;
+		height:300px;
+		display:block;
+	}
 }
 #slides {
 position: relative;
@@ -62,8 +62,5 @@ z-index: 100;
 			background-color:rgba(255,255,255,0.6);
 		}
 	}
-
-
-
 }
 
