@@ -1,0 +1,18 @@
+<article class="nodoLista">
+	<div class="imagenNodoLista">
+		<a href="{{ item.url }}" style="background: url(http://{{ item.imagen }}.jpg) center center no-repeat"></a>
+	</div>
+	<div class="infoNodoLista">
+		<div class="cabeceraNodo">
+			<p class="additionalInfo">{% include _inline-fecha-autor.html %}</p>
+			<hgroup>
+				<h1><a class="titulo" href="{{ item.url }}">{{ item.title }}</a></h1>
+				<h2>{{ item.subtitulo }}</h2>
+			</hgroup>
+		</div>
+		<div class="cuerpoNodo">
+			{{ item.content | truncate: 200 }}
+		</div>
+	</div>
+	<div class="contenedorPie"></div>
+</article>

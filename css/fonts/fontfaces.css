@@ -21,3 +21,11 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'colaborativaLight';
+  src: url("fonts/colaborativa-light-webfont.eot");
+  src: url("fonts/colaborativa-light-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/colaborativa-light-webfont.woff") format("woff"), url("fonts/colaborativa-light-webfont.ttf") format("truetype"), url("fonts/colaborativa-light-webfont.svgz#colaborativa-light") format("svg"), url("fonts/colaborativa-light-webfont.svg#colaborativa-light") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}

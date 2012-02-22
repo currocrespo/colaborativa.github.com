@@ -9,20 +9,20 @@
 		{% include _header.html %}
 		<section class="cuerpoPagina">
 			<div class="contenedor">
-				<h2>{{ site.inline-proyectos.es | capitalize }}</h2>
+				<h1 class="big">{{ site.inline-proyectos.es | capitalize }}</h1>
 				<div id="columnaNavegacion">
 					{% include _social.html %}
-					{% include _listado-colaboradores-proyecto.html %}
-					{% include _listado-enlaces-prensa.html %}
-					{% include _listado-articulos-proyecto.html %}
-					{% include _listado-reacciones.html %}
+					{% include _listado-proyecto-colaboradores.html %}
+					{% include _listado-proyecto-enlacesprensa.html %}
+					{% include _listado-proyecto-articulos.html %}
+					{% include _listado-proyecto-reacciones.html %}
 				</div>
 				<div id="dosColumnasContenido">
 					<article class="nodo">
 						<div class="cabeceraNodo">
 							<hgroup>
-								<h2>{{ page.title }}</h2>
-								<h3>{{ page.subtitulo }}</h3>
+								<h1>{{ page.title }}</h1>
+								<h2>{{ page.subtitulo }}</h2>
 							</hgroup>
 							{% include _proyecto-categorias.html %}
 						</div>

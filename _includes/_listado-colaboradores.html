@@ -1,18 +1,18 @@
 <section class="listadoColaborativos">
 	<hgroup>
-		<h2>{{ site.listado-colaboradores-titulo.es }}</h2>
-		<h3>{{ site.listado-colaboradores-subtitulo.es }}</h3>
+		<h3>{{ site.listado-colaboradores-titulo.es }}</h3>
+		<h4>{{ site.listado-colaboradores-subtitulo.es }}</h4>
 	</hgroup>
 	<section>
 		<ul>
 			{% for item in site.categories.colaboradores reversed %}
 			<li>
+				<div class="colaboradorIcono" style="background: url(http://{{ item.imagen }}_s.jpg) center center no-repeat"></div>
 				<div class="subcategoryPopUp">
 					<span class="triangulo"> </span>
-					<h3>{{ item.nombre }}</h3>
+					<h5>{{ item.title }}</h5>
 					<a target="_blank" href="{{ item.link }}"><span></span>{{ item.link }}</a>
 				</div>
-				<div class="colaboradorIcono" style="background: url(http://{{ item.imagen }}_s.jpg) center center no-repeat"></div>
 			</li>
 			{% endfor %}
 		</ul>

@@ -1,0 +1,284 @@
+/* line 3, ../sass/listadosAuxiliares.scss */
+.listadoEtiquetas {
+  margin-bottom: 30px;
+}
+/* line 5, ../sass/listadosAuxiliares.scss */
+.listadoEtiquetas hgroup {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+/* line 9, ../sass/listadosAuxiliares.scss */
+.listadoEtiquetas li:first-child, .listadoEtiquetas li:first-child {
+  border-top: 1px solid #f2f2f2;
+}
+/* line 12, ../sass/listadosAuxiliares.scss */
+.listadoEtiquetas li, .listadoEtiquetas li:first-child {
+  border-bottom: 1px solid #f2f2f2;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+/* line 17, ../sass/listadosAuxiliares.scss */
+.listadoEtiquetas li span.count {
+  color: #2671bc;
+  width: 35px;
+  display: inline-block;
+  text-align: center;
+}
+
+/* line 25, ../sass/listadosAuxiliares.scss */
+.listadoArticulos {
+  margin-bottom: 30px;
+}
+/* line 27, ../sass/listadosAuxiliares.scss */
+.listadoArticulos hgroup {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+/* line 31, ../sass/listadosAuxiliares.scss */
+.listadoArticulos ul {
+  margin-top: 10px;
+}
+/* line 33, ../sass/listadosAuxiliares.scss */
+.listadoArticulos ul li:first-child {
+  border-top-style: none;
+}
+/* line 36, ../sass/listadosAuxiliares.scss */
+.listadoArticulos ul li {
+  border-bottom: 1px solid #f2f2f2;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+/* line 40, ../sass/listadosAuxiliares.scss */
+.listadoArticulos ul li hgroup {
+  margin: 0px;
+}
+/* line 44, ../sass/listadosAuxiliares.scss */
+.listadoArticulos ul li span.count {
+  width: 35px;
+  display: inline-block;
+  text-align: center;
+}
+
+/* line 53, ../sass/listadosAuxiliares.scss */
+.listadoColaborativos {
+  margin-bottom: 30px;
+}
+/* line 55, ../sass/listadosAuxiliares.scss */
+.listadoColaborativos hgroup {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+/* line 59, ../sass/listadosAuxiliares.scss */
+.listadoColaborativos ul {
+  margin-top: 10px;
+}
+/* line 62, ../sass/listadosAuxiliares.scss */
+.listadoColaborativos ul li .colaborativoIcono, .listadoColaborativos ul li .colaboradorIcono {
+  position: relative;
+  display: block;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  float: left;
+  background-size: cover;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+/* line 73, ../sass/listadosAuxiliares.scss */
+.listadoColaborativos ul li a:link {
+  text-decoration: none;
+  border-bottom: none;
+}
+
+/* bloqueActividades */
+/* line 83, ../sass/listadosAuxiliares.scss */
+.bloqueActividades {
+  height: 170px;
+  width: 290px;
+  margin-left: 15px;
+}
+/* line 88, ../sass/listadosAuxiliares.scss */
+.bloqueActividades h2 {
+  font: 25px/25px "colaborativaBook";
+  color: white;
+  background-color: #c7c7c7;
+  padding-left: 10px;
+  height: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+/* line 97, ../sass/listadosAuxiliares.scss */
+.bloqueActividades li {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  border-bottom: 1px dotted silver;
+  height: 35px;
+  display: table;
+  width: 290px;
+}
+/* line 103, ../sass/listadosAuxiliares.scss */
+.bloqueActividades li a:link {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 20px;
+  display: table-cell;
+  vertical-align: middle;
+  text-decoration: none;
+  color: #323232;
+  margin: 0;
+  text-align: left;
+  padding: 0;
+  border-bottom-style: none;
+}
+/* line 115, ../sass/listadosAuxiliares.scss */
+.bloqueActividades li a:visited {
+  text-decoration: none;
+  color: #323232;
+}
+/* line 120, ../sass/listadosAuxiliares.scss */
+.bloqueActividades li:hover {
+  background-color: #efefef;
+}
+/* line 123, ../sass/listadosAuxiliares.scss */
+.bloqueActividades li:active {
+  background-color: #d7d7d7;
+}
+/* line 126, ../sass/listadosAuxiliares.scss */
+.bloqueActividades li span {
+  width: 33px;
+  display: table-cell;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 33px;
+}
+/* line 134, ../sass/listadosAuxiliares.scss */
+.bloqueActividades li.estrategico span {
+  background: url(/imagenes/iconoEstrategias.png) 0 0px no-repeat;
+}
+/* line 137, ../sass/listadosAuxiliares.scss */
+.bloqueActividades li.acciones span {
+  background: url(/imagenes/iconoAcciones.png) 0 0px no-repeat;
+}
+/* line 140, ../sass/listadosAuxiliares.scss */
+.bloqueActividades li.geoposicionamiento span {
+  background: url(/imagenes/iconoGeoposicionamiento.png) 0 0px no-repeat;
+}
+/* line 143, ../sass/listadosAuxiliares.scss */
+.bloqueActividades li.visualizacion span {
+  background: url(/imagenes/iconoVisualizacion.png) 0 0px no-repeat;
+}
+
+/* subcategoryPopUp */
+/* line 150, ../sass/listadosAuxiliares.scss */
+.subcategoryPopUp, .subcategoryPopUp2 {
+  position: absolute;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+  z-index: 5;
+  font: 13px 'lucinda grande', Helvetica, Arial;
+  display: none;
+  width: 260px;
+  border: 1px solid rgba(66, 66, 66, 0.8);
+  background-color: rgba(50, 50, 50, 0.8);
+  -webkit-border-radius: 5px 5px;
+  -moz-border-radius: 5px / 5px;
+  -o-border-radius: 5px / 5px;
+  -ms-border-radius: 5px / 5px;
+  -khtml-border-radius: 5px / 5px;
+  border-radius: 5px / 5px;
+}
+/* line 161, ../sass/listadosAuxiliares.scss */
+.subcategoryPopUp .triangulo, .subcategoryPopUp2 .triangulo {
+  background-image: url(/imagenes/triangulo.png);
+  display: block;
+  width: 23px;
+  height: 13px;
+  position: absolute;
+  top: -12px;
+  left: 14px;
+  border-style: none;
+  border-width: 0;
+}
+/* line 172, ../sass/listadosAuxiliares.scss */
+.subcategoryPopUp p, .subcategoryPopUp2 p {
+  color: #b4b4b4;
+}
+/* line 175, ../sass/listadosAuxiliares.scss */
+.subcategoryPopUp a, .subcategoryPopUp a:link, .subcategoryPopUp a:active, .subcategoryPopUp2 a, .subcategoryPopUp2 a:link, .subcategoryPopUp2 a:active {
+  color: white;
+  border-bottom-style: none;
+  position: relative;
+}
+/* line 180, ../sass/listadosAuxiliares.scss */
+.subcategoryPopUp a:hover, .subcategoryPopUp2 a:hover {
+  color: #bdbdbd;
+}
+
+/* line 184, ../sass/listadosAuxiliares.scss */
+.subcategoryPopUp {
+  margin-top: 65px;
+}
+
+/* line 187, ../sass/listadosAuxiliares.scss */
+.subcategoryPopUp2 {
+  margin-top: 42px;
+}
+/* line 189, ../sass/listadosAuxiliares.scss */
+.subcategoryPopUp2 .triangulo {
+  left: 8px;
+}
+
+/* listadoReacciones */
+/* line 196, ../sass/listadosAuxiliares.scss */
+.listadoReacciones {
+  margin-bottom: 25px;
+}
+/* line 198, ../sass/listadosAuxiliares.scss */
+.listadoReacciones p.nota {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* line 202, ../sass/listadosAuxiliares.scss */
+.listadoReacciones #follow {
+  margin-top: 15px;
+}
+/* line 205, ../sass/listadosAuxiliares.scss */
+.listadoReacciones .tweetButton {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+/* line 209, ../sass/listadosAuxiliares.scss */
+.listadoReacciones .tweetContenido.cargando {
+  display: block;
+  height: 105px;
+  font: 13px/16px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  color: #929292;
+}
+/* line 215, ../sass/listadosAuxiliares.scss */
+.listadoReacciones li, .listadoReacciones .reaccionesIcono {
+  position: relative;
+  display: block;
+  width: 30px;
+  height: 30px;
+  float: left;
+  background-size: cover;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+/* line 225, ../sass/listadosAuxiliares.scss */
+.listadoReacciones .reaccionesIcono {
+  cursor: pointer;
+  opacity: 0.65;
+}

@@ -1,0 +1,22 @@
+<section class="listadoArticulos">
+	<hgroup>
+		<h3>{{ site.listado-articulos-proyecto-titulo.es }}</h3>
+		<h4>{{ site.listado-articulos-proyecto-subtitulo.es }}</h4>
+	</hgroup>
+	<ul>
+		{% for item in site.categories.articulos limit:8 %}
+			{% for proyecto in item.categorias %}
+				{% if proyecto == page.title %}
+				<li>
+					<hgroup>
+						<h4><a class="listadoTitulo" href="{{ item.url }}">{{ item.title }}</a></h4>
+						<h5>{{ item.date | date:"%b %Y" }} · {{ item.subtitulo }}</h5>
+					</hgroup>
+				</li>
+				{% else %}
+				{% endif %}
+			{% endfor %}
+		{% endfor %}
+	</ul>
+	<div class="contenedorPie"></div>
+</section>

@@ -26,32 +26,12 @@
 				</div>
 				<div class="listadoNodosInicio">
 					{% for item in site.categories.articulos limit:2 %}
-					<article class="nodoLista">
-						<div class="imagenNodoLista">
-							<a href="{{ item.url }}" style="background: url(http://{{ item.imagen }}.jpg) center center no-repeat"></a>
-						</div>
-						<div class="infoNodoLista">
-							<div class="cabeceraNodo">
-								<p>{% include _inline-fecha-autor.html %}</p>
-								<hgroup>
-									<h2><a href="{{ item.url }}">{{ item.title }}</a></h2>
-									<h3>{{ item.subtitulo }}</h3>
-								</hgroup>
-							</div>
-							<div class="cuerpoNodo">
-								{{ item.content | truncate: 200 }}
-							</div>
-						</div>
-						<div class="contenedorPie"></div>
-					</article>
+						{% include _nodolista-articulo.html %}
 					{% endfor %}
 				</div>
 				<div id="columnaTres">
 					{% include _listado-categorias-proyectos.html %}
-					<div id="ultimoTweetInicio">
-						<div>
-						</div>
-					</div>
+					{% include _main-tweet.html %}
 				</div>
 				<div class="contenedorPie"></div>
 			</div>

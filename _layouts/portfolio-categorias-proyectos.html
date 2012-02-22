@@ -9,7 +9,7 @@
 		{% include _header.html %}
 		<section class="cuerpoPagina">
 			<div class="contenedor">
-				<h2>{{ site.navegacion-proyectos.es }}</h2>
+				<h1 class="big">{{ site.navegacion-proyectos.es }}</h1>
 				<div id="columnaNavegacion">
 					<section class="listadoArticulos Proyectos">
 						<ul>
@@ -21,27 +21,11 @@
 				</div>
 				<div id="dosColumnasContenido">
 					<section class="listadoNodos">
-						<h2 class="tituloListadoArticulos">{% include _inline-contador.html %}</h2>
+						<h1 class="tituloListado">{% include _inline-contador.html %}</h1>
 						{% for item in site.categories.proyectos %}
 							{% for categoria in item.categorias %}
 								{% if categoria == page.title %}
-								<article class="nodoLista">
-									<div class="imagenNodoLista">
-										<a href="{{ item.url }}" style="background: url(http://{{ item.imagen }}.jpg) center center no-repeat"></a>
-									</div>
-									<div class="infoNodoLista">
-										<div class="cabeceraNodo">
-											<hgroup>
-												<h2><a href="{{ item.url }}">{{ item.title }}</a></h2>
-												<h3>{{ item.subtitulo }}</h3>
-											</hgroup>
-										</div>
-										<div class="cuerpoNodo">
-											<p>{{ item.content | truncate: 400 }}</p>
-										</div>
-									</div>
-									<div class="contenedorPie"></div>
-								</article>
+									{% include _nodolista-proyecto.html %}
 								{% endif %}
 							{% endfor %}
 						{% endfor %}
