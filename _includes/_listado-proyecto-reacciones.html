@@ -1,10 +1,10 @@
 <section class="listadoReacciones">
 	<hgroup>
-		<h3>{{ site.listado-reacciones-titulo.es }}</h3>
+		<h3>{{ site.listado-reacciones-titulo.[page.language] }}</h3>
 		{% if page.category == "articulos" %}
-		<h4>{{ site.listado-reacciones-articulo-texto.es }}</h4>
+		<h4>{{ site.listado-reacciones-articulo-texto.[page.language] }}</h4>
 		{% else %}
-		<h4>{{ site.listado-reacciones-proyecto-texto.es }}</h4>
+		<h4>{{ site.listado-reacciones-proyecto-texto.[page.language] }}</h4>
 		{% endif %}
 	</hgroup>
 	<div class="tweetButton">

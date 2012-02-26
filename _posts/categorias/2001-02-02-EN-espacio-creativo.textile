@@ -1,9 +1,12 @@
 ---
+language: en
 layout: blog-categorias-articulos
 category: categorias-articulos
 title: Espacio Creativo Independiente
-slug: espaciocreativos
-permalink: /blog/espacio-creativo/
+permalink: /en/blog/espacio-creativo/
+url-otro-idioma: /blog/espacio-creativo/
+slug: espacio-creativo
+
 ---
 
 Esta es una descripción de la categoría de proyectos describiendo brevemente en que tipo de proyectos trabajamos ver más "aquí":/proyectos/espacio-creativo-independiente/ 

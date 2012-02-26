@@ -1,0 +1,7 @@
+---
+language: en
+layout: portfolio
+title: Projects
+permalink: /en/projects/
+url-otro-idioma: /proyectos/
+---

@@ -1,11 +1,14 @@
 ---
+language: es
 layout: equipo-colaborativo
 category: equipo
 title: Curro Crespo
 permalink: /equipo/curro-crespo/
+url-otro-idioma: /en/team/curro-crespo/
+slug: curro-crespo
 
-imagen: farm8.staticflickr.com/7029/6537173667_fb67e1c206
 cargo: Co-fundador
+imagen: farm8.staticflickr.com/7029/6537173667_fb67e1c206
 
 enlaces:
 - { type: externo, title: Mi perfil en twitter currocrespog, url: http://wwww.twitter.com/currocrespog }

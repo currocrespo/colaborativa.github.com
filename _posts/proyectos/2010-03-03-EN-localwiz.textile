@@ -1,8 +1,11 @@
 ---
+language: en
 layout: portfolio-proyecto
 category: proyectos
-title: otro proyecto
-permalink: /proyectos/localwiz-otro/
+title: Localwiz
+permalink: /en/projects/localwiz/
+url-otro-idioma: /proyectos/localwiz/
+slug: localwiz
 
 subtitulo: Espacios de trabajo para las industrias creativas
 imagen: farm7.staticflickr.com/6083/6079835568_1067d215a6
@@ -10,10 +13,10 @@ imagen-cabecera: http://farm8.staticflickr.com/7177/6876467923_c26ed2c84d_b.jpg
 en-cabecera: yes
 
 colaboradores:
- - Zum Creativos
+ - zum-creativos
 
 categorias:
- - Planeamiento estratégico y gestión urbana
+ - planeamiento-estrategico
 
 enlaces:
 - { type: externo, title: Visita el blog del Espacio Creativo Independiente, url: http://wwww.espaciocreativo.colaborativa.eu }

@@ -1,19 +1,21 @@
 <section class="listadoArticulos">
 	<hgroup>
-		<h3>{{ site.listado-articulos-relacionados-titulo.es }}</h3>
-		<h4>{{ site.listado-articulos-relacionados-subtitulo.es }}</h4>
+		<h3>{{ site.listado-articulos-relacionados-titulo.[page.language] }}</h3>
+		<h4>{{ site.listado-articulos-relacionados-subtitulo.[page.language] }}</h4>
 	</hgroup>
 	<section>
 		<ul>
 			{% for item in site.categories.articulos %}
+				{% if item.language == page.language %}
 				{% for relacionados in page.relacionados %}
-					{% if relacionados == item.title %}
+					{% if relacionados == item.slug %}
 					<li>
 						<h4><a class="listadoTitulo" href="{{ item.url }}">{{ item.title }}</a></h4>
 						<h5>{{ item.date | date:"%b %Y" }} · {{ item.subtitulo }}</h5>
 					</li>
 					{% endif %}
 				{% endfor %}
+				{% endif %}
 			{% endfor %}
 		</ul>
 		<div class="contenedorPie"></div>

@@ -4,43 +4,58 @@
 {% assign an_integer = contador.size %}
 
 {% case page.layout %} 
-{% when "blog" %}
-	{% assign objeto = "articulos" %}
-	{% for item in site.categories.[objeto] %}
-		{% assign contador = forloop.length %}
-	{% endfor %}
-	{% if contador == 1 %}
-		{{ contador }} {{ site.inline-articulos.es }}
-	{% else %}
-		{{ contador }} {{ site.inline-articulos.es }}s
-	{% endif %}
-	
-{% when "portfolio-categorias-proyectos" %}	
-	{% assign objeto = "proyectos" %}
-	{% for item in site.categories.[objeto] %}
-		{% assign contador = forloop.length %}
-	{% endfor %}
-	{% if contador == 1 %}
-		{{ contador }} {{ site.inline-proyectos.es }} {{ site.inline-en.es }} {{ page.title }}
-	{% else %}
-		{{ contador }} {{ site.inline-proyectos.es }}s {{ site.inline-en.es }} {{ page.title }}
-	{% endif %}
-	
-{% when "blog-categorias-articulos" %}	
-	{% assign objeto = "articulos" %}
-	{% for item in site.categories.[objeto] %}
-		{% for tag in item.categorias %}
-		{% if tag == page.title %}
-			{% capture temp %}{{ contador}}*{% endcapture %}
-			{% assign contador = temp %}
-			{% assign an_integer = contador.size %}
-		{% endif %}
+
+	{% when "blog" %}
+		{% assign objeto = "articulos" %}
+		{% for item in site.categories.[objeto] %}
+			{% if item.language == page.language %}
+				{% capture temp %}{{ contador}}*{% endcapture %}
+				{% assign contador = temp %}
+				{% assign an_integer = contador.size %}
+			{% endif %}
 		{% endfor %}
-	{% endfor %}
-	{% if an_integer == 1 %}
-		{{ an_integer }} {{ site.inline-articulos.es }} {{ site.inline-en.es }} {{ page.title }}
-	{% else %}
-		{{ an_integer }} {{ site.inline-articulos.es }}s {{ site.inline-en.es }} {{ page.title }}
-	{% endif %}
+		{% if an_integer == 1 %}
+			{{ an_integer }} {{ site.inline-articulos.[page.language] }}
+		{% else %}
+			{{ an_integer }} {{ site.inline-articulos.[page.language] }}s
+		{% endif %}
+	
+	{% when "portfolio-categorias-proyectos" %}	
+		{% assign objeto = "proyectos" %}
+		{% for item in site.categories.[objeto] %}
+			{% if item.language == page.language %}
+				{% for tag in item.categorias %}
+				{% if tag == page.slug %}
+					{% capture temp %}{{ contador}}*{% endcapture %}
+					{% assign contador = temp %}
+					{% assign an_integer = contador.size %}
+				{% endif %}
+				{% endfor %}
+			{% endif %}
+		{% endfor %}
+		{% if an_integer == 1 %}
+			{{ an_integer }} {{ site.inline-proyectos.[page.language] }} {{ site.inline-en.[page.language] }} {{ page.title }}
+		{% else %}
+			{{ an_integer }} {{ site.inline-proyectos.[page.language] }}s {{ site.inline-en.[page.language] }} {{ page.title }}
+		{% endif %}
+	
+	{% when "blog-categorias-articulos" %}	
+		{% assign objeto = "articulos" %}
+		{% for item in site.categories.[objeto] %}
+			{% if item.language == page.language %}
+				{% for tag in item.categorias %}
+				{% if tag == page.slug %}
+					{% capture temp %}{{ contador}}*{% endcapture %}
+					{% assign contador = temp %}
+					{% assign an_integer = contador.size %}
+				{% endif %}
+				{% endfor %}
+			{% endif %}
+		{% endfor %}
+		{% if an_integer == 1 %}
+			{{ an_integer }} {{ site.inline-articulos.[page.language] }} {{ site.inline-en.[page.language] }} {{ page.title }}
+		{% else %}
+			{{ an_integer }} {{ site.inline-articulos.[page.language] }}s {{ site.inline-en.[page.language] }} {{ page.title }}
+		{% endif %}
 
 {% endcase %}

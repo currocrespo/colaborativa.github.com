@@ -9,10 +9,12 @@
 		{% include _header.html %}
 		<section class="cuerpoPagina">
 			<div class="contenedor">
-				<h1 class="big">{{ site.navegacion-proyectos.es }}</h1>
+				<h1 class="big">{{ site.navegacion-proyectos.[page.language] }}</h1>
 				<div class="listadoNodos Portfolio">
 					{% for item in site.categories.proyectos limit:10 %}
+						{% if item.language == page.language %}
 						{% include _nodolista-proyecto.html %}
+						{% endif %}
 					{% endfor %}
 				</div>
 			</div>

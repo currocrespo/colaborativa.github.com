@@ -1,0 +1,11 @@
+<p>
+{% for item in page.categorias %}
+	{% if item.language == page.language %}
+		{% for categoria in page.categorias %}
+			{% if categoria == item.slug %}
+			<a href="">{{ item.title }}</a>
+			{% endif %}
+		{% endfor %}
+	{% endif %}
+{% endfor %}
+</p>

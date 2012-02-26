@@ -1,13 +1,13 @@
 <section class="listadoColaborativos">
 	<hgroup>
-		<h3>{{ site.listado-proyectos-colaboradores-titulo.es }}</h3>
-		<h4>{{ site.listado-proyectos-colaboradores-subtitulo.es }}</h4>
+		<h3>{{ site.listado-proyectos-colaboradores-titulo.[page.language] }}</h3>
+		<h4>{{ site.listado-proyectos-colaboradores-subtitulo.[page.language] }}</h4>
 	</hgroup>
 	<section>
 	<ul class="proyectosColaboradores">
 		{% for colaboradores in page.colaboradores %}
 			{% for item in site.categories.colaboradores %}
-			{% if colaboradores == item.title %}
+			{% if colaboradores == item.slug %}
 			<li>
 				<div class="colaboradorIcono" style="background: url(http://{{ item.imagen }}_s.jpg) center center no-repeat"></div>
 				<div class="subcategoryPopUp">

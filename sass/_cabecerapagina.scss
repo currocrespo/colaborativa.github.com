@@ -38,10 +38,20 @@
 .menu {
 	li{
 		display: inline-block;
-		width: 24%;
+		width: 22%;
 		text-align: center;
 		margin: 0;
 		padding: 0;
+	}
+	li.idioma{
+		display: inline-block;
+		width: 8%;
+		text-align: right;
+		margin: 0;
+		padding: 0;
+		h3{
+			
+		}
 	}
 	a:link{
 	padding: 3px 10px;

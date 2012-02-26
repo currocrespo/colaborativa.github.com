@@ -2,6 +2,8 @@
 layout: none
 category: colaboradores
 title: dCabo Consultores
+slug: dcabo-consultores
+
 link: http://www.dcaboconsultores.com
 imagen: farm8.staticflickr.com/7029/6537173667_fb67e1c206
 ---

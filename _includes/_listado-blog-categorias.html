@@ -1,24 +1,28 @@
 <section class="listadoEtiquetas">
 	<hgroup>
-		<h3>{{site.listado-blog-categorias-titulo.es}}</h3>
-		<h4>{{site.listado-blog-categorias-subtitulo.es}}</h4>
+		<h3>{{site.listado-blog-categorias-titulo.[page.language]}}</h3>
+		<h4>{{site.listado-blog-categorias-subtitulo.[page.language]}}</h4>
 	</hgroup>
 	<section>
 	<ul>
 		{% for item in site.categories.categorias-articulos %}
-			{% for otro in site.categories.articulos %}
-				{% for tag in otro.categorias %}
-				{% if tag == item.title %}
-					{% capture temp2 %}{{ contador2 }}*{% endcapture %}
-					{% assign contador2 = temp2 %}
-					{% assign an_integer2 = contador2.size %}
-				{% endif %}
+			{% if item.language == page.language %}
+				{% for otro in site.categories.articulos %}
+					{% if otro.language == page.language %}
+						{% for tag in otro.categorias %}
+						{% if tag == item.slug %}
+							{% capture temp2 %}{{ contador2 }}*{% endcapture %}
+							{% assign contador2 = temp2 %}
+							{% assign an_integer2 = contador2.size %}
+						{% endif %}
+						{% endfor %}
+					{% endif %}
 				{% endfor %}
-			{% endfor %}
-			<li>
-				<span class="count">{{ an_integer2 }}</span><a class="listadoTitulo" href="{{ item.url }}">{{ item.title }}</a>
-			</li>
-			{% assign contador2 = '' %}
+				<li>
+					<span class="count">{{ an_integer2 }}</span><a class="listadoTitulo" href="{{ item.url }}">{{ item.title }}</a>
+				</li>
+				{% assign contador2 = '' %}
+			{% endif %}
 		{% endfor %}
 	</ul>
 	<div class="contenedorPie"></div>

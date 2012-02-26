@@ -1,8 +1,11 @@
 ---
+language: es
 layout: equipo-colaborativo
 category: equipo
 title: Magda Sánchez
 permalink: /equipo/magda-sanchez/
+url-otro-idioma: /en/team/magda-sanchez/
+slug: magda-sanchez
 
 cargo: Co-fundadora
 imagen: farm8.staticflickr.com/7029/6537173667_fb67e1c206

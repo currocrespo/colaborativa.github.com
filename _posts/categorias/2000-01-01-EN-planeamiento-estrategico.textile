@@ -1,0 +1,11 @@
+---
+language: en
+layout: portfolio-categorias-proyectos
+category: categorias-proyectos
+title: Strategic planning and urban management
+permalink: /en/projects/strategic-planning/
+url-otro-idioma: /proyectos/planeamiento-estrategico/
+slug: planeamiento-estrategico
+---
+
+Esta es una descripción de la categoría de proyectos describiendo brevemente en que tipo de proyectos trabajamos

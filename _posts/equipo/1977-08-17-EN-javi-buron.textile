@@ -1,0 +1,27 @@
+---
+language: en
+layout: equipo-colaborativo
+category: equipo
+title: Javi Burón
+permalink: /en/team/javi-buron/
+url-otro-idioma: /equipo/javi-buron/
+slug: javi-buron
+
+cargo: Co-founder
+imagen: farm8.staticflickr.com/7029/6537173667_fb67e1c206
+
+enlaces:
+- { type: externo, title: My twitter profile javiburon, url: http://wwww.twitter.com/javiburon }
+- { type: externo, title: Mi personal webpage, url: http://www.javierburon.net }
+
+---
+
+Me gradué como Arquitecto por la Escuela Superior Politécnica de Madrid en 2003 y trabajé durante unos años como freelance realizando numerosos proyectos de diseño gráfico y mobiliario, varios de mis diseños fueron seleccionados para formar parte del salón de jóvenes diseñadores Nude de la feria Internacional del Mueble de Valencia. 
+
+Más tarde formé parte del equipo de Medialab Madrid, centro seminal sobre arte, ciencia y nuevas tecnologías que en el 2007 se refundó como el Medialab Madrid Prado. Desde 2005 edito la publicación Archfarm, dedicada al pensamiento y la crítica, los discursos teóricos y las últimas propuestas en arquitectura y temas tangentes.
+
+En 2007 me trasladé a Irlanda donde formé parte del comité de la Architectural Association of Ireland organizando varios ciclos de conferencias en colaboración con el Instituto Cervantes de Dublín. Algunos de los proyectos que realicé durante mi estancia en Irlanda fueron galardonados en los premios de arquitectura irlandesa de los años 2009 y 2010.  En 2008 realicé el diseño expositivo de la participación irlandesa en la décimo primera bienal de Arquitectura de Venecia.
+
+Actualmente resido en Córdoba donde hemos puesto en marcha Colaborativa e imparto clases en la Escuela de Arquitectura de la Universidad de Limerick en Irlanda. He sido profesor invitado en la Escuela de Arquitectura del Dublin Institute of Technology, en la Escuela Superior de Arquitectura de Alicante y parte del programa de profesores visitantes de la Architectural Association en Londres.
+
+Soy un entusiasta de la tipografía, la visualización de información y la programación de software. Me fascinan las ciudades y los complejos sistemas que las gobiernan y transforman. Creo firmemente en el enorme potencial de las tecnologías de la información para la mejora del espacio público y los mecanismos de participación y gestión de nuestras ciudades.

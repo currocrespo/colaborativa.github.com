@@ -9,7 +9,7 @@
 		{% include _header.html %}
 		<section class="cuerpoPagina">
 			<div class="contenedor">
-				<h1 class="big">{{ site.inline-articulos.es | capitalize }}</h1>
+				<h1 class="big">{{ site.inline-articulos.[page.language] | capitalize }}</h1>
 				<div id="columnaNavegacion">
 					{% include _social.html %}
 					{% include _listado-articulo-categorias.html %}

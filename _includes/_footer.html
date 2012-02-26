@@ -2,20 +2,21 @@
 	<div class="contenedor">
 		<div class="datosContacto">
 			<hgroup>
-				<h1 class="big">{{ site.subtitulo.es }}</h1>
+				<h1 class="big">{{ site.subtitulo.[page.language] }}</h1>
 				<h3>
 					<span class="email"></span><a href="mailto:info[at]colaborativa.eu">info@colaborativa.eu</a>
 					<span class="tel"></span><a href="tel:+34 957 78 21 64">+34 957 78 21 64</a>
 				</h3>
 			</hgroup>
-			<p><span class="vcard"><span class="adr"><span class="street-address">Calle Marroquíes 2</span>, <span class="postal-code">14001</span>, <span class="locality">Córdoba</span> <span class="country">España</span> · <a href="#">Mapa</a></span></span></p>
-			<p>{{ site.titulo }} 2010­-­2011 · <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/" rel="copyright">Algunos derechos reservados</a></p>
+			<p><span class="vcard"><span class="adr"><span class="street-address">Calle Marroquíes 2</span>, <span class="postal-code">14001</span>, <span class="locality">Córdoba</span> <span class="country">España</span> · <a href="#">{{ site.footer-mapa.[page.language] }}</a></span></span></p>
+			<p>{{ site.titulo }} 2010­-­2012 · <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/" rel="copyright">{{ site.footer-copyleft.[page.language] }}</a></p>
 		</div>
 		<ul class="enlacesSociales">
-			<li><a class="enlaceExterno social" href="{{ site.enlaces-sociales-facebook.url }}"><span></span>{{ site.enlaces-sociales-facebook.es }}</a></li>
-			<li><a class="enlaceExterno social" href="{{ site.enlaces-sociales-twitter.url }}"><span></span>{{ site.enlaces-sociales-twitter.es }}</a></li>
-			<li><a class="enlaceExterno social" href="{{ site.enlaces-sociales-flickr.url }}"><span></span>{{ site.enlaces-sociales-flickr.es }}</a></li>
-			<li><a class="enlaceExterno social" href="{{ site.enlaces-sociales-youtube.url }}"><span></span>{{ site.enlaces-sociales-youtube.es }}</a></li>
+			<li><a class="enlaceExterno social" href="{{ site.enlaces-sociales-facebook.url }}"><span></span>{{ site.enlaces-sociales-facebook.[page.language] }}</a></li>
+			<li><a class="enlaceExterno social" href="{{ site.enlaces-sociales-twitter.url }}"><span></span>{{ site.enlaces-sociales-twitter.[page.language] }}</a></li>
+			<li><a class="enlaceExterno social" href="{{ site.enlaces-sociales-flickr.url }}"><span></span>{{ site.enlaces-sociales-flickr.[page.language] }}</a></li>
+			<li><a class="enlaceExterno social" href="{{ site.enlaces-sociales-youtube.url }}"><span></span>{{ site.enlaces-sociales-youtube.[page.language] }}</a></li>
+			<li><a class="enlaceExterno social" href="{{ site.enlaces-sociales-issuu.url }}"><span></span>{{ site.enlaces-sociales-issuu.[page.language] }}</a></li>
 		</ul>
 	</div>
 	<div class="contenedorPie"></div>

@@ -1,14 +1,24 @@
 <header class="cabeceraPagina">
 	<div class="contenedor">
 		<div class="tituloMenuBusqueda">
-			<h1 class="hero"><a href="/" title="Inicio" rel="home" class="menu" id="logo">Colaborativa</a></h1>
+			<h1 class="hero"><a href="{{ page.url }}" title="Inicio" rel="home" class="menu" id="logo">Colaborativa</a></h1>
 			<nav>
-				<h2>{{ site.navegacion.es }}</h2>
+				<h2>{{ site.navegacion.[page.language] }}</h2>
+				{% if page.language == "es" %}
+					{% assign urlIdioma = "" %}
+				{% else %}
+					{% assign urlIdioma = "/en" %}
+				{% endif %}
 				<ul class="menu">
-					<li><h3><a href="/blog/" class="menuBlog menu">{{ site.navegacion-blog.es }}</a></h3></li>
-					<li><h3><a href="/proyectos/" class="menuProyectos menu">{{ site.navegacion-proyectos.es }}</a></h3></li>
-					<li><h3><a href="/equipo/sobre-colaborativa/" class="menuEquipo menu">{{ site.navegacion-equipo.es }}</a></h3></li>
-					<li><h3><a href="http://github.com/colaborativa" class="menuCodigo menu">{{ site.navegacion-codigo.es }}</a></h3></li>
+					<li><h3><a href="{{ urlIdioma }}/{{ site.navegacion-blog.[page.language] }}/" class="menuBlog menu">{{ site.navegacion-blog.[page.language] }}</a></h3></li>
+					<li><h3><a href="{{ urlIdioma }}/{{ site.navegacion-proyectos.[page.language] }}/" class="menuProyectos menu">{{ site.navegacion-proyectos.[page.language] }}</a></h3></li>
+					<li><h3><a href="{{ urlIdioma }}/{{ site.navegacion-equipo.[page.language] }}/" class="menuEquipo menu">{{ site.navegacion-equipo.[page.language] }}</a></h3></li>
+					<li><h3><a href="http://github.com/colaborativa" class="menuCodigo menu">{{ site.navegacion-codigo.[page.language] }}</a></h3></li>
+					{% if page.language == "es" %}
+					<li class="idioma"><h3><a class="menuIdioma menu" href="{{ page.url-otro-idioma }}">en</a></h3></li>
+					{% else %}
+					<li class="idioma"><h3><a class="menuIdioma menu" href="{{ page.url-otro-idioma }}">es</a></h3></li>
+					{% endif %}
 				</ul>
 			</nav>
 			<!--<form id="search" class="search-form">

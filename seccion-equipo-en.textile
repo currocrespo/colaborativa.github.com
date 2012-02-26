@@ -1,9 +1,9 @@
 ---
-language: es
+language: en
 layout: equipo
-title: Sobre Colaborativa
-permalink: /equipo/
-url-otro-idioma: /en/team/
+title: About Colaborativa
+permalink: /en/team/
+url-otro-idioma: /equipo/
 
 subtitulo: Estrategias y herramientas para transformar ciudades
 ---

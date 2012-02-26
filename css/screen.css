@@ -651,7 +651,7 @@ a.enlaceExterno[href*='youtube.com']:hover > span {
   height: 33px;
 }
 /* line 133, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
-.bloqueActividades li.estrategico span {
+.bloqueActividades li.planeamiento-estrategico span {
   background: url(/imagenes/iconoEstrategias.png) 0 0px no-repeat;
 }
 /* line 136, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
@@ -822,12 +822,20 @@ a.enlaceExterno[href*='youtube.com']:hover > span {
 /* line 39, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
 .menu li {
   display: inline-block;
-  width: 24%;
+  width: 22%;
   text-align: center;
   margin: 0;
   padding: 0;
 }
 /* line 46, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+.menu li.idioma {
+  display: inline-block;
+  width: 8%;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+/* line 56, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
 .menu a:link {
   padding: 3px 10px;
   border-radius: 15px;
@@ -838,7 +846,7 @@ a.enlaceExterno[href*='youtube.com']:hover > span {
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
-/* line 53, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+/* line 63, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
 .menu a:hover, .menu .cabeceraPagina .menu li a:hover.active {
   background-color: #e6e6e6;
   -moz-transition: all 0.2s linear;
@@ -846,7 +854,7 @@ a.enlaceExterno[href*='youtube.com']:hover > span {
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
-/* line 57, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+/* line 67, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
 .menu a:active {
   background-color: #dfdfdf;
   -moz-transition: all 0.2s linear;
@@ -854,7 +862,7 @@ a.enlaceExterno[href*='youtube.com']:hover > span {
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
-/* line 61, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+/* line 71, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
 .menu a.active {
   background-color: rgba(150, 150, 150, 0.08);
   -moz-transition: all 0.2s linear;
@@ -862,30 +870,30 @@ a.enlaceExterno[href*='youtube.com']:hover > span {
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
-/* line 65, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+/* line 75, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
 .menu a:before {
   padding-right: 7px;
   position: relative;
   top: 2px;
 }
-/* line 70, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+/* line 80, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
 .menu .menuBlog:before {
   content: url(/imagenes/menuBlog.png);
 }
-/* line 73, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+/* line 83, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
 .menu .menuProyectos:before {
   content: url(/imagenes/menuProyectos.png);
 }
-/* line 76, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+/* line 86, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
 .menu .menuEquipo:before {
   content: url(/imagenes/menuEquipo.png);
 }
-/* line 79, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+/* line 89, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
 .menu .menuCodigo:before {
   content: url(/imagenes/menuCodigo.png);
 }
 
-/* line 84, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+/* line 94, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
 .search-form {
   height: 50px;
   display: table-cell;
@@ -900,14 +908,14 @@ a.enlaceExterno[href*='youtube.com']:hover > span {
   width: 420px;
   margin: 0;
 }
-/* line 97, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+/* line 107, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
 .search-form input[type='text'], .search-form input[type='submit'] {
   display: table-cell;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
-/* line 103, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+/* line 113, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
 .search-form input[type='text'] {
   -webkit-border-top-left-radius: 15px;
   -webkit-border-bottom-left-radius: 15px;
@@ -927,7 +935,7 @@ a.enlaceExterno[href*='youtube.com']:hover > span {
   float: left;
   width: 70%;
 }
-/* line 122, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+/* line 132, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
 .search-form input[type='submit'] {
   -webkit-border-top-right-radius: 15px;
   -webkit-border-bottom-right-radius: 15px;
@@ -948,7 +956,7 @@ a.enlaceExterno[href*='youtube.com']:hover > span {
   float: left;
   text-shadow: 0 1px #ffffff;
 }
-/* line 142, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+/* line 152, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
 .search-form input[type='submit']:hover {
   background-color: #e6e6e6;
   cursor: pointer;

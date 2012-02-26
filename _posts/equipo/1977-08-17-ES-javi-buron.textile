@@ -1,9 +1,13 @@
 ---
+language: es
 layout: equipo-colaborativo
 category: equipo
 title: Javi Burón
-cargo: Co-fundador
 permalink: /equipo/javi-buron/
+url-otro-idioma: /en/team/javi-buron/
+slug: javi-buron
+
+cargo: Co-fundador
 imagen: farm8.staticflickr.com/7029/6537173667_fb67e1c206
 
 enlaces:

@@ -1,0 +1,36 @@
+---
+language: es
+layout: blog-articulo
+category: articulos
+title: Cambio de prioridades
+permalink: /blog/2012/02/cambio-prioridades/
+url-otro-idioma: /en/blog/2012/02/cambio-prioridades/
+slug: cambio-prioridades
+
+subtitulo: El Espacio Creativo Independiente busca asociarse con la iniciativa privada
+imagen: farm7.staticflickr.com/6083/6079835568_1067d215a6
+autores: 
+ - magda-sanchez
+ - javi-buron
+
+categorias:
+ - localwiz
+ - espacio-creativo
+
+relacionados:
+ - otro-articulo
+
+enlaces:
+- { type: externo, title: Blog del Espacio Creativo Independiente, url: http://wwww.espaciocreativo.colaborativa.eu }
+- { type: externo, title: Nota de prensa publicada en el facebook del Espacio Creativo, url: http://www.facebook.com/espaciocreativo }
+
+
+---
+
+Han pasado más de 8 meses desde la última noticia que tuvimos sobre el concurso de la Pérgola. Podéis leerlo en este blog. Fue el 27 de junio cuando la mesa de contratación decidió que nuestra propuesta pasara a la siguiente fase del concurso por ser la única que reunía las condiciones de solvencia técnica y profesional requeridas. Desde entonces no hemos vuelto a tener ninguna noticia del proceso.
+
+La falta de noticias sobre el concurso no debe distraernos de nuestro objetivo fundamental, hacer realidad el Espacio Creativo. Por esa razón razón hemos decidido cambiar de prioridades y buscar otras alternativas que nos permitan su puesta en marcha de forma más rápida. Estamos buscando particulares que sean propietarios de espacios cerrados, con interés en revalorizarlos a medio plazo y apostar por el emprendimiento y la innovación local. El Espacio Creativo necesita de un espacio de 500 metros cuadrados como mínimo, distribuidos en una o varias plantas.
+
+Si conocéis algún espacio que reúna estás características o sabéis de algún propietario que pudiera estar interesado en el proyecto, avisadnos. Hoy hemos hecho pública nuestra decisión a través de los medios de comunicación para que nos puedan ayudar a difundirla. Os mantendremos informados de las novedades que se produzcan y aprovechamos para dejaros a continuación la Propuesta Técnica que presentamos al concurso. ¡Esperamos que os guste y seguimos adelante!
+
+Este post ha sido publicado originalmente en el blog del Espacio Creativo.

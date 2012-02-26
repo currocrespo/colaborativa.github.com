@@ -1,18 +1,20 @@
 <section class="listadoEtiquetas">
 	<hgroup>
-		<h3>{{ site.listado-articulos-categorias-titulo.es }}</h3>
-		<h4>{{ site.listado-articulos-categorias-subtitulo.es }}</h4>
+		<h3>{{ site.listado-articulos-categorias-titulo.[page.language] }}</h3>
+		<h4>{{ site.listado-articulos-categorias-subtitulo.[page.language] }}</h4>
 	</hgroup>
 	<section>
 		<ul>
 			{% for item in site.categories.proyectos %}
+				{% if item.language == page.language %}
 				{% for categoria in page.categorias %}
-					{% if categoria == item.title %}
+					{% if categoria == item.slug %}
 					<li>
 						<a class="listadoTitulo" href="{{ item.url }}">{{ item.title }}</a>
 					</li>
 					{% endif %}
 				{% endfor %}
+				{% endif %}
 			{% endfor %}
 		</ul>
 		<div class="contenedorPie"></div>

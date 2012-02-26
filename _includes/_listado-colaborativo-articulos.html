@@ -1,13 +1,14 @@
 <section class="listadoArticulos">
 	<hgroup>
-		<h3>{{ site.listado-articulos-autor-titulo.es }}</h3>
-		<h4>{{ site.listado-articulos-autor-subtitulo.es }}</h4>
+		<h3>{{ site.listado-articulos-autor-titulo.[page.language] }}</h3>
+		<h4>{{ site.listado-articulos-autor-subtitulo.[page.language] }}</h4>
 	</hgroup>
 	<section>
 		<ul>
 			{% for item in site.categories.articulos %}
+				{% if item.language == page.language %}
 				{% for autor in item.autores %}
-					{% if autor == page.title %}
+					{% if autor == page.slug %}
 					<li>
 						<hgroup>
 							<h4><a class="listadoTitulo" href="{{ item.url }}">{{ item.title }}</a></h4>
@@ -17,6 +18,7 @@
 					{% else %}
 					{% endif %}
 				{% endfor %}
+				{% endif %}
 			{% endfor %}
 		</ul>
 		<div class="contenedorPie"></div>

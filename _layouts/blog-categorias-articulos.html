@@ -20,11 +20,13 @@
 					<section class="listadoNodos">
 						<h1 class="tituloListado">{% include _inline-contador.html %}</h1>
 						{% for item in site.categories.articulos %}
-							{% for tag in item.categorias %}
-								{% if tag == page.title %}
-									{% include _nodolista-articulo.html %}
-								{% endif %}
-							{% endfor %}
+							{% if item.language == page.language %}
+								{% for tag in item.categorias %}
+									{% if tag == page.slug %}
+										{% include _nodolista-articulo.html %}
+									{% endif %}
+								{% endfor %}
+							{% endif %}
 						{% endfor %}
 					</section>
 				</div>

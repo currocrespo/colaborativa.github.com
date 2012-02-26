@@ -4,38 +4,58 @@
 {% assign objeto = "item" %}
 {% endif %}
 
-{{ [objeto].date | date:"%d %B de %Y" | replace:"January","Enero" | replace:"February","Febrero" | replace:"March","Marzo" | replace:"Mayo","May" | replace:"June","Junio" | replace:"July","Julio" | replace:"August","Agosto" | replace:"September","Septiembre" | replace:"November","Noviembre" | replace:"December","Diciembre" }}  {{ site.inline-por.es }}
+{% if page.language == "es" %}
+
+{{ [objeto].date | date:"%d %B de %Y" | replace:"January","Enero" | replace:"February","Febrero" | replace:"March","Marzo" | replace:"Mayo","May" | replace:"June","Junio" | replace:"July","Julio" | replace:"August","Agosto" | replace:"September","Septiembre" | replace:"November","Noviembre" | replace:"December","Diciembre" }}  {{ site.inline-por.[page.language] }}
+
+{% else %}
+
+{{ [objeto].date | date:"%d %B %Y" }}  {{ site.inline-por.[page.language] }}
+
+{% endif %}
 
 {% for equipo in site.categories.equipo reversed %}
 	{% for autor in [objeto].autores %}
 		{% case forloop.length %} 
 			{% when 1 %}
-				{% if autor == equipo.title %}
-				<a href="{{ equipo.url }}">{{ equipo.title }}</a>
+				{% if autor == equipo.slug %}
+					{% if equipo.language == page.language %}
+					<a href="{{ equipo.url }}">{{ equipo.title }}</a>
+					{% endif %}
 				{% endif %}
 			{% when 2 %}
 				{% if forloop.first %}
-					{% if autor == equipo.title %}
-					 <a href="{{ equipo.url }}">{{ equipo.title }}</a>
+					{% if autor == equipo.slug %}
+						{% if equipo.language == page.language %}
+						<a href="{{ equipo.url }}">{{ equipo.title }}</a>
+						{% endif %}
 					{% endif %}
 				{% else %}
-					{% if autor == equipo.title %}
-					{{ site.inline-y.es }} <a href="{{ equipo.url }}">{{ equipo.title }}</a>
+					{% if autor == equipo.slug %}
+						{% if equipo.language == page.language %}
+						{{ site.inline-y.[page.language] }} <a href="{{ equipo.url }}">{{ equipo.title }}</a>
+						{% endif %}
 					{% endif %}
 				{% endif %}
 			{% else %}
 				{% if forloop.first %}
-					{% if autor == equipo.title %}
-					 <a href="{{ equipo.url }}">{{ equipo.title }}</a>,
+					{% if autor == equipo.slug %}
+						{% if equipo.language == page.language %}
+							<a href="{{ equipo.url }}">{{ equipo.title }}</a>,
+						{% endif %}
 					{% endif %}
 				{% else %}
 					{% if forloop.last %}
-						{% if autor == equipo.title %}
-						{{ site.inline-y.es }} <a href="{{ equipo.url }}">{{ equipo.title }}</a>
+						{% if autor == equipo.slug %}
+							{% if equipo.language == page.language %}
+							{{ site.inline-y.[page.language] }} <a href="{{ equipo.url }}">{{ equipo.title }}</a>
+							{% endif %}
 						{% endif %}
 					{% else %}
-						{% if autor == equipo.title %}
-						<a href="{{ equipo.url }}">{{ equipo.title }}</a>
+						{% if autor == equipo.slug %}
+							{% if equipo.language == page.language %}
+							<a href="{{ equipo.url }}">{{ equipo.title }}</a>
+							{% endif %}
 						{% endif %}
 					{% endif %}
 				{% endif %}

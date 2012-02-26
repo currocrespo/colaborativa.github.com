@@ -1,0 +1,7 @@
+---
+language: en
+layout: default
+title: Colaborativa | Strategies and tools for transforming cities
+permalink: /en/
+url-otro-idioma: /
+---

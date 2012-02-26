@@ -1,12 +1,12 @@
 <section class="listadoArticulos">
 	<hgroup>
-		<h3>{{ site.listado-articulos-proyecto-titulo.es }}</h3>
-		<h4>{{ site.listado-articulos-proyecto-subtitulo.es }}</h4>
+		<h3>{{ site.listado-articulos-proyecto-titulo.[page.language] }}</h3>
+		<h4>{{ site.listado-articulos-proyecto-subtitulo.[page.language] }}</h4>
 	</hgroup>
 	<ul>
 		{% for item in site.categories.articulos limit:8 %}
 			{% for proyecto in item.categorias %}
-				{% if proyecto == page.title %}
+				{% if proyecto == page.slug %}
 				<li>
 					<hgroup>
 						<h4><a class="listadoTitulo" href="{{ item.url }}">{{ item.title }}</a></h4>

@@ -1,4 +1,7 @@
 ---
+language: es
 layout: default
 title: Colaborativa | Estrategias y herramientas para transformar ciudades
+permalink: /
+url-otro-idioma: /en/
 ---

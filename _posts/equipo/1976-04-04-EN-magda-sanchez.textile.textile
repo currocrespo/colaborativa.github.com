@@ -1,0 +1,25 @@
+---
+language: en
+layout: equipo-colaborativo
+category: equipo
+title: Magda Sánchez
+permalink: /en/team/magda-sanchez/
+url-otro-idioma: /equipo/magda-sanchez/
+slug: magda-sanchez
+
+cargo: Co-fundadora
+imagen: farm8.staticflickr.com/7029/6537173667_fb67e1c206
+
+enlaces:
+ - { type: externo, title: Mi perfil en twitter msanchezmora, url: http://wwww.twitter.com/msachezmora }
+ - { type: externo, title: Mi página personal, url: http://www.magdasanchez.es }
+
+---
+
+Me gradué en la universidad de Córdoba en Ingeniería Técnica en Informática de Sistemas en 1999 y en Ingeniería Superior en Automática y Electrónica Industrial en 2002. Además en 2007 realicé un M.Eng.Sc. (Master de investigación en Ingeniería) en la National University of Ireland, Maynooth (NUIM).
+
+En los últimos diez años he trabajado como ingeniera de proyecto en el sector de la energía, y como investigadora en el desarrollo de soluciones software. Desde hace cinco años colaboro con el Callan Institute de NUIM (Irlanda), donde realizo el desarrollo y la integración de software para sistemas embebidos en el campo de las comunicaciones y los sistemas de video vigilancia.
+
+Me gusta combinar los trabajos de investigación y desarrollo en Irlanda con mi actividad en Córdoba, desarrollando aplicaciones software y promoviendo la creación de espacios de trabajo que favorezcan la relación entre arte, ciencia, tecnología e industrias creativas. Además me encanta experimentar con el uso de Arduino (hardware libre) y el lenguaje Processing en instalaciones artísticas y con distintas formas de visualización de datos en web, desarrollar aplicaciones iPhone, open source, etc.
+
+"Sharing the code just seems like The Right Thing to Do, it costs us rather little, but it benefits a lot of people in sometimes very significant ways. There are many university research projects, proof of concept publisher demos, and new platform test beds that have leveraged the code. Free software that people value adds wealth to the world." Quoted in Brad Cook, "John Carmack: Making the Magic Happen".

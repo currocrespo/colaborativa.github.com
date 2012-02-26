@@ -1,0 +1,7 @@
+---
+language: en
+layout: blog
+title: Blog
+permalink: /en/blog/
+url-otro-idioma: /blog/
+---

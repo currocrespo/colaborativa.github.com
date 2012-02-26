@@ -1,9 +1,12 @@
 ---
+language: es
 layout: blog-categorias-articulos
 category: categorias-articulos
 title: Localwiz
-slug: localwiz
 permalink: /blog/localwiz/
+url-otro-idioma: /en/blog/localwiz/
+slug: localwiz
+
 ---
 
 Esta es una descripción de la categoría de proyectos describiendo brevemente en que tipo de proyectos trabajamos ver más "aquí":/proyectos/localwiz/

@@ -1,8 +1,11 @@
 ---
+language: en
 layout: portfolio-proyecto
 category: proyectos
-title: Localwiz
-permalink: /proyectos/localwiz/
+title: Espacio Creativo Independiente
+permalink: /en/projects/espacio-creativo/
+url-otro-idioma: /proyectos/espacio-creativo/
+slug: espacio-creativo
 
 subtitulo: Espacios de trabajo para las industrias creativas
 imagen: farm7.staticflickr.com/6083/6079835568_1067d215a6
@@ -10,14 +13,15 @@ imagen-cabecera: http://farm8.staticflickr.com/7177/6876467923_c26ed2c84d_b.jpg
 en-cabecera: yes
 
 colaboradores:
- - Zum Creativos
+ - zum-creativos
 
 categorias:
- - Planeamiento estratégico y gestión urbana
+ - planeamiento-estrategico
 
 enlaces:
 - { type: externo, title: Visita el blog del Espacio Creativo Independiente, url: http://wwww.espaciocreativo.colaborativa.eu }
 - { type: externo, title: Página del Espacio Creativo Independiente en Facebook, url: http://www.facebook.com/espaciocreativo }
+- { type: prensa, title: Córdoba en pantalla táctil, source: Diario El Mundo, date: Feb 2012, url: http://www.elmundo.es/elmundo/2012/02/18/andalucia/1329589378.html }
 
 ---
 
