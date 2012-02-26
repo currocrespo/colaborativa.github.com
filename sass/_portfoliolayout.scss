@@ -1,33 +1,215 @@
-@import "compass/css3";
 
-.listadoNodosInicio.Portfolio {
+
+/* Nodo individual */
+
+.nodo{
+	top: -30px;
+	position: relative;
+	.cabeceraNodo{
+		margin-bottom: 25px;
+		p, ul{
+			margin-top: 10px;
+		}
+	}
+	h3{
+		margin-top: 8px;
+		margin-bottom: 0px;
+	}
+	h4{
+		margin-left: 110px;
+	}
+	.miniaturaNodo{
+		display: block;
+		float: left;
+		margin-right: 15px;
+		height: 60px;
+		width: 90px;
+		background-size: cover;
+	}
+	.imagenNodo {
+		margin-bottom: 25px;
+		img{
+			width: 600px;
+		}
+	}
+	.cuerpoNodo{
+		h1, h2, h3, h4, h5, h6{
+			margin-bottom: 10px;
+		}
+		 p{
+			margin-bottom: 20px;
+		}
+	}
+	.contenedorMultimediaNodo{
+		margin-top: 35px;
+		margin-bottom: 25px;
+		object{
+			margin-bottom: 10px;
+			margin-top: 10px;
+		}
+	}
+	.enlacesNodo{
+		margin-top: 35px;
+		margin-bottom: 25px;
+		li{
+			padding: 2px 0;
+		}
+		h2{
+			margin-bottom: 5px;
+		}
+	}
+}
+
+
+/* cuerpoPagina Inicio*/
+
+.cuerpoPagina.Inicio{
+	border-top: none;
+	margin-top: 5px;
+	.contenedor.Inicio{
+		position: relative;
+		top: 0px;
+	}
+	.imagenInicio{
+		width: 960px;
+		height: 300px;
+		margin-bottom: 30px;
+		overflow: hidden;
+		position: relative;
+		background-color: silver;
+	}
+}
+
+
+/* Listado Nodos */
+
+.listadoNodos{
+	top: -30px;
+	position: relative;
+}
+.listadoNodos.Inicio{
+	top: 0px;
+	width: 720px;
+	.nodoLista{
+		@include box-sizing (border-box);
+		width: 315px;
+		height: 440px;
+		float: left;
+		padding-top: 0;
+		padding-bottom: 0;
+		border-bottom-style: none;
+		&:first-child{
+			padding-right: 15px;
+			border-right: 1px solid #f2f2f2;
+			padding-left: 0;
+		}
+		&:last-child{
+			width: 330px;
+			border-right: 1px solid #f2f2f2;
+			padding-right: 15px;
+			padding-left: 15px;
+		}
+		.imagenNodoLista a{
+			height: 170px;
+			width: 300px;
+		}
+		.infoNodoLista {
+			width: 300px;
+			.cabeceraNodo p{
+				margin-top: 10px;
+			}
+		}
+	}
+}
+
+.listadoNodos.Portfolio {
+	top: 0px;
+	width: 960px;
 	margin-top: 30px;
 	.nodoLista{
-		@include box-sizing(border-box);
+		@include box-sizing (border-box);
+		width: 315px;
+		float: left;
+		padding-top: 0;
+		border-bottom-style: none;
 		height: 400px;
 		margin-bottom: 30px;
+		&:nth-child(3n+1){
+			padding-left : 0px;
+			padding-right : 15px;
+			width: 315px;
+			border:none;
+			border-right: 1px dotted #dfdfdf;
+		}
+		&:nth-child(3n+2){
+			padding-left : 15px;
+			padding-right : 15px;
+			width: 330px;
+			border:none;
+			border-right: 1px dotted #dfdfdf;	
+		}
+		&:nth-child(3n+3){
+			padding-left : 15px;
+			padding-right : 0px;
+			width: 315px;
+			border:none;
+		}
+		.infoNodoLista {
+			width: 300px;
+			.cabeceraNodo p{
+				margin-top: 10px;
+			}
+		}
+		.imagenNodoLista {
+			a{
+			width:300px;
+			}
+		}
 	}
-	.nodoLista:nth-child(3n+1){
-		padding-left : 0px;
-		padding-right : 15px;
-		width: 315px;
-		border:none;
-		border-right: 1px dotted #dfdfdf;
+}
+
+
+/* Nodo en lista */
+
+.nodoLista{
+	@include box-sizing (border-box);
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-bottom: 1px solid #f2f2f2;
+	.imagenNodoLista{
+		float: left;
+		margin-right: 15px;
+		background-color: silver;
+		a{
+			display: block;
+			margin: 0;
+			padding: 0;
+			width:230px;
+			height:200px;
+			overflow:hidden;
+			background-size: cover;
+			background-color: silver;
+			&:link, &:visited{
+				border-bottom-style: none;
+			}
+		}
 	}
-	.nodoLista:nth-child(3n+2){
-		padding-left : 15px;
-		padding-right : 15px;
-		width: 330px;
-		border:none;
-		border-right: 1px dotted #dfdfdf;	
+	.cabeceraNodo{
+		h3{
+			padding-top: 8px;
+			padding-bottom: 14px;
+		}
+		hgroup{
+			margin-top: 8px;
+		}	
 	}
-	.nodoLista:nth-child(3n+3){
-		padding-left : 15px;
-		padding-right : 0px;
-		width: 315px;
-		border:none;
+	.cuerpoNodo {
+		p{
+			display: inline-block;
+		}
 	}
-	.imagenNodoLista a{
-		width:300px;
+	.infoNodoLista{
+		float: left;
+		width: 450px;
 	}
 }

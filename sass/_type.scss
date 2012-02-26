@@ -79,7 +79,7 @@ a:hover.listadoTitulo{
 	text-decoration: none;
 	border-bottom: none;
 }
-a:link.social{
+a:link.social, a:visited.social, a:active.social{
 	color: #929292;
 	border-bottom: none;
 }

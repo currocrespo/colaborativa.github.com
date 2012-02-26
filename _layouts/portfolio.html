@@ -10,7 +10,7 @@
 		<section class="cuerpoPagina">
 			<div class="contenedor">
 				<h1 class="big">{{ site.navegacion-proyectos.es }}</h1>
-				<div class="listadoNodosInicio Portfolio">
+				<div class="listadoNodos Portfolio">
 					{% for item in site.categories.proyectos limit:10 %}
 						{% include _nodolista-proyecto.html %}
 					{% endfor %}

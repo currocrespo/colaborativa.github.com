@@ -1,5 +1,8 @@
 @import "compass/css3";
 
+
+/* botonera addthis sociales */
+
 .botonlateralSocial {
 	margin-top:15px;
 	clear:both;
@@ -8,6 +11,65 @@
 	}
 	margin-bottom:25px;
 }
+
+
+/* Componente paginacion */
+
+ul.pager{
+	margin: 15px 0 0;
+	padding: 0;
+}
+li.paginacion{
+	margin: 0;
+	padding: 0;
+	display: block;
+	&.current{
+		background-color: #dfdfdf;
+		padding: 4px 10px;
+		border-radius: 10px;
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		color: white;
+	}
+	a:link, a:visited{
+		border-bottom-style: none;
+		padding: 4px 10px;
+		border-radius: 10px;
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+	}
+	a:hover{
+		background-color: #ededed;
+	}
+	a:active{
+		background-color: #dfdfdf;
+	}
+}
+
+
+/* Ultimo Tweet Inicio */
+
+#ultimoTweetInicio{
+	@include box-sizing(border-box);
+	padding-left:15px;
+	.tweetContenido{
+		margin-top: 40px;
+	}
+	.tweetFecha{
+		text-align: right;
+		margin-top: 15px;
+	}
+	.tweetInfo{
+		text-align: right;
+	}
+	a.nombreUsuario:link,  a.nombreUsuario:visited{
+		border-bottom-style: none;	
+	}
+}
+
+
+/* Enlaces sociales */
+
 .enlacesSociales{
 	-webkit-user-select: none;
 	-khtml-user-select: none;
@@ -21,10 +83,14 @@
 	padding-left: 15px;
 	border-left: 1px solid #f2f2f2;
 	margin-top: 35px;
+	li{
+		padding: 2px 0;
+	}
 }
-.enlacesSociales li{
-	padding: 2px 0;
-}
+
+
+/* Enlaces externos */
+
 a.enlaceExterno>span{
 	background: url(/imagenes/enlacesExternos.png) 0 -120px no-repeat;
 	width: 20px;

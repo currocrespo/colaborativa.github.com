@@ -80,11 +80,10 @@
 
 
 /* bloqueActividades */
+
 .bloqueActividades{
 	height: 170px;
-	width: 290px;
-	margin-left: 15px;
-	
+	width: 300px;
 	h2{
 		font: 25px/25px "colaborativaBook";
 		color: white;
@@ -146,7 +145,8 @@
 }
 
 
-/* subcategoryPopUp */
+/* subcategoryPopUp en reacciones */
+
 .subcategoryPopUp, .subcategoryPopUp2 {
 	position: absolute;
 	@include box-sizing(border-box);
@@ -193,6 +193,7 @@
 
 
 /* listadoReacciones */
+
 .listadoReacciones {
 	margin-bottom: 25px;
 	p.nota {

@@ -10,7 +10,12 @@
 			</hgroup>
 		</div>
 		<div class="cuerpoNodo">
-			<p>{{ item.content | truncate: 300 }}</p>
+			{% case page.layout %} 
+				{% when "portfolio-categorias-proyectos" %}
+					<p>{{ item.content | truncate: 300 }}</p>
+				{% when "portfolio" %}
+					<p>{{ item.content | truncate: 200 }}</p>
+			{% endcase %}
 		</div>
 	</div>
 	<div class="contenedorPie"></div>
