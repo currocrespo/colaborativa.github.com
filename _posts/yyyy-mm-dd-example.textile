@@ -1,6 +1,6 @@
 ---
 ETIQUETAS GLOBALES
-language: "define el lenguaje de la unidad de información. disponibles: es | en"
+language: "define el lenguaje de la unidad de información, cada unidad de información está duplicada en dos archivos textile (ver ejemplos para nomenclatura yyyy-mm-dd-EN/ES-slug) si no hay traducción disponible se duplican los campos originales y se añade auto-traduccion: yes. disponibles: es | en"
 layout: "define el html que se utilizará para renderizar la página. disponibles: blog-articulo | portfolio-categorias-proyectos | blog-categorias-articulos | none | equipo-colaborativo | portfolio-proyecto"
 category: "define los distintos tipos de información de la página. disponibles: articulos | categorias | colaboradores | equipo | proyectos"
 title: "titulo de la unidad de información"
