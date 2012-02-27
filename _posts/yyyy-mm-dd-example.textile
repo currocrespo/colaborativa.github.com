@@ -1,0 +1,56 @@
+---
+ETIQUETAS GLOBALES
+language: "define el lenguaje de la unidad de información. disponibles: es | en"
+layout: "define el html que se utilizará para renderizar la página. disponibles: blog-articulo | portfolio-categorias-proyectos | blog-categorias-articulos | none | equipo-colaborativo | portfolio-proyecto"
+category: "define los distintos tipos de información de la página. disponibles: articulos | categorias | colaboradores | equipo | proyectos"
+title: "titulo de la unidad de información"
+permalink: "la ruta url de cada unidad de información. ejemplo: /en/blog/2012/01/otro-articulo/"
+url-otro-idioma: "la ruta url de la unidad de información en el otro idioma. ejemplo: /blog/2012/01/otro-articulo/"
+slug: "una combinacion de máximo dos palabras unidas por guión que define la unidad de información y es única. ejemplo: otro-articulo"
+
+
+ETIQUETAS DE ARTICULOS
+auto-traduccion: "si no hay traducción del artículo colocamos esta etiqueta para que permitir la traducción automática" yes
+subtitulo: "subtítulo de la unidad de información. ejemplo: El Espacio Creativo Independiente busca asociarse con la iniciativa privada"
+imagen: farm7.staticflickr.com/6083/6079835568_1067d215a6
+autores: "los distintos autores del articulo usando los slugs respectivos"
+ - magda-sanchez
+ - javi-buron
+ - curro-crespo
+categorias:
+ - espacio-creativo
+relacionados:
+ - cambio-prioridades
+enlaces:
+- { type: externo, title: Blog del Espacio Creativo Independiente, url: http://wwww.espaciocreativo.colaborativa.eu }
+- { type: externo, title: Nota de prensa publicada en el facebook del Espacio Creativo, url: http://www.facebook.com/espaciocreativo }
+
+
+ETIQUETAS DE COLABORADORES
+link: http://www.zum.es
+imagen: farm8.staticflickr.com/7029/6537173667_fb67e1c206
+
+
+ETIQUETAS DE EQUIPO
+cargo: Co-fundadora
+imagen: farm8.staticflickr.com/7029/6537173667_fb67e1c206
+enlaces:
+ - { type: externo, title: Mi perfil en twitter msanchezmora, url: http://wwww.twitter.com/msachezmora }
+ - { type: externo, title: Mi página personal, url: http://www.magdasanchez.es }
+
+ETIQUETAS DE PROYECTOS
+subtitulo: Espacios de trabajo para las industrias creativas
+imagen: farm7.staticflickr.com/6083/6079835568_1067d215a6
+imagen-cabecera: http://farm8.staticflickr.com/7177/6876467923_c26ed2c84d_b.jpg
+en-cabecera: yes
+colaboradores:
+ - zum-creativos
+categorias:
+ - planeamiento-estrategico
+enlaces:
+- { type: externo, title: Visita el blog del Espacio Creativo Independiente, url: http://wwww.espaciocreativo.colaborativa.eu }
+- { type: externo, title: Página del Espacio Creativo Independiente en Facebook, url: http://www.facebook.com/espaciocreativo }
+- { type: prensa, title: Córdoba en pantalla táctil, source: Diario El Mundo, date: Feb 2012, url: http://www.elmundo.es/elmundo/2012/02/18/andalucia/1329589378.html }
+
+
+---
