@@ -1,14 +1,14 @@
-<header class="cabeceraPagina">
+<header class="cabeceraPagina notranslate">
 	<div class="contenedor">
 		<div class="tituloMenuBusqueda">
-			<h1 class="hero"><a href="{{ page.url }}" title="Inicio" rel="home" class="menu" id="logo">Colaborativa</a></h1>
+			{% if page.language == "es" %}
+				{% assign urlIdioma = "" %}
+			{% else %}
+				{% assign urlIdioma = "/en" %}
+			{% endif %}
+			<h1 class="hero"><a href="{{ urlIdioma }}/" title="Inicio" rel="home" class="menu" id="logo">Colaborativa</a></h1>
 			<nav>
 				<h2>{{ site.navegacion.[page.language] }}</h2>
-				{% if page.language == "es" %}
-					{% assign urlIdioma = "" %}
-				{% else %}
-					{% assign urlIdioma = "/en" %}
-				{% endif %}
 				<ul class="menu">
 					<li><h3><a href="{{ urlIdioma }}/{{ site.navegacion-blog.[page.language] }}/" class="menuBlog menu">{{ site.navegacion-blog.[page.language] }}</a></h3></li>
 					<li><h3><a href="{{ urlIdioma }}/{{ site.navegacion-proyectos.[page.language] }}/" class="menuProyectos menu">{{ site.navegacion-proyectos.[page.language] }}</a></h3></li>

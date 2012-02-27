@@ -7,6 +7,7 @@ permalink: /en/blog/2012/02/cambio-prioridades/
 url-otro-idioma: /blog/2012/02/cambio-prioridades/
 slug: cambio-prioridades
 
+auto-traduccion: yes
 subtitulo: El Espacio Creativo Independiente busca asociarse con la iniciativa privada
 imagen: farm7.staticflickr.com/6083/6079835568_1067d215a6
 autores: 

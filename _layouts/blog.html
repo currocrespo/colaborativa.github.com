@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 	<head>
 		<title>{{ site.titulo }} | {{ page.title }}</title>
 		<meta charset='UTF-8'/>
@@ -10,7 +10,7 @@
 		<section class="cuerpoPagina">
 			<div class="contenedor">
 				<h1 class="big">{{ site.navegacion-blog.[page.language] }}</h1>
-				<div id="columnaNavegacion">
+				<div id="columnaNavegacion" class="notranslate">
 					{% include _listado-blog-categorias.html %}
 				</div>
 				<div id="dosColumnasContenido">

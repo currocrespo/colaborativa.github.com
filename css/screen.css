@@ -320,6 +320,11 @@ a:hover.titulo {
   border-bottom: 1px dotted #DFDFDF;
 }
 
+/* line 98, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
+.goog-trans-section font {
+  background-color: #ffffcc;
+}
+
 /* botonera addthis sociales */
 /* line 6, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_componentes.scss */
 .botonlateralSocial {

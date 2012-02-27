@@ -13,7 +13,7 @@
 					<div id="slides">
 						<div class="slides_container">
 							{% for banner in site.categories.proyectos %}
-								{% if item.language == page.language %}
+								{% if banner.language == page.language %}
 								{% if banner.en-cabecera %}
 								<div>
 									<a href="{{ banner.url }}">

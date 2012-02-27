@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 	<head>
-		<title>{{ site.titulo }} | {{ page.title }}</title>
+		<title class="notranslate">{{ site.titulo }} | {{ page.title }}</title>
 		<meta charset='UTF-8'/>
 		{% include _scripts.html %}
 	</head>
@@ -10,7 +10,7 @@
 		<section class="cuerpoPagina">
 			<div class="contenedor">
 				<h1 class="big">{{ site.inline-articulos.[page.language] | capitalize }}</h1>
-				<div id="columnaNavegacion">
+				<div id="columnaNavegacion" class="notranslate">
 					{% include _social.html %}
 					{% include _listado-articulo-categorias.html %}
 					{% include _listado-articulo-relacionados.html %}
@@ -20,7 +20,7 @@
 					<article class="nodo goog-trans-section" lang="es">
 						<div class="cabeceraNodo">
 							<hgroup>
-								<h1>{{ page.title }}</h1>
+								<h1>{{ page.title }} {% if page.auto-traduccion %} ({{ site.inline-auto-traduccion.[page.language] }}){% endif %}</h1>
 								<h2>{{ page.subtitulo }}</h2>
 							</hgroup>
 							<p><span class="goog-trans-control"></span> {% include _inline-fecha-autor.html %}</p>
