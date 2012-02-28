@@ -9,7 +9,7 @@ slug: espacio-creativo
 
 subtitulo: Espacios de trabajo para las industrias creativas
 imagen: farm7.staticflickr.com/6083/6079835568_1067d215a6
-imagen-cabecera: http://farm8.staticflickr.com/7177/6876467923_c26ed2c84d_b.jpg
+imagen-cabecera: farm8.staticflickr.com/7177/6876467923_c26ed2c84d
 en-cabecera: yes
 
 colaboradores:
