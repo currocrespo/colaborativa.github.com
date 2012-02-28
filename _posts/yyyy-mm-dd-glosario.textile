@@ -53,3 +53,21 @@ enlaces:
 - { type: prensa, title: Córdoba en pantalla táctil, source: Diario El Mundo, date: Feb 2012, url: http://www.elmundo.es/elmundo/2012/02/18/andalucia/1329589378.html }
 
 ---
+
+distintos codigos utilizados en textile, importante! estos codigos no es utilizan en la cabecera, solo en el cuerpo de texto despues de los tres guiones.
+
+h1.titulo
+h2.titulo
+h3.titulo
+h4.titulo
+h5.titulo
+h6.titulo
+
+-tachado-
+_italica_
+*bold*
+
+* lista sin ordenar 1
+* lista sin ordenar 2
+
+"esto es un link":http://colaborativa.eu
